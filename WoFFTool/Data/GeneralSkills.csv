@@ -44,7 +44,7 @@ Banish,3,Light,SINGLE: Inflict magical light damage.,"White Chocobo, Baby Palebe
 Banishra,5,Light,SINGLE: Inflict magical light damage.,"Paleberry, Cenchos, Master Moogle"
 Bask,4,,SELF: Recover HP and gain regen.,"Minimantoise, Flammantoise"
 Battery Powered,,,"PASSIVE: Reduces all AP costs by 1. AP fully recharges for each battle, but less recovers each turn.","Death Machine, War Machine"
-Berserk,2,,"SINGLE: Force a target to use the "Attack" command, but for greater damage.""INGLE: Force a target to use the "Attack""NGLE: ","Mecha Chocobo, Vampire Prime, Mecha Chocobo*"
+Berserk,2,,"SINGLE: Force a target to use the 'Attack' command, but for greater damage.","Mecha Chocobo, Vampire Prime, Mecha Chocobo*"
 Bewitching Gaze,6,Neutral,SINGLE: Inflict neutral magical damage / doom.,Ahriman
 Bewitching Whisper,4,,RANDOM: Inflict confusion. Hits multiple times.,"Imp, Garchimacera"
 Bile,3,Water,SINGLE: Inflict magical water damage / defense down.,"Water Golem, Flan"
@@ -114,7 +114,7 @@ Double Cut,5,Neutral,SINGLE: Inflict neutral physical damage. Hits 4 times. TOPP
 Double Smash,4,Neutral,RANDOM: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Medium,"Copper Gnome, Golem Head, Brothertaur, Iron Muscles"
 Drain,4,Dark,SINGLE: Use dark power to absorb HP.,"Kuza Kit, Ice Bat"
 Draining Claw,3,Dark,SINGLE: Inflict physical dark damage and absorb HP. TOPPLE STRENGTH: Medium,Left Claw
-Draintouch,,,"PASSIVE: Allows some of the damage dealt by "Attack" to be absorbed as HP.""ASSIVE: Allows some of the da",Vampire Prime
+Draintouch,,,"PASSIVE: Allows some of the damage dealt by 'Attack' to be absorbed as HP.",Vampire Prime
 Dread Gaze,8,Neutral,SINGLE: Inflict neutral magical damage / confusion / death.,"Undead Princess, Undead Princess*"
 Dread Spikes,,,PASSIVE: Allows one to sometimes counter with Drain.,Demivampire
 Earth Resistance+,,,PASSIVE: Slightly raises earth resistance (+25).,Mirajewel
@@ -124,7 +124,7 @@ Element Absorber,,,PASSIVE: When hit sometimes absorbs elemental damage.,Skull E
 Endless Blessings,,,PASSIVE: Slightly increases the duration of abilities that grant positive effects.,"Siren, Water Toad"
 Endless Nightmare,,,PASSIVE: Slightly increases the duration of status ailments one inflicts.,"Malboro Menace, Ahriman, Buer, Mindflayer, Squidraken"
 Energy Ray,10,Neutral,ALL: Inflict neutral magical damage.,"Valefor, Nirvalefor"
-Enhanced Attack,,,"PASSIVE: Raises damage dealt by the "Attack" command.""ASSIVE: Raises d","Titan, Ultima Weapon, Bahamut*"
+Enhanced Attack,,,"PASSIVE: Raises damage dealt by the 'Attack' command.","Titan, Ultima Weapon, Bahamut*"
 Enhanced Criticals,,,PASSIVE: Raises critical damage.,"Skull Eater, Nut Eater, Elefenrir, Baby Tonberry, Tonberry, Tonberry King, Red Bonnetberry, Mega Sharqual, Ultima Weapon, Bahamut*, Master Tonberry"
 Enhanced Cure,,,PASSIVE: Improves the effectiveness of HP recovery abilities.,"Sylph, Moogle, Quacho Queen, Unicorn, Quacho Queen*"
 Enhanced Earth,,,PASSIVE: Raises earth ability damage.,Titan
@@ -265,7 +265,7 @@ Missile,4,Neutral,SINGLE: Inflict neutral magical damage.,"Omega, Omega Bane"
 Moon Flute,4,,ALL: Inflict berserk.,Garchimacera
 Needle Thrift,,,PASSIVE: Reduce AP cost of all needle attacks by 1.,"Cactuar, Gigantuar"
 Nightmare,4,,ALL: Inflict sleep.,"Diabolos, Diabolos*"
-Nightmaretouch,,,"PASSIVE: Causes the "Attack" command to inflict sleep.""ASSIVE: Causes the "Attack" comma""SSIVE: Causes","Diabolos, Diabolos*"
+Nightmaretouch,,,"PASSIVE: Causes the 'Attack' command to inflict sleep.","Diabolos, Diabolos*"
 Nightmarish Lore,,,PASSIVE: Raises damage when attacking a sleeping target.,"Diabolos, Nightmare, Diabolos*"
 No Escape,,,PASSIVE: Completly prevents enemies from escaping.,"Right Claw, Mimic, Mimic Jackpot, Vampire Prime, Magitek Armor P"
 Octentacle,8,Neutral,RANDOM: Inflict neutral physical damage. Hits 8 times. TOPPLE STRENGTH: Medium,"Ultros, Ultros*"
@@ -282,7 +282,7 @@ Point Deflector,,,PASSIVE: Completly nullifies damage up to three times.,Omega G
 Poison Bite,4,Neutral,SINGLE: Inflict neutral physical damage / poison. TOPPLE STRENGTH: Medium,"Kyubi, Dualizard, Bihydra"
 Poison Counter,,,"PASSIVE: When hit, sometimes inflicts poison on the assailant.",Adamantoise
 Poison Nails,3,Neutral,SINGLE: Inflict neutral physical damage / poison. TOPPLE STRENGTH: Medium,"Right Claw, Imp, Diabolos*"
-Poisontouch,,,"PASSIVE: Gives the "Attack" command a chance of inflicting poison.""ASSIVE: Gives the "Attack" command a chance of""SSIVE: Gives the "Attack" c""SIVE: Giv","Mandragora, Lead Gnome, White Nakk"
+Poisontouch,,,"PASSIVE: Gives the 'Attack' command a chance of inflicting poison.","Mandragora, Lead Gnome, White Nakk"
 Possesion Rush,8,Neutral,SINGLE: Inflict neutral physical damage / confusion. TOPPLE STRENGTH: High,"Undead Princess, Undead Princess*"
 Pressure,4,Earth,ALL: Inflict physical earth damage. TOPPLE STRENGTH: Medium,Adamantoise
 Princess's Charm,7,Neutral,SINGLE: Inflict neutral physical damage / blindness. TOPPLE STRENGTH: Medium,"Princess Goblin, Princess Goblin*"

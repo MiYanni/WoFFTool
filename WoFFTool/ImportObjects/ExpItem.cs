@@ -1,7 +1,6 @@
 ﻿using FileHelpers;
-using System;
 
-namespace WoFFTool.DataObjects
+namespace WoFFTool.ImportObjects
 {
     [DelimitedRecord(",")]
     [IgnoreEmptyLines]

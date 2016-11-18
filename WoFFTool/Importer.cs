@@ -1,6 +1,6 @@
 ﻿using FileHelpers;
 using System.Collections.Generic;
-using WoFFTool.DataObjects;
+using WoFFTool.ImportObjects;
 
 namespace WoFFTool
 {
@@ -8,15 +8,17 @@ namespace WoFFTool
     {
         public static IEnumerable<ExpItem> ConvertExpTable()
         {
-            //const string fileName = @".\Data\ExpTable.csv";
-            //var engine = new FileHelperEngine(typeof(ExpItem));
-            //return (ExpItem[])engine.ReadFile(fileName);
             return Convert<ExpItem>(@".\Data\ExpTable.csv");
         }
 
         public static IEnumerable<BossItem> ConvertBossTable()
         {
             return Convert<BossItem>(@".\Data\BossStats.csv");
+        }
+
+        public static IEnumerable<SkillItem> ConvertSkillTable()
+        {
+            return Convert<SkillItem>(@".\Data\GeneralSkills.csv");
         }
 
         private static IEnumerable<T> Convert<T>(string fileName) where T : class

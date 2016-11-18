@@ -18,5 +18,10 @@ namespace WoFFTool
         {
             var bossItems = Importer.ConvertBossTable();
         }
+
+        private void SkillTableConvertBtn_Click(System.Object sender, RoutedEventArgs e)
+        {
+            var skillItems = Importer.ConvertSkillTable();
+        }
     }
 }
