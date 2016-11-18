@@ -1,7 +1,11 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Xml;
+using System.Xml.Serialization;
 using WoFFTool.DomainObjects;
+using WoFFTool.ExportObjects;
 using WoFFTool.ImportObjects;
 
 namespace WoFFTool
@@ -44,7 +48,15 @@ namespace WoFFTool
             var prismtunityMementoItems = Importer.ConvertPrismtunityMementoTable();
 
             var names = resistanceItems.Select(r => r.Mirage).Union(prismtunityMementoItems.Select(pm => pm.Mirage));
-            var mirages = names.Select(n => new Mirage(resistanceItems.SingleOrDefault(r => n == r.Mirage), prismtunityMementoItems.SingleOrDefault(pm => n == pm.Mirage))).ToArray();
+            var mirages = names.Select(n => new Mirage(resistanceItems.SingleOrDefault(r => n == r.Mirage), prismtunityMementoItems.SingleOrDefault(pm => n == pm.Mirage))).ToList();
+
+            XmlSerializer serializer = new XmlSerializer(typeof(Mirages));
+            using (var stringWriter = new StringWriter())
+            using (var xmlWriter = XmlWriter.Create(stringWriter))
+            {
+                serializer.Serialize(xmlWriter, new Mirages { List = mirages });
+                File.WriteAllText("Mirages.xml", stringWriter.ToString());
+            }
         }
     }
 }

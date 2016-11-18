@@ -5,7 +5,7 @@ using WoFFTool.ImportObjects;
 namespace WoFFTool.DomainObjects
 {
     [Serializable]
-    internal class Mirage
+    public class Mirage
     {
         public Mirage() { }
 

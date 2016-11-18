@@ -3,7 +3,7 @@
 namespace WoFFTool.DomainObjects
 {
     [Serializable]
-    internal class ElementalResistances
+    public class ElementalResistances
     {
         public int? Fire;
         public int? Ice;

@@ -3,7 +3,7 @@
 namespace WoFFTool.DomainObjects
 {
     [Serializable]
-    internal class AilmentResistances
+    public class AilmentResistances
     {
         public int? Poison;
         public int? Confuse;

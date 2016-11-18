@@ -4,7 +4,7 @@ using System.Linq;
 namespace WoFFTool.DomainObjects
 {
     [Serializable]
-    internal enum Size
+    public enum Size
     {
         S,
         M,
@@ -12,7 +12,7 @@ namespace WoFFTool.DomainObjects
         XL
     }
 
-    internal static class SizeExtensions
+    public static class SizeExtensions
     {
         public static Size[] Values { get; } = Enum.GetValues(typeof(Size)).Cast<Size>().ToArray();
 
