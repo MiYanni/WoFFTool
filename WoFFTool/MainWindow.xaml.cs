@@ -29,5 +29,10 @@ namespace WoFFTool
         {
             var prismtunityMementoItems = Importer.ConvertPrismtunityMementoTable();
         }
+
+        private void ResistanceTableConvertBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var resistanceItems = Importer.ConvertResistanceTable();
+        }
     }
 }

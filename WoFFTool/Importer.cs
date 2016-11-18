@@ -26,6 +26,11 @@ namespace WoFFTool
             return Convert<PrismtunityMementoItem>(@".\Data\Prismtunity+Memento.csv");
         }
 
+        public static IEnumerable<ResistanceItem> ConvertResistanceTable()
+        {
+            return Convert<ResistanceItem>(@".\Data\Resistances.csv");
+        }
+
         private static IEnumerable<T> Convert<T>(string fileName) where T : class
         {
             return (T[])new FileHelperEngine(typeof(T)).ReadFile(fileName);

@@ -71,6 +71,7 @@
     <Compile Include="ImportObjects\ExpItem.cs" />
     <Compile Include="Importer.cs" />
     <Compile Include="ImportObjects\PrismtunityMementoItem.cs" />
+    <Compile Include="ImportObjects\ResistanceItem.cs" />
     <Compile Include="ImportObjects\SkillItem.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
