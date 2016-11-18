@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 
 namespace WoFFTool
 {
@@ -9,19 +10,24 @@ namespace WoFFTool
             InitializeComponent();
         }
 
-        private void ExpTableConvertBtn_Click(System.Object sender, RoutedEventArgs e)
+        private void ExpTableConvertBtn_Click(Object sender, RoutedEventArgs e)
         {
             var expItems = Importer.ConvertExpTable();
         }
 
-        private void BossTableConvertBtn_Click(System.Object sender, RoutedEventArgs e)
+        private void BossTableConvertBtn_Click(Object sender, RoutedEventArgs e)
         {
             var bossItems = Importer.ConvertBossTable();
         }
 
-        private void SkillTableConvertBtn_Click(System.Object sender, RoutedEventArgs e)
+        private void SkillTableConvertBtn_Click(Object sender, RoutedEventArgs e)
         {
             var skillItems = Importer.ConvertSkillTable();
+        }
+
+        private void PrismtunityMementoTableConvertBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var prismtunityMementoItems = Importer.ConvertPrismtunityMementoTable();
         }
     }
 }

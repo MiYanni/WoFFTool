@@ -1,4 +1,4 @@
-﻿Mirage,Prismtunity,Memento location,Dlc,SuiGeneris
+﻿Mirage,Prismtunity,MementoLocation,Dlc,SuiGeneris
 Adamantoise,Defense Down,Defeat adamantoise in low seas,,
 Affrite,,,,
 Ahriman,Blind,,,
@@ -7,7 +7,7 @@ Bablizz,Ice attacks,,,
 Baby Paleberry,Physical Attacks,,,
 Baby Tonberry,Physical Attacks,,,
 Babyhemoth,Physical attacks,,,
-Bahamut★,Auto-imprism'd by story,,,Yes
+Bahamut★,Auto-imprism'd by story,,,True
 Behemonster,Physical attacks,,,
 Behemoth,Reduce HP,,,
 Bihydra,Last mirage standing,,,
@@ -36,7 +36,7 @@ Death Searcher,Reflect Magic back at it,,,
 Deathskull,Oblivion,,,
 Demivampire,Reflect Magic back at it,,,
 Diabolos,,IQ - When the Past Still Haunts,,
-Diabolos★,Auto-imprism'd by story,,,Yes
+Diabolos★,Auto-imprism'd by story,,,True
 Diva Serafie,,IQ - A Smidge of Micro-Envy,,
 Dualizard,Reduce HP,,,
 Einhänder,Evasion down,IQ - The Five Cogna Lords: Besaid,,
@@ -65,9 +65,9 @@ Holy Dragon,Light attacks,Defeat Holy Dragons in Icicle Ridge,,
 Hyperion,,IQ - The Black chocobo,,
 Icebat,Blind,,,
 Ifreeta,,IQ - Fire Drill,,
-Ifreeta★,Fire attacks,,,Yes
+Ifreeta★,Fire attacks,,,True
 Ifrit,,"Coliseum - Hot Temper, Warm Heart",,
-Ifrit★,Fire attacks,,,Yes
+Ifrit★,Fire attacks,,,True
 Imp,Confusion,,,
 Iron Giant,Magical Enhancements,Defeat Iron Giant on Big Bridge,,
 Iron Muscles,Defense Down,IQ - For Friends or Vengeance,,
@@ -83,7 +83,7 @@ Kyubi,Inflict Doom,MV: Vestiges of Life,,
 Lead Gnome,Shell,,,
 Left Claw,Reduce HP,,,
 Leviathan,,IQ - Ancestral Acrimony,,
-Leviathan★,Auto-imprism'd by story,,,Yes
+Leviathan★,Auto-imprism'd by story,,,True
 Lucky Toad,Reduce HP,,,
 Maduin,,IQ - The Five Cogna Lords: Figaro,,
 Magic Jar,Give it an Elixir,Defeat Magic Jar in Pyreglow Forest,,
@@ -101,7 +101,7 @@ Master Cactuar,Evasion down,,,
 Master Moogle,Magical enhancements,,,
 Master Tonberry,Deal a lot of damage at once,,,
 Mecha Chocobo,,IQ - Chocolatte's Master,,
-Mecha Chocobo★,Berserk,,,Yes
+Mecha Chocobo★,Berserk,,,True
 Mega Nightsqual,Bravery,,,
 Mega Sharqual,Deal a lot of damage at once,,,
 Memecoleous,Poison,,,
@@ -110,14 +110,14 @@ Mimic,Reduce HP,,,
 Mimic Jackpot,Reduce HP,,,
 Mimic Queen,,IQ - I Hate Lightning!,,
 Mindflayer,Reflect magic back at it,,,
-Miney,Restore HP,,Yes,
+Miney,Restore HP,,True,
 Mini Flan,Physical Attacks,,,
 Mini Golem,Physical attacks,,,
 Minimantoise,Reduce HP,,,
 Minotaur,Confusion,,,
 Mishiva,,,,
 Mist Dragon,Recover a lot of HP at once,IQ - Defeat Mist Dragons in Underground Prison,,
-Mo,Restore HP,,Yes,
+Mo,Restore HP,,True,
 Moogle,Restore HP,,,
 Mordskull,Oblivion,,,
 Mu,Physical attacks,,,
@@ -127,24 +127,24 @@ Nightsqual,Sleep,,,
 Nirvalefor,,IQ - The Sad Spiral,,
 Nut Eater,Magical enhancements,,,
 Odin,,IQ - A Clash of Swords,,
-Odin★,Auto-imprism'd by story,,,Yes
+Odin★,Auto-imprism'd by story,,,True
 Omega,Deal a lot of damage at once,IQ - The Five Cogna Lords: Cornelia P2,,
 Omega Bane,Deal a lot of damage at once,IQ - The Eye of the Desert,,
-Omega God,Imprism'd after killing,,Yes,
+Omega God,Imprism'd after killing,,True,
 Paleberry,Light attacks,,,
 Paleberry King,Critical,Defeat Paleberry King in Chainroad,,
 Phoenix,Recover a lot of HP at once,Defeat Phoenix in Valley Seven,,
 Princess Goblin,,"IQ - Where Art Thou, Smoochy-Poo?",,
-Princess Goblin★,Blind,,,Yes
+Princess Goblin★,Blind,,,True
 Quachacho,Restore HP,,,
 Quacho,Restore HP,,,
 Quacho Queen,Restore HP,,,
-Quacho Queen★,Restore HP,,,Yes
+Quacho Queen★,Restore HP,,,True
 Rairamuh,,Defeat Rairamuh in EX B,,
 Ramewl,,IQ - The Five Cogna Lords: Cornelia P1,,
-Ramewl★,Thunder attacks,,,Yes
+Ramewl★,Thunder attacks,,,True
 Ramuh,,Coliseum - The Responsible One,,
-Ramuh★,Thunder attacks,,,Yes
+Ramuh★,Thunder attacks,,,True
 Reaver Mu,Fire attacks,,,
 Red Cap,Deal a lot of damage at once,,,
 Red Captain,Confusion,,,
@@ -160,9 +160,9 @@ Security Eye,Last Mirage Standing,,,
 Serafie,Auto-imprism'd by story,,,
 Sharqual,Fire attacks,,,
 Shiva,,Coliseum - The Ice Sculpture Collector,,
-Shiva★,Ice attacks,,,Yes
+Shiva★,Ice attacks,,,True
 Shivalry,,"IQ - Cold, Hard Justice",,
-Shivalry★,Ice attacks,,,Yes
+Shivalry★,Ice attacks,,,True
 Shivver,,Defeat Shivver in EX A,,
 Shivverina,,Defeat Shivver in EX A,,
 Siren,,IQ - A Smidge of Micro-Envy,,
@@ -181,9 +181,9 @@ Tonberry King,Reduce HP,Defeat Tonberry King in Sunken Temple,,
 Trihyde,Deal a lot of damage at once,,,
 Ultima Weapon,Deal a lot of damage at once,,,
 Ultros,,IQ - Freak of Nature,,
-Ultros★,Face the mirage with a single party member,,,Yes
+Ultros★,Face the mirage with a single party member,,,True
 Undead Princess,,IQ - Never Cross the Boss,,
-Undead Princess★,Light attacks,,,Yes
+Undead Princess★,Light attacks,,,True
 Unicorn,Status ailments (Various),,,
 Valefor,Earth attacks,Plot: Given by Yuna,,
 Vampire,Dark attacks,,,
