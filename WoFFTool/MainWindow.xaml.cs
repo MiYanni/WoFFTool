@@ -60,12 +60,16 @@ namespace WoFFTool
             }
         }
 
+        public List<Mirage> Mirages { get; set; }
+
         private void LoadMiragesBtn_Click(Object sender, RoutedEventArgs e)
         {
             var serializer = new XmlSerializer(typeof(List<Mirage>));
             using(var reader = new StringReader(File.ReadAllText("Mirages.xml")))
             {
-                var mirages = (List<Mirage>)serializer.Deserialize(reader);
+                Mirages = (List<Mirage>)serializer.Deserialize(reader);
+                MirageDataGrid.ItemsSource = null;
+                MirageDataGrid.ItemsSource = Mirages;
             }
         }
     }
