@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Linq;
 using System.Windows;
+using WoFFTool.DomainObjects;
+using WoFFTool.ImportObjects;
 
 namespace WoFFTool
 {
@@ -33,6 +36,15 @@ namespace WoFFTool
         private void ResistanceTableConvertBtn_Click(Object sender, RoutedEventArgs e)
         {
             var resistanceItems = Importer.ConvertResistanceTable();
+        }
+
+        private void CreateMiragesBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var resistanceItems = Importer.ConvertResistanceTable();
+            var prismtunityMementoItems = Importer.ConvertPrismtunityMementoTable();
+
+            var names = resistanceItems.Select(r => r.Mirage).Union(prismtunityMementoItems.Select(pm => pm.Mirage));
+            var mirages = names.Select(n => new Mirage(resistanceItems.SingleOrDefault(r => n == r.Mirage), prismtunityMementoItems.SingleOrDefault(pm => n == pm.Mirage))).ToArray();
         }
     }
 }

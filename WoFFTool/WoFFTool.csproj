@@ -67,6 +67,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DomainObjects\AilmentResistances.cs" />
+    <Compile Include="DomainObjects\ElementalResistances.cs" />
+    <Compile Include="DomainObjects\Mirage.cs" />
+    <Compile Include="DomainObjects\Size.cs" />
     <Compile Include="ImportObjects\BossItem.cs" />
     <Compile Include="ImportObjects\ExpItem.cs" />
     <Compile Include="Importer.cs" />
