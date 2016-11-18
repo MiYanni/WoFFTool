@@ -1,1004 +1,436 @@
-﻿Skill,Ap,Element,Description,Mirages,,,,,,,,,,,,,,,,,,,,,
-"1,000 Meedles",3,Neutral,RANDOM: Inflict a fixed amount of neutral physical damage. Hits multiple times.,Cactrot,,,,,,,,,,,,,,,,,,,,,
-"1,000 Needles",4,Neutral,SINGLE: Inflict a fixed amount of neutral physical damage.,"Cactuar, Master Cactuar",,,,,,,,,,,,,,,,,,,,,
-Absorb-MAG,5,,SINGLE: Inflict magic down / magic defense down. SELF: Gain magic up / magic defense up.,Vampire,,,,,,,,,,,,,,,,,,,,,
-Absorb-PHY,5,,SINGLE: Inflict strength down / defense down. SELF: Gain strength up / defense up.,Demivampire,,,,,,,,,,,,,,,,,,,,,
-Abyss,5,Dark,Inflict magical dark damage.,"Kyubi, Gleed, Shivverina, Voultr",,,,,,,,,,,,,,,,,,,,,
-Accuracy+,,,PASSIVE: Slightly raises accuracy.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Accuracy++,,,PASSIVE: Raises accuracy.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Accuracy+++,,,PASSIVE: Greatly raises accuracy.,,,,,,,,,,,,,,,,,,,,,,
-Accursed Gaze,4,Neutral,SINGLE: Inflict neutral magical damage / slow.,Buer,,,,,,,,,,,,,,,,,,,,,
-Acid Fang,4,Neutral,SINGLE: Inflict neutral physical damage / defens down. TOPPLE STRENGTH: Medium,Trihyde,,,,,,,,,,,,,,,,,,,,,
-Acid Mist,4,Water,ALL: Inflict magical water damage / defense down.,Tiamat,,,,,,,,,,,,,,,,,,,,,
-Adrenaline,,,PASSIVE: Lessens the damage taken while HP is low.,"Behemoth, Kuza Beast",,,,,,,,,,,,,,,,,,,,,
-Aero,3,Wind,SINGLE: Inflict magical wind damage.,"Serafie, Golem Head, Kuza Kit, Cocadrille, Flan, Mist Dragon, Wind Toad, Nightmare, Magna Roader (Yellow)",,,,,,,,,,,,,,,,,,,,,
-Aerora,5,Wind,SINGLE: Inflict magical wind damage.,"Diva Serafie, Golem Head, Ahriman, Wind Toad, Magna Roader (Yellow), Einhänder",,,,,,,,,,,,,,,,,,,,,
-Aeroga,7,Wind,ALL: Inflict magical wind damage.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Agility+,,,PASSIVE: Slightly raises agility.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Agility++,,,PASSIVE: Raises agility.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Agility+++,,,PASSIVE: Greatly raises agility.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Ailment AP Boost,,,"PASSIVE: While afflicted by status ailments, raises the amount of AP restored each turn.",Floating Eye,,,,,,,,,,,,,,,,,,,,,
-Ailment Regen,,,PASSIVE: Bestow regen while afflicted by a status ailment.,"Nut Eater, Holy Dragon",,,,,,,,,,,,,,,,,,,,,
-All Resistances+,,,PASSIVE: Raises all element resistances (+5). ,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Ambush,,,PASSIVE: Ensures the initial action of a preemptive strike will result in a critical.,"Mega Nightsqual, Minotaur",,,,,,,,,,,,,,,,,,,,,
-Anaphylaxis,,,PASSIVE: Raises critical chance when attacking a poisoned target.,Manticore,,,,,,,,,,,,,,,,,,,,,
-Anti-Magic Coating,,,PASSIVE: Lessens magical damage taken.,Magitek Armor A,,,,,,,,,,,,,,,,,,,,,
-Antibodies,,,PASSIVE: Gradually raises resistance to all status ailments each time on is incurred.,Sea Serpent,,,,,,,,,,,,,,,,,,,,,
-Aqua Spikes,,,PASSIVE: Allows one to sometimes counter with water when hit.,"Leviathan, Leviathan*",,,,,,,,,,,,,,,,,,,,,
-Arcane Counterstance,3,,SELF: Enter counterstance and retaliate against magical attacks.,Mimic,,,,,,,,,,,,,,,,,,,,,
-Arenaceous Body,,,PASSIVE: Gives a chance of nullifying damage.,Sandicore,,,,,,,,,,,,,,,,,,,,,
-Arise,7,,ALL: Revive KO'd allies and restore a moderate amount of HP.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Armor Piercer,6,Neutral,SINGLE: Inflict neutral physical damage / defense down. Bypasses defense. TOPPLE STRENGTH: Medium,"Mimic, Mimic Jackpot",,,,,,,,,,,,,,,,,,,,,
-Assault,,,PASSIVE: Raises all damage dealt during the first two turns of combat.,"Cerberus, Black Nakk, Sharqual, Death Machine",,,,,,,,,,,,,,,,,,,,,
-Atomic Impact,15,Dark,ALL: Inflict physical dark damage. TOOPLE STRENGTH: High,Omega God,,,,,,,,,,,,,,,,,,,,,
-Auspicious Theme,5,,ALL: Bestow accuracy up / evasion up.,Lucky Toad,,,,,,,,,,,,,,,,,,,,,
-Auto-Hi-Potion,,,PASSIVE: Automatically expands a hi-potion if an attack lowers HP below a certain amount.,Glow Moogle,,,,,,,,,,,,,,,,,,,,,
-Auto-Phoenix,,,PASSIVE: Automatically expends phoenix down when an ally is KO'd.,"Diva Serafie, Princess Goblin, Princess Goblin*",,,,,,,,,,,,,,,,,,,,,
-Auto-Potion,,,PASSIVE: Automatically expends a potion if an attack lowers HP below a certain amount.,"Goblin, Kupicaroon",,,,,,,,,,,,,,,,,,,,,
-Auto-Protect,,,PASSIVE: Continually bestows protect.,Adamantoise,,,,,,,,,,,,,,,,,,,,,
-Auto-Shell,,,PASSIVE: Continually bestows shell.,"Chrome Giant, Adamantoise",,,,,,,,,,,,,,,,,,,,,
-Bad Breath,8,,SINGLE: Inflict poison / blindness / oblivion / slow / confusion.,Malboro,,,,,,,,,,,,,,,,,,,,,
-Balance,4,,SINGLE: Restore stability.,"Sylph, Serafie, Mini Golem, Magic Pot, Magic Jar, Mini Flan, Flammantoise, Lucky Toad, Searcher",,,,,,,,,,,,,,,,,,,,,
-Balancega,8,,ALL: Restore stability.,"Siren, Diva Serafie, Glow Moogle",,,,,,,,,,,,,,,,,,,,,
-Banish,3,Light,SINGLE: Inflict magical light damage.,"White Chocobo, Baby Paleberry, Unicorn, Squidraken, Odin*, Master Moogle",,,,,,,,,,,,,,,,,,,,,
-Banishra,5,Light,SINGLE: Inflict magical light damage.,"Paleberry, Cenchos, Master Moogle",,,,,,,,,,,,,,,,,,,,,
-Bask,4,,SELF: Recover HP and gain regen.,"Minimantoise, Flammantoise",,,,,,,,,,,,,,,,,,,,,
-Battery Powered,,,"PASSIVE: Reduces all AP costs by 1. AP fully recharges for each battle, but less recovers each turn.","Death Machine, War Machine",,,,,,,,,,,,,,,,,,,,,
-Berserk,2,,"SINGLE: Force a target to use the "Attack" command, but for greater damage.""INGLE: Force a target to use the "Attack""NGLE: ","Mecha Chocobo, Vampire Prime, Mecha Chocobo*",,,,,,,,,,,,,,,,,,,,,
-Bewitching Gaze,6,Neutral,SINGLE: Inflict neutral magical damage / doom.,Ahriman,,,,,,,,,,,,,,,,,,,,,
-Bewitching Whisper,4,,RANDOM: Inflict confusion. Hits multiple times.,"Imp, Garchimacera",,,,,,,,,,,,,,,,,,,,,
-Bile,3,Water,SINGLE: Inflict magical water damage / defense down.,"Water Golem, Flan",,,,,,,,,,,,,,,,,,,,,
-Bio,3,Neutral,SINGLE: Inflict neutral magical damage / poison.,"Chrome Giant, Mordskull, Garchimacera, Mindflayer, Magna Roader (Purple)",,,,,,,,,,,,,,,,,,,,,
-Blades,6,Neutral,SINGLE: Inflict neutral magical damage. TOPPLE STRENGTH: Low,Einhänder,,,,,,,,,,,,,,,,,,,,,
-Blaze,5,Fire,ALL: Inflict magical fire damage.,"Tamamohimé, Kyubi, Fritt, Cerberus, Elefenrir, Nirvalefor, Phoenix, Ifrit*, Ifreeta*",,,,,,,,,,,,,,,,,,,,,
-Blaze Spikes,,,PASSIVE: Allows one to sometimes counter with fire when hit.,"Blood Eye, Ifrit, Gleefrit, Ghidra, Flammantoise, Red Dragon, Ifrit*",,,,,,,,,,,,,,,,,,,,,
-Blizzaga,7,Ice,ALL: Inflict magical ice damage.,"Shivalry, Quacho Queen, Shivalry*, Quacho Queen*",,,,,,,,,,,,,,,,,,,,,
-Blizzara,5,Ice,SINGLE: Inflict magical ice damage.,"Mishiva, Shivverina, Paleberry King, Demivampire, Flan Princess, Shiva*, Shivalry*",,,,,,,,,,,,,,,,,,,,,
-Blizzard,3,Ice,SINGLE: Inflict magical ice damage.,"Bablizz, Brrblizz, Quachacho, Baby Paleberry, Ice Bat, Mist Dragon, Security Eye",,,,,,,,,,,,,,,,,,,,,
-Bloodfang,4,Neutral,SINGLE: Absorb HP and inflict poison. TOPPLE STRENGTH: Low,Vampire,,,,,,,,,,,,,,,,,,,,,
-Blossom Storm,10,Neutral,RANDOM: Inflict neutral magical damage. Hits 9 times.,"Tamamohimé, Kyubi",,,,,,,,,,,,,,,,,,,,,
-Body Slam,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,"Mecha Chocobo, Lead Gnome, Mini Golem, Sand Worm, Death Machine, War Machine, Magitek Armor P, Iron Muscles, Entom Guard, Mecha Chocobo*",,,,,,,,,,,,,,,,,,,,,
-Bold Maneuver,6,Neutral,ALL: Inflict neutral magical damage.,Omega God,,,,,,,,,,,,,,,,,,,,,
-Bravery,4,,SINGLE: Raise physical damage.,"Skull Eater, Right Claw, Tonberry, Red Bonnetberry, Spark Dragon, Sphinx, Security Eye, Imp, Diabolos*, Master Tonberry",,,,,,,,,,,,,,,,,,,,,
-Breach Blast,8,Water,ALL: Inflict magical water damage.,Bismarck,,,,,,,,,,,,,,,,,,,,,
-Breather,1,,SELF: Recover HP and remove all status down effects.,Hyperion,,,,,,,,,,,,,,,,,,,,,
-Bulldozer,7,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,"Minotaur, Asterius",,,,,,,,,,,,,,,,,,,,,
-Bypass Reflect,,,PASSIVE: Allows one to bypass reflect when casting magic.,"Carbuncle, Einhänder",,,,,,,,,,,,,,,,,,,,,
-Cat Claw,4,Neutral,SINGLE: Inflict neutral physical damage / sleep. TOPPLE STRENGTH: Medium,Right Claw,,,,,,,,,,,,,,,,,,,,,
-Celestriad,,,PASSIVE: Allows abilities to sometimes be used without expending AP.,Flan Princess,,,,,,,,,,,,,,,,,,,,,
-Chaos Beak,4,Neutral,SINGLE: Inflict neutral physical damage / confusion / death. TOPPLE STRENGTH: Medium,Cocadrille,,,,,,,,,,,,,,,,,,,,,
-Chaos Wave,9,Neutral,ALL: Inflict neutral magical damage.,Maduin,,,,,,,,,,,,,,,,,,,,,
-Charge,0,,SELF: Recover AP.,"Mecha Chocobo, Behemoth, Kuza Beast, Magitek Armor, Magitek Armor A, Mecha Chocobo*",,,,,,,,,,,,,,,,,,,,,
-Chill,,,SUPPORT: Cool hot areas or freeze water.,"Bablizz, Brrblizz, Quachacho, Mindflayer, Squidraken",,,,,,,,,,,,,,,,,,,,,
-Choco MAX,10,Neutral,ALL: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Mecha Chocobo, Mecha Chocobo*",,,,,,,,,,,,,,,,,,,,,
-Chocobo Kick,4,Neutral,SINGLE: Inflict neutral physical damage. Hits multiple times. TOPPLE STRENGTH: Medium,"Chocobo, Hyperion, White Chocobo",,,,,,,,,,,,,,,,,,,,,
-Circumvent,6,,ALL: Remove positive status effects.,Ahriman,,,,,,,,,,,,,,,,,,,,,
-Cluster,3,Neutral,RRANDOM: INflict neutral magical damage. Hits multiple times. Also harms the wielder. Scales to HP,Bombino,,,,,,,,,,,,,,,,,,,,,
-Confuse,3,,SINGLE: Inflict confusion.,Serafie,,,,,,,,,,,,,,,,,,,,,
-Constrict,5,Neutral,SINGLE: Inflict neutral physical damage. Scales to HP. TOPPLE STRENGTH: High,Sand Worm,,,,,,,,,,,,,,,,,,,,,
-Cornered Beast,,,"PASSIVE: While HP is low, raises evasion chance / critical chance / accuracy.",Behemonster,,,,,,,,,,,,,,,,,,,,,
-Counter,,,PASSIVE: Allows non-ranged attacks to sometimes be countered.,"Ifrit, Gleefrit, Babyhemoth, Mimic, Mimic Queen, Mimic Jackpot, Ifrit*",,,,,,,,,,,,,,,,,,,,,
-Counterstance,3,,SELF: Enter counterstance and retaliate against non-ranged attacks.,"Iron Muscles, Master Tonberry",,,,,,,,,,,,,,,,,,,,,
-Courage Under Fire,,,PASSIVE: Raises physical damage as HP gets lower.,Magna Roader (Yellow),,,,,,,,,,,,,,,,,,,,,
-Cover,,,"PASSIVE: If HP is high enough, allows one to sometimes take damage in place of an imperiled ally.","Goblin Guard, Minimantoise, Sphinx, Maduin",,,,,,,,,,,,,,,,,,,,,
-Crimson Cyclone,11,Fire,ALL: Inflict magical fire damage / strength down.,"Ifreeta, Ifreeta*",,,,,,,,,,,,,,,,,,,,,
-Critical AP Hike,,,PASSIVE: Restore AP upon landing a critical hit.,"Tama, Yurugu, Chocobo, White Chocobo, Elefenrir, Tonberry King",,,,,,,,,,,,,,,,,,,,,
-Critical Guard,,,PASSIVE: Lessens the damage taken from critical attacks.,"Malboro, Minimantoise, Magitek Armor",,,,,,,,,,,,,,,,,,,,,
-Critical+,,,PASSIVE: Slightly raises critical chance.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Critical++,,,PASSIVE: Raises critical chance.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Critical+++,,,PASSIVE: Greatly raises critical chance.,,,,,,,,,,,,,,,,,,,,,,
-Crusher,4,Water,SINGLE: Inflict physical water damage. TOPPLE STRENGTH: High,Bismarck,,,,,,,,,,,,,,,,,,,,,
-Crystalline Flare,7,Neutral,SINGLE: Inflict neutral magical damage / blindness.,Master Moogle,,,,,,,,,,,,,,,,,,,,,
-Cura,5,,SINGLE: Restore HP.,"Siren, Princess Goblin, Quacho Queen, Flan Princess, Quacho Queen*, Princess Goblin*",,,,,,,,,,,,,,,,,,,,,
-Curaga,7,,ALL: Restore HP.,Magic Pot,,,,,,,,,,,,,,,,,,,,,
-Cure,3,,SINGLE: Restore HP.,"Tama, Yurugu, Chocochick, White Chocobo, Searcher",,,,,,,,,,,,,,,,,,,,,
-Dance with Me!,5,,ALL: Inflict berserk.,Flan Princess,,,,,,,,,,,,,,,,,,,,,
-Dark,4,Dark,SINGLE: Inflict magical dark damage / blindness.,"Yurugu, Floating Eye, Elefenrir, Flan Princess, Nightsqual, Garchimacera, Nightmare, Mindflayer, Magna Roader (Purple), Odin*, Ultros*, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Dark Converter,,,PASSIVE: Restores AP upon taking dark damage.,"Undead Princess, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Dark Mysteries,7,Dark,SINGLE: Inflict magical dark damage.,Vampire Prime,,,,,,,,,,,,,,,,,,,,,
-Dark Resistance+,,,PASSIVE: Slightly raises dark resistance (+25).,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Death,8,,SINGLE: Inflict death.,"Mordskull, Mimic, Mimic Jackpot, Death Searcher",,,,,,,,,,,,,,,,,,,,,
-Death Beak,3,Neutral,SINGLE: Inflict neutral physical damage / poison / death. TOPPLE STRENGTH: Medium,Cockatrice,,,,,,,,,,,,,,,,,,,,,
-Deep Freeze,11,Ice,SINGLE: Inflict physical ice damage / evasion down. TOPPLE STRENGTH: Medium,"Shivalry, Shivalry*",,,,,,,,,,,,,,,,,,,,,
-Defense+,,,PASSIVE: Slightly raises defense.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Defense++,,,PASSIVE: Raises defense.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Defense+++,,,PASSIVE: Greatly raises defense.,,,,,,,,,,,,,,,,,,,,,,
-Dispelga,,,ALL: Remove positive status effects.,Bahamut*,,,,,,,,,,,,,,,,,,,,,
-Destroyer,2,,SELF: Gain berserk / haste.,"Omega, Omega Bane",,,,,,,,,,,,,,,,,,,,,
-Diamond Dust,11,Ice,ALL: Inflict magical ice damage.,"Shiva, Shivver, Shiva*",,,,,,,,,,,,,,,,,,,,,
-Dispel,2,,SINGLE: Remove positive status effects.,Holy Dragon,,,,,,,,,,,,,,,,,,,,,
-Dispel Counter,,,PASSIVE: Allows one to sometimes counter with Dispel.,Ultros,,,,,,,,,,,,,,,,,,,,,
-Doom,5,,SINGLE:Automatically KO a target when the countdown runs out.,Memecoleous,,,,,,,,,,,,,,,,,,,,,
-Double Attack,4,Neutral,SINGLE: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Medium,"Dualizard, Bihydra",,,,,,,,,,,,,,,,,,,,,
-Double Cut,5,Neutral,SINGLE: Inflict neutral physical damage. Hits 4 times. TOPPLE STRENGTH: Medium,"Odin, Odin*",,,,,,,,,,,,,,,,,,,,,
-Double Smash,4,Neutral,RANDOM: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Medium,"Copper Gnome, Golem Head, Brothertaur, Iron Muscles",,,,,,,,,,,,,,,,,,,,,
-Drain,4,Dark,SINGLE: Use dark power to absorb HP.,"Kuza Kit, Ice Bat",,,,,,,,,,,,,,,,,,,,,
-Draining Claw,3,Dark,SINGLE: Inflict physical dark damage and absorb HP. TOPPLE STRENGTH: Medium,Left Claw,,,,,,,,,,,,,,,,,,,,,
-Draintouch,,,"PASSIVE: Allows some of the damage dealt by "Attack" to be absorbed as HP.""ASSIVE: Allows some of the da",Vampire Prime,,,,,,,,,,,,,,,,,,,,,
-Dread Gaze,8,Neutral,SINGLE: Inflict neutral magical damage / confusion / death.,"Undead Princess, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Dread Spikes,,,PASSIVE: Allows one to sometimes counter with Drain.,Demivampire,,,,,,,,,,,,,,,,,,,,,
-Earth Resistance+,,,PASSIVE: Slightly raises earth resistance (+25).,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Earthquake,6,Earth,ALL: Inflict magical earth damage.,"Sand Worm, Elite Entom",,,,,,,,,,,,,,,,,,,,,
-Eclipse Bite,8,Dark,SINGLE: Inflict physical dark damage. High critical chance. TOPPLE STRENGTH: Medium,Elefenrir,,,,,,,,,,,,,,,,,,,,,
-Element Absorber,,,PASSIVE: When hit sometimes absorbs elemental damage.,Skull Eater,,,,,,,,,,,,,,,,,,,,,
-Endless Blessings,,,PASSIVE: Slightly increases the duration of abilities that grant positive effects.,"Siren, Water Toad",,,,,,,,,,,,,,,,,,,,,
-Endless Nightmare,,,PASSIVE: Slightly increases the duration of status ailments one inflicts.,"Malboro Menace, Ahriman, Buer, Mindflayer, Squidraken",,,,,,,,,,,,,,,,,,,,,
-Energy Ray,10,Neutral,ALL: Inflict neutral magical damage.,"Valefor, Nirvalefor",,,,,,,,,,,,,,,,,,,,,
-Enhanced Attack,,,"PASSIVE: Raises damage dealt by the "Attack" command.""ASSIVE: Raises d","Titan, Ultima Weapon, Bahamut*",,,,,,,,,,,,,,,,,,,,,
-Enhanced Criticals,,,PASSIVE: Raises critical damage.,"Skull Eater, Nut Eater, Elefenrir, Baby Tonberry, Tonberry, Tonberry King, Red Bonnetberry, Mega Sharqual, Ultima Weapon, Bahamut*, Master Tonberry",,,,,,,,,,,,,,,,,,,,,
-Enhanced Cure,,,PASSIVE: Improves the effectiveness of HP recovery abilities.,"Sylph, Moogle, Quacho Queen, Unicorn, Quacho Queen*",,,,,,,,,,,,,,,,,,,,,
-Enhanced Earth,,,PASSIVE: Raises earth ability damage.,Titan,,,,,,,,,,,,,,,,,,,,,
-Enhanced Fire,,,PASSIVE: Raises fire ability damage.,"Fritt, Ifreeta, Weeglee, Nirvalefor, Bomb, Ifrit*, Ifreeta*",,,,,,,,,,,,,,,,,,,,,
-Enhanced Ice,,,PASSIVE: Raises ice ability damage.,"Shivalry, Brrblizz, Quachacho, Shiva*, Shivalry*",,,,,,,,,,,,,,,,,,,,,
-Enhanced Light,,,PASSIVE: Raises light ability damage.,"Paleberry, Cenchos",,,,,,,,,,,,,,,,,,,,,
-Enhanced Thunder,,,PASSIVE: Raises thunder ability damage.,"Zapt, Ramewl, Joult, Ramuh*, Ramewl*",,,,,,,,,,,,,,,,,,,,,
-Enhanced Water,,,PASSIVE: Raises water ability damage.,"Elasmos, Sea Snake, Leviathan, Sea Worm, Cenchos, Leviathan*, Ultros*",,,,,,,,,,,,,,,,,,,,,
-Enhanced Wind,,,PASSIVE: Raises wind ability damage.,"Golem Head, Valefor, Tiamat, Wind Toad",,,,,,,,,,,,,,,,,,,,,
-Entropy,,,PASSIVE: Randomly raises or lessens the topple strength of attacks.,"Malboro, Garchimacera, Brothertaur, Asterius",,,,,,,,,,,,,,,,,,,,,
-Equilibrium,,,PASSIVE: Halves stability loss while HP is full.,Mini Golem,,,,,,,,,,,,,,,,,,,,,
-Esuna,3,,SINGLE: Remove status ailments.,"Princess Goblin, Cockatrice, Sistertaur, Princess Goblin*",,,,,,,,,,,,,,,,,,,,,
-Esunaga,8,,ALL: Remove status ailments.,Cocadrille,,,,,,,,,,,,,,,,,,,,,
-Evade & Counter,,,PASSIVE: Raises evasion chance and allows one to potentially counter if successful.,"Werebat, Mist Dragon",,,,,,,,,,,,,,,,,,,,,
-Evasion+,,,PASSIVE: Slightly raises evasion chance.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Evasion++,,,PASSIVE: Raises evasion chance.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Evasion+++,,,PASSIVE: Greatly raises evasion chance.,,,,,,,,,,,,,,,,,,,,,,
-Everyone's Grudge,6,Dark,ALL: Inflict magical dark damage. Power increases relative to accrued damage.,"Tonberry King, Paleberry King",,,,,,,,,,,,,,,,,,,,,
-Evil Mist,8,Dark,ALL: Inflict magical dark damage / poison.,"Kraken, Cenchos",,,,,,,,,,,,,,,,,,,,,
-Exp Boost,,,PASSIVE: Raises the EXP intake of battle participants.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Expandable Ribbon,,,PASSIVE: Ensure the first status ailment incurred in each battle is nullified. Works on most ailments.,"Princess Goblin, Lead Gnome, Princess Goblin*",,,,,,,,,,,,,,,,,,,,,
-Explode,2,Neutral,ALL: Inflict neutral magical damage. Also harms allies. Scales to HP.,King Bomb,,,,,,,,,,,,,,,,,,,,,
-Extra Needles,,,PASSIVE: Raises the damage of needle attacks.,"Cactrot, Gigantrot, Master Cactuar",,,,,,,,,,,,,,,,,,,,,
-Extreme Bomber,,,"PASSIVE: Allows physical attacks to sometimes be countered. The lower one's HP, the stronger the blow.","Quacho Queen, Quacho Queen*",,,,,,,,,,,,,,,,,,,,,
-Faith,4,,SINGLE: Raise magical damage.,"Memecoleous, Searcher",,,,,,,,,,,,,,,,,,,,,
-Fira,5,Fire,SINGLE: Inflict magical fire damage.,"Buer, Affrite, Gleed, Red Dragon, King Bomb, Phoenix, Ifrit*",,,,,,,,,,,,,,,,,,,,,
-Firaga,7,Fire,ALL: Inflict magical fire damage.,"Ifreeta, Einhänder",,,,,,,,,,,,,,,,,,,,,
-Fire,3,Fire,SINGLE: Inflict magical fire damage.,"Red Captain, Blood Eye, Fritt, Cockatrice, Bihydra, Red Bonnetberry, Flammantoise, Bomb, Manticore, Searcher, Imp, Magna Roader (Red), Weeglee, Diabolos*",,,,,,,,,,,,,,,,,,,,,
-Fire Beam,7,Fire,SINGLE: Inflict magical fire damage.,"Magitek Armor, Magitek Armor P",,,,,,,,,,,,,,,,,,,,,
-Fire Breath,7,Fire,ALL: Inflict magical fire damage. Scales to HP.,Red Dragon,,,,,,,,,,,,,,,,,,,,,
-Fire Converter,,,PASSIVE: Restores AP upon taking fire damage.,"Affrite, Gleed, Bihydra, King Bomb, Phoenix, Ifrit*, Ifreeta*",,,,,,,,,,,,,,,,,,,,,
-Fire Resistance+,,,PASSIVE: Slightly raises fire resistance (+25).,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-First Strike,,,PASSIVE: Raises the odds of a preemptive strike.,"Mu, Red Cap, Fenrir, Mimic, Nightsqual, Searcher, Magitek Armor P, Magna Roader (Purple)",,,,,,,,,,,,,,,,,,,,,
-Flames of Rebirth,9,Fire,ALL: Inflict magical fire damage and revive all allies.,Phoenix,,,,,,,,,,,,,,,,,,,,,
-Flaming Hell,6,Fire,ALL: Inflict magical fire damage.,XG,,,,,,,,,,,,,,,,,,,,,
-Flare,9,Neutral,SINGLE: Inflict neutral magical damage.,Bahamut*,,,,,,,,,,,,,,,,,,,,,
-Flare Star,10,Fire,ALL: Inflict magical fire damage.,Red Dragon,,,,,,,,,,,,,,,,,,,,,
-Flash,3,,ALL: Inflict blindness.,"Goblin Guard, Holy Dragon, Magna Roader (Red), Princess Goblin*",,,,,,,,,,,,,,,,,,,,,
-Flee,,,PASSIVE: Guarantees escape as long as an enemy can be fled from.,"Black Chocochick, Cactuar, Cactrot",,,,,,,,,,,,,,,,,,,,,
-Flutter,,,SUPPORT: Fly Reynn and Lann a short distance.,"Floating Eye, Blood Eye, Moogle, Glow Moogle, Master Moogle",,,,,,,,,,,,,,,,,,,,,
-Focus,0,,SELF: Raise the damage dealt by one's next attack.,"Bomb, Sea Worm, Minotaur, Asterius, Iron Muscles",,,,,,,,,,,,,,,,,,,,,
-Forest Nocturne,4,,RANDOM: Restore HP. Takes effect multiple times.,"Moogle, Glow Moogle, Master Moogle",,,,,,,,,,,,,,,,,,,,,
-Foxfire,4,Fire,SINGLE: Inflict magical fire damage.,"Tama, Yurugu",,,,,,,,,,,,,,,,,,,,,
-Frenzy Walnut,2,,SELF: Recover HP and gain regen / berserk.,Nut Eater,,,,,,,,,,,,,,,,,,,,,
-Full Output,8,Neutral,ALL: Inflict neutral magical damage.,"Death Machine, War Machine",,,,,,,,,,,,,,,,,,,,,
-Full Power!,6,Neutral,SINGLE: Inflict neutral physical damage and raise the power of your next attack.,Ultima Weapon,,,,,,,,,,,,,,,,,,,,,
-Gaia's Wrath,11,Earth,ALL: Inflict magical earth damage. TOPPLE STRENGTH: Medium,Titan,,,,,,,,,,,,,,,,,,,,,
-Gaze,4,Neutral,SINGLE: Inflict neutral magical damage / confusion.,"Ahriman, Blood Eye, Mimic Queen, Death Searcher",,,,,,,,,,,,,,,,,,,,,
-Gelatinous Body,,,"PASSIVE: Lessens physical damage taken, but raises magical damage taken.","Water Golem, Mini Flan",,,,,,,,,,,,,,,,,,,,,
-Gentle Mist,5,,ALL: Restore HP and bestow regen.,Mist Dragon,,,,,,,,,,,,,,,,,,,,,
-Geocrush,6,Earth,SINGLE: Inflict physical earth damage. TOPPLE STRENGTH: High,Titan,,,,,,,,,,,,,,,,,,,,,
-Gilfinder,,,PASSIVE: Increase the amount of gil obtained in battle.,"Chocochick, Gigantuar, Magic Jar",,,,,,,,,,,,,,,,,,,,,
-Gimme an elixir!,,,PASSIVE: Causes elixirs received to raise various stats.,"Magic Pot, Magic Jar",,,,,,,,,,,,,,,,,,,,,
-Gnaw,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,White Nakk,,,,,,,,,,,,,,,,,,,,,
-Goblin Eye Gouge,3,Neutral,SINGLE: Inflict neutral physical damage / blindness. TOPPLE STRENGTH: Medium,Red Cap,,,,,,,,,,,,,,,,,,,,,
-Goblin Punch,4,Neutral,RANDOM: inflict neutral physical damage. Hits multiple times. TOPPLE STRENGTH: Low,Goblin,,,,,,,,,,,,,,,,,,,,,
-Grand Sword,5,Neutral,ALL: Inflict neutral physical damage. TOPPLE STRENGTH: High,Iron Giant,,,,,,,,,,,,,,,,,,,,,
-Gravija,20,,ALL: Eliminate 1/4 of the target's remaining HP.,"Diabolos, Diabolos*",,,,,,,,,,,,,,,,,,,,,
-Gravity,10,,SINGLE: Eliminate 1/4 of the target's remaining HP.,"Death Searcher, Nightmare",,,,,,,,,,,,,,,,,,,,,
-Gravity Counter,,,PASSIVE: Allows one to sometimes counter with Gravity.,"Sand Worm, Sea Worm",,,,,,,,,,,,,,,,,,,,,
-Great Sandstorm,9,Earth/Wind,ALL: Inflict physical earth damage / wind damage / blindness.,"Sphinx, Memecoleous",,,,,,,,,,,,,,,,,,,,,
-Guardian Glow,2,,ALL: Bestow defense up / magic defense up.,Sphinx,,,,,,,,,,,,,,,,,,,,,
-Gungnir,4,Neutral,ALL: Inflict neutral physical damage. TOPPLE STRENGTH: High,"Odin, Odin*",,,,,,,,,,,,,,,,,,,,,
-Haste,4,,SINGLE: Speed up how often the target takes a turn.,"Black Chocochick, Diva Serafie, Red Cap, Ramewl, Wind Toad, Gilgamesh, Magna Roader (Yellow), Master Cactuar, Ramewl*",,,,,,,,,,,,,,,,,,,,,
-Healing Horn,6,,ALL: Remove status ailments and restore HP.,Unicorn,,,,,,,,,,,,,,,,,,,,,
-Heave,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Very High,Behemonster,,,,,,,,,,,,,,,,,,,,,
-Heavenly Wrath,7,Light,SINGLE: Inflict physical light damage. Hits 4 times. TOPPLE STRENGTH: High,Holy Dragon,,,,,,,,,,,,,,,,,,,,,
-Heaven's Wrath,11,Thunder,RANDOM: Inflict magical thunder damage. Hits 8 times.,"Ramewl, Ramewl*",,,,,,,,,,,,,,,,,,,,,
-Heavy Counter,,,PASSIVE: Allows non-ranged attacks to sometimes be countered with a powerful blow.,Behemoth,,,,,,,,,,,,,,,,,,,,,
-Heavy Magic Counter,,,PASSIVE: Allows magical attacks to sometimes be countered with a powerful blow.,Kuza Beast,,,,,,,,,,,,,,,,,,,,,
-Hellfire,11,Fire,ALL: Inflict magical fire damage.,"Ifrit, Gleefrit, Ifrit*",,,,,,,,,,,,,,,,,,,,,
-Hi-Speed OP,,,PASSIVE: Automatically restores HP if an attack lowers HP below a certain amount.,Security Eye,,,,,,,,,,,,,,,,,,,,,
-Holy,9,Light,SINGLE: Inflict magical light damage.,"Paleberry King, Holy Dragon",,,,,,,,,,,,,,,,,,,,,
-Horn,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Babyhemoth, Kuza Kit, Brothertaur, Sistertaur, Nightmare",,,,,,,,,,,,,,,,,,,,,
-Howl,4,,ALL: Bestowe evasion up / accuracy up.,White Nakk,,,,,,,,,,,,,,,,,,,,,
-Howling Moon,4,,SELF: Gain berserk / haste / evasion up.,Fenrir,,,,,,,,,,,,,,,,,,,,,
-HP+,,,PASSIVE: Slightly raises HP (+5%).,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-HP++,,,PASSIVE: Raises HP.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-HP+++,,,PASSIVE: Greatly raises HP.,,,,,,,,,,,,,,,,,,,,,,
-Hydrotwister,6,Water,SINGLE: Inflict magical water damage. Bypasses defense.,"Mega Sharqual, Mega Nightsqual",,,,,,,,,,,,,,,,,,,,,
-Hyper Mode,,,"PASSIVE: If HP is full, gives attacks a chance of bestowing bravery / faith.",XG,,,,,,,,,,,,,,,,,,,,,
-Hypnosis,4,,SINGLE: Inflict sleep.,"Floating Eye, Nightmare, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Ice Beam,7,Ice,SINGLE: Inflict magical ice damage.,"Magitek Armor, Magitek Armor A",,,,,,,,,,,,,,,,,,,,,
-Ice Converter,,,PASSIVE: Restore AP upon taking ice damage.,"Mishiva, Shivverina, Shiva*, Shivalry*",,,,,,,,,,,,,,,,,,,,,
-Ice Resistance+,,,PASSIVE: Slightly raises ice resistance (+25).,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Ice Spikes,,,PASSIVE: Allows one to sometimes counter with ice when hit.,"Shiva, Shivver, Shiva*",,,,,,,,,,,,,,,,,,,,,
-Ice Storm,5,Ice,ALL: Inflict magical ice damage.,"Bablizz, Fenrir, Cerberus, Quachacho, Shiva*, Shivalry*",,,,,,,,,,,,,,,,,,,,,
-Impact Claw,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Left Claw,,,,,,,,,,,,,,,,,,,,,
-Incisors,5,Neutral,Inflict neutral physical damage / poison / magic defense down. TOPPLE STRENGTH: Medium,"Skull Eater, Nut Eater",,,,,,,,,,,,,,,,,,,,,
-Induration,,,PASSIVE: Sometimes bestows defense up upon taking a hit.,"Copper Gnome, Quachacho",,,,,,,,,,,,,,,,,,,,,
-Initial AP Hike,,,PASSIVE: Restores AP at the start of battle.,Malboro Menace,,,,,,,,,,,,,,,,,,,,,
-Initiative,,,PASSIVE: Sometimes bestows haste at start of battle.,Hyperion,,,,,,,,,,,,,,,,,,,,,
-Invincible,,,PASSIVE: Gives a chance of nullifying damage.,Iron Giant,,,,,,,,,,,,,,,,,,,,,
-Jet Fire,10,Wind,ALL: Inflict magical wind damage.,Tiamat,,,,,,,,,,,,,,,,,,,,,
-Joyride,,,SUPPORT: Serve as a mode of transportation for Reynn and Lann.,"Tamamohimé, Kyubi, Chocobo, Mecha Chocobo, Hyperion, White Chocobo, Malboro, Malboro Menace, Fenrir, Elefenrir, Behemoth, Kuza Beast, Right Claw, Flan, Sharqual, Nightsqual, Magitek Armor, Magitek Armor A, Magitek Armor P, Magna Roader (Purple), Magna Roader (Yellow), Magna Roader (Red), Omega, Omega Bane, Mecha Chocobo*",,,,,,,,,,,,,,,,,,,,,
-Judgment Bolt,11,Thunder,ALL: inflict magical thunder damage.,"Ramuh, Rairamuh, Ramuh*",,,,,,,,,,,,,,,,,,,,,
-KERS,0,,SELF: Recover AP and remove all status effects.,Magna Roader (Red),,,,,,,,,,,,,,,,,,,,,
-Kishin,15,Dark,SINGLE: Inflict physical dark damage. TOPPLE STRENGTH: High,XG,,,,,,,,,,,,,,,,,,,,,
-Knife,4,Neutral,SINGLE: Inflict neutral physical damage. Bypasses defense. TOPPLE STRENGTH: Medium,"Tonberry, Paleberry",,,,,,,,,,,,,,,,,,,,,
-Kuparrr!,4,Neutral,RANDOM: Inflict neutral physical damage / berserk. Hits multiple times. TOPPLE STRENGTH: Medium,Kupicaroon,,,,,,,,,,,,,,,,,,,,,
-Lambaste,3,Neutral,SINGLE: Inflict neutral physical damage. Hits multiple times. TOPPLE STRENGTH: Medium,Gilgamesh,,,,,,,,,,,,,,,,,,,,,
-Last Stand,,,"PASSIVE: Once per battle, prevents HP from dropping to 0.","Behemonster, Magic Pot, Bomb, Magna Roader (Yellow)",,,,,,,,,,,,,,,,,,,,,
-Leaf Dagger,3,Wind,SINGLE: Inflict physical wind damage / poison. TOPPLE STRENGTH: Low,"Mandragora, Korrigan",,,,,,,,,,,,,,,,,,,,,
-Leech,3,Dark,SINGLE: Use dark power to absorb HP.,Werebat,,,,,,,,,,,,,,,,,,,,,
-Left Claw,3,Neutral,SINGLE: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Low,Left Claw,,,,,,,,,,,,,,,,,,,,,
-Leg Sweep,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Gilgamesh,,,,,,,,,,,,,,,,,,,,,
-Lethean Gaze,4,Neutral,SINGLE: Inflict neutral magical damage / oblivion.,Blood Eye,,,,,,,,,,,,,,,,,,,,,
-Lethean Punch,4,Neutral,SINGLE: Inflict neutral physical damage / oblivion. TOPPLE STRENGTH: Medium,Reaver Mu,,,,,,,,,,,,,,,,,,,,,
-Libra,1,,SINGLE: View useful information about the target.,"Tama, Yurugu, Mu, Moogle, Magic Pot, Searcher, Security Eye",,,,,,,,,,,,,,,,,,,,,
-Light Converter,,,PASSIVE: Restores AP upon taking light damage.,Paleberry King,,,,,,,,,,,,,,,,,,,,,
-Light Resistance+,,,PASSIVE: Slightly raises light resistance (+25).,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Love Serenade,7,,RANDOM: Bestow defense up / magic defense up. Takes effect multiple times.,Glow Moogle,,,,,,,,,,,,,,,,,,,,,
-Lullaby,7,,ALL: Inflict sleep.,"Siren, Wind Toad",,,,,,,,,,,,,,,,,,,,,
-Lure,,,PASSIVE: Increase enemy encounters.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Mage Masher,3,Fire,SINGLE: Inflict physical fire damage / magic down. TOPPLE STRENGTH: Low,Ghidra,,,,,,,,,,,,,,,,,,,,,
-Magic Counter,,,PASSIVE: Allows magical attacks to sometimes be countered.,"Kuza Kit, Iron Muscles",,,,,,,,,,,,,,,,,,,,,
-Magic Defense+,,,PASSIVE: Slightly raises magic defense.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Magic Defense++,,,PASSIVE: Raises magic defense.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Magic Defense+++,,,PASSIVE: Greatly raises magic defense.,,,,,,,,,,,,,,,,,,,,,,
-Magic+,,,PASSIVE: Slightly raises magic.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Magic++,,,PASSIVE: Raises magic.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Magic+++,,,PASSIVE: Greatly raises magic.,,,,,,,,,,,,,,,,,,,,,,
-Magitek Cicuitry,,,PASSIVE: Raises magical damage.,"Magitek Armor, Magitek Armor P",,,,,,,,,,,,,,,,,,,,,
-Mana's Paean,4,,ALL: Bestow magic up.,Wind Toad,,,,,,,,,,,,,,,,,,,,,
-Megaflare,4,Neutral,ALL: Inflict neutral magical damage. Power increases as the wielder's HP/AP decrease.,Bahamut*,,,,,,,,,,,,,,,,,,,,,
-Meltdown,,,"PASSIVE: When hit while HP is 10% or less, causes one to self-destruct and harm allies.","Omega, Omega Bane",,,,,,,,,,,,,,,,,,,,,
-Metal Cutter,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Magitek Armor A,,,,,,,,,,,,,,,,,,,,,
-Metal Salvo,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,"Mecha Chocobo, Mecha Chocobo*",,,,,,,,,,,,,,,,,,,,,
-Metallic Body,,,PASSIVE: Lessens all damage taken.,"Metalliskull, Iron Muscles, Entom Guard, Entom Soldier, Elite Entom",,,,,,,,,,,,,,,,,,,,,
-Meteor,11,Neutral,RANDOM: Inflict neutral physical damage. Hits 4 times.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Meteor Counterstance,6,,SELF: Enter counterstance and use Meteor at AP cost to retaliate against attacks.,Behemonster,,,,,,,,,,,,,,,,,,,,,
-Mightiest of Sword,4,,SINGLE: ATtack with the mightiest of swords.,Gilgamesh,,,,,,,,,,,,,,,,,,,,,
-Mighty Guard,2,,SELF: Gain protect / shell.,Iron Giant,,,,,,,,,,,,,,,,,,,,,
-Mind Blast,4,Neutral,SINGLE: Inflict neutral magical damage / confusion / oblivion.,"Mindflayer, Squidraken",,,,,,,,,,,,,,,,,,,,,
-Mind Madrigal,5,,ALL: Bestow magic defense up.,Water Toad,,,,,,,,,,,,,,,,,,,,,
-Miraculous Drill,6,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Mimic Queen,,,,,,,,,,,,,,,,,,,,,
-Missile,4,Neutral,SINGLE: Inflict neutral magical damage.,"Omega, Omega Bane",,,,,,,,,,,,,,,,,,,,,
-Moon Flute,4,,ALL: Inflict berserk.,Garchimacera,,,,,,,,,,,,,,,,,,,,,
-Needle Thrift,,,PASSIVE: Reduce AP cost of all needle attacks by 1.,"Cactuar, Gigantuar",,,,,,,,,,,,,,,,,,,,,
-Nightmare,4,,ALL: Inflict sleep.,"Diabolos, Diabolos*",,,,,,,,,,,,,,,,,,,,,
-Nightmaretouch,,,"PASSIVE: Causes the "Attack" command to inflict sleep.""ASSIVE: Causes the "Attack" comma""SSIVE: Causes","Diabolos, Diabolos*",,,,,,,,,,,,,,,,,,,,,
-Nightmarish Lore,,,PASSIVE: Raises damage when attacking a sleeping target.,"Diabolos, Nightmare, Diabolos*",,,,,,,,,,,,,,,,,,,,,
-No Escape,,,PASSIVE: Completly prevents enemies from escaping.,"Right Claw, Mimic, Mimic Jackpot, Vampire Prime, Magitek Armor P",,,,,,,,,,,,,,,,,,,,,
-Octentacle,8,Neutral,RANDOM: Inflict neutral physical damage. Hits 8 times. TOPPLE STRENGTH: Medium,"Ultros, Ultros*",,,,,,,,,,,,,,,,,,,,,
-Ode of Oblivion,4,,ALL: Inflict oblivion.,Water Toad,,,,,,,,,,,,,,,,,,,,,
-Overclock,,,"PASSIVE: While berserk, bestows agility up but causes HP to drain.","Mecha Chocobo, Omega Bane, Mecha Chocobo*",,,,,,,,,,,,,,,,,,,,,
-Overheat,,,"PASSIVE: Upon taking fire damage, somtimes bestows berserk.","Entom Guard, Entom Soldier, Elite Entom",,,,,,,,,,,,,,,,,,,,,
-Pattern Analysis,,,"PASSIVE: When hit, sometimes bestows evasion up on all allies.","Searcher, Einhänder",,,,,,,,,,,,,,,,,,,,,
-Perfect Dodge,3,,SELF: Enter counterstance and evade physical attacks.,Master Cactuar,,,,,,,,,,,,,,,,,,,,,
-Petty Grudge,3,Dark,SINGLE: Inflict magical dark damage. Power increases relative to accrued damage.,"Baby Tonberry, Baby Paleberry, Red Bonnetberry",,,,,,,,,,,,,,,,,,,,,
-Pharmacology,,,PASSIVE: Improves the effectiveness of HP recovery items.,"Serafie, Red Captain, Kupirate, Tonberry, Red Bonnetberry, Memecoleous, Imp, Master Tonberry",,,,,,,,,,,,,,,,,,,,,
-Phaeosynthesis,,,PASSIVE: Raises the amount of AP restored each turn.,Korrigan,,,,,,,,,,,,,,,,,,,,,
-Photosynthesis,,,PASSIVE: Somtimes bestows regen at start of battle.,"Mandragora, Gigantuar, Gigantrot",,,,,,,,,,,,,,,,,,,,,
-Point Deflector,,,PASSIVE: Completly nullifies damage up to three times.,Omega God,,,,,,,,,,,,,,,,,,,,,
-Poison Bite,4,Neutral,SINGLE: Inflict neutral physical damage / poison. TOPPLE STRENGTH: Medium,"Kyubi, Dualizard, Bihydra",,,,,,,,,,,,,,,,,,,,,
-Poison Counter,,,"PASSIVE: When hit, sometimes inflicts poison on the assailant.",Adamantoise,,,,,,,,,,,,,,,,,,,,,
-Poison Nails,3,Neutral,SINGLE: Inflict neutral physical damage / poison. TOPPLE STRENGTH: Medium,"Right Claw, Imp, Diabolos*",,,,,,,,,,,,,,,,,,,,,
-Poisontouch,,,"PASSIVE: Gives the "Attack" command a chance of inflicting poison.""ASSIVE: Gives the "Attack" command a chance of""SSIVE: Gives the "Attack" c""SIVE: Giv","Mandragora, Lead Gnome, White Nakk",,,,,,,,,,,,,,,,,,,,,
-Possesion Rush,8,Neutral,SINGLE: Inflict neutral physical damage / confusion. TOPPLE STRENGTH: High,"Undead Princess, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Pressure,4,Earth,ALL: Inflict physical earth damage. TOPPLE STRENGTH: Medium,Adamantoise,,,,,,,,,,,,,,,,,,,,,
-Princess's Charm,7,Neutral,SINGLE: Inflict neutral physical damage / blindness. TOPPLE STRENGTH: Medium,"Princess Goblin, Princess Goblin*",,,,,,,,,,,,,,,,,,,,,
-Protect,2,,SINGLE: Lessen physical damage taken.,"Goblin Guard, Copper Gnome, Chrome Giant, Mimic, Mimic Jackpot, Minimantoise, Minotaur, Gilgamesh, Princess Goblin*",,,,,,,,,,,,,,,,,,,,,
-Pulverizing Blow,6,Neutral,SINGLE: Inflict neutral physical damage / doom. TOPPLE STRENGTH: Medium,"Entom Soldier, Elite Entom",,,,,,,,,,,,,,,,,,,,,
-Punch,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Mu, Fritt, Weeglee, Vampire, Demivampire, Ifrit*, Ifreeta*",,,,,,,,,,,,,,,,,,,,,
-Putrid Breath,11,,SINGLE: Inflict various status ailments / negative status effects.,Malboro Menace,,,,,,,,,,,,,,,,,,,,,
-Quake,10,Earth,ALL: Inflict magical earth damage. TOPPLE STRENGTH: Medium,Mordskull,,,,,,,,,,,,,,,,,,,,,
-Quicksand,4,Earth,SINGLE: Inflict magical earth damage / slow.,"Mordskull, Sand Worm",,,,,,,,,,,,,,,,,,,,,
-Rage Bomber,,,"PASSIVE: Allows physical attacks to sometimes be countered. The lower one's HP, the stronger the blow.","Quacho, Miney, Mo",,,,,,,,,,,,,,,,,,,,,
-Raigeki,4,Thunder,SINGLE: Inflict physical damage. TOPPLE STRENGTH: Medium,XG,,,,,,,,,,,,,,,,,,,,,
-Raise,4,,ALL: Revive KO'd allies and restore a little HP.,"Tamamohimé, Chocobo, White Chocobo, Princess Goblin, Phoenix, Princess Goblin*",,,,,,,,,,,,,,,,,,,,,
-Rake,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,Ahriman,,,,,,,,,,,,,,,,,,,,,
-Ram,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Chocochick, Black Chocochick, Korrigan",,,,,,,,,,,,,,,,,,,,,
-Random Shock,4,Thunder,RANDOM: Inflict magical thunder damage. Hits multiple times.,"Metalliskull, Entom Soldier, Elite Entom, Einhänder",,,,,,,,,,,,,,,,,,,,,
-Reaper,4,Water,ALL: Inflict physical water damage. TOPPLE STRENGTH: Medium,"Leviathan, Leviathan*",,,,,,,,,,,,,,,,,,,,,
-Reaper Lore,,,PASSIVE: Restores a little HP whenever someone is KO'd.,"Undead Princess, Death Searcher, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Rebound,,,"PASSIVE: Once per battle, prevents a stack from toppling.",Magitek Armor P,,,,,,,,,,,,,,,,,,,,,
-Recycle,,,PASSIVE: Sometimes prevents items from being consumed on use.,Magna Roader (Red),,,,,,,,,,,,,,,,,,,,,
-Red Fang,4,Fire,SINGLE: Inflict physical fire damage. TOPPLE STRENGTH: Medium,"Black Nakk, Red Dragon",,,,,,,,,,,,,,,,,,,,,
-Reflect,4,,SINGLE: Cause a target to reflect magic back at casters.,"Diva Serafie, Buer, Left Claw, Magic Jar, Kraken, Cenchos, Entom Guard, Ultros*",,,,,,,,,,,,,,,,,,,,,
-Refueling,3,,SELF: Gain haste.,Bombino,,,,,,,,,,,,,,,,,,,,,
-Regen,4,,SINGLE: Gradually restore HP.,"Tamamohimé, Mu, Zaphr, Voultr, Unicorn, Ramuh*, Odin*, Ramewl*",,,,,,,,,,,,,,,,,,,,,
-Renew,3,,SINGLE: Remove status ailments.,Sylph,,,,,,,,,,,,,,,,,,,,,
-Resist Accuracy Down,,,PASSIVE: protect against accuracy down.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Berserk,,,PASSIVE: Protect against berserk.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Blindness,,,PASSIVE: Protect against blindness.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Confusion,,,PASSIVE: Protect against confusion.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Defense Down,,,PASSIVE: protect against defense down.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Evasion Down,,,PASSIVE: protect against evasion down.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Magic Defense Down,,,PASSIVE: protect against magic defense down.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Magic Down,,,PASSIVE: protect against magic down.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Oblivion,,,PASSIVE: Protect against oblivion.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Poison,,,PASSIVE: Protect against poison.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Sleep,,,PASSIVE: Protect against sleep.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Slow,,,PASSIVE: Protect against slow.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Strength Down,,,PASSIVE: protect against strength down.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Resist Stun,,,PASSIVE: Protects against stun.,"Mirajewel, Water Golem, Flan",,,,,,,,,,,,,,,,,,,,,
-Restore,3,,SINGLE: Restore HP.,"Red Captain, Water Golem",,,,,,,,,,,,,,,,,,,,,
-Retaliatory Missile,,,PASSIVE: Allows one to counter uo to two attacks with missiles.,"Death Machine, War Machine",,,,,,,,,,,,,,,,,,,,,
-Reteethe,,,PASSIVE: Bestows strength up upon landing a critical hit.,"Mega Sharqual, Mega Nightsqual",,,,,,,,,,,,,,,,,,,,,
-Revenge Blast,4,Neutral,SINGLE: Inflict neutral physical damage. Power increases as the wielder's HP decreases. TOPPLE STRENGTH: Low,Babyhemoth,,,,,,,,,,,,,,,,,,,,,
-Revivify,,,PASSIVE: Gradually restores HP.,"Mordskull, Vampire Prime, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Riddle,7,,SINGLE: Inflict confusion / doom.,Sphinx,,,,,,,,,,,,,,,,,,,,,
-Right Claw,3,Neutral,SINGLE: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Low,Right Claw,,,,,,,,,,,,,,,,,,,,,
-Riot Blow,6,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,Maduin,,,,,,,,,,,,,,,,,,,,,
-Ruby Light,8,,ALL: Bestow reflect.,Carbuncle,,,,,,,,,,,,,,,,,,,,,
-Safety Bit,,,PASSIVE: Raises resistance to death while HP is low.,"Cockatrice, Cocadrille, Phoenix",,,,,,,,,,,,,,,,,,,,,
-Sandstorm,6,Earth/Wind,ALL: Inflict physical earth damage / wind damage / blindness.,"Sandicore, Sand Worm",,,,,,,,,,,,,,,,,,,,,
-Scream,3,,ALL: Inflict magic defense down.,Korrigan,,,,,,,,,,,,,,,,,,,,,
-Self-Destruct,1,Neutral,SINGLE: Inflict neutral magical damage. Also harms the wielder. Scales to HP.,Bomb,,,,,,,,,,,,,,,,,,,,,
-Shake,3,Earth,SINGLE: Inflict magical earth damage. TOPPLE STRENGTH: HIgh,Mini Golem,,,,,,,,,,,,,,,,,,,,,
-Sharksin,,,PASSIVE: Redirects a portion of close-quarters damage back at the assailant.,Bismarck,,,,,,,,,,,,,,,,,,,,,
-Sharpened Knife,7,Neutral,SINGLE: Inflict neutral physical damage / defense down. Bypasses defense. TOPPLE STRENGTH: Medium,Master Tonberry,,,,,,,,,,,,,,,,,,,,,
-Shell,2,,SINGLE: Lessen magical damage taken.,"Chocochick, Carbuncle, Goblin, Mythril Giant, Water Golem, Zapt, Joult, Kupicaroon, Minimantoise, Asterius, Gilgamesh, Ramuh*",,,,,,,,,,,,,,,,,,,,,
-Shining Ruby,4,,ALL: Bestow defense up / magic defense up.,Carbuncle,,,,,,,,,,,,,,,,,,,,,
-Shock Spikes,,,PASSIVE: Allows one to sometimes counter with thunder when hit.,"Ramuh, Rairamuh, Metalliskull, Spark Dragon, Ramuh*",,,,,,,,,,,,,,,,,,,,,
-Shocking Breath,7,Thunder,ALL: Inflict magical thunder damage. Scales to HP.,Spark Dragon,,,,,,,,,,,,,,,,,,,,,
-Silent Voice,9,Wind,ALL: Inflict magical wind damage / oblivion.,"Siren, Diva Serafie",,,,,,,,,,,,,,,,,,,,,
-Sizzle,,,SUPPORT: Burn obstacles or light fuses.,"Red Captain, Fritt, Weeglee, Black Nakk, Cockatrice, Bomb",,,,,,,,,,,,,,,,,,,,,
-Slash,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Goblin Guard, Red Captain, Metalliskull",,,,,,,,,,,,,,,,,,,,,
-Sled Fang,6,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,Fenrir,,,,,,,,,,,,,,,,,,,,,
-Sleep,4,,SINGLE: Inflict sleep.,"Golem Head, Shiva, Shivver, Vampire Prime, Squidraken, Shiva*",,,,,,,,,,,,,,,,,,,,,
-Sleep Chance+,,,PASSIVE: Paises the chance of inflicting sleep.,Nightmare,,,,,,,,,,,,,,,,,,,,,
-Sleep Leaves,4,Wind,SINGLE: Inflict physical wind damage / sleep. TOPPLE STRENGTH: Low,Mandragora,,,,,,,,,,,,,,,,,,,,,
-Sling,8,Neutral,ALL: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Mythril Giant, Chrome Giant",,,,,,,,,,,,,,,,,,,,,
-Slow,3,,SINGLE: Slow down how often the target takes a turn.,"Mishiva, Undead Princess, Shiva*, Shivalry*, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Smash,,,SUPPORT: Remove obstacles through brute strength.,"Mythril Giant, Chrome Giant, Red Dragon, Holy Dragon, Minotaur, Asterius",,,,,,,,,,,,,,,,,,,,,
-Snowman Rondo,4,Ice,RANDOM: Inflicts magical ice damage. Hits multiple times.,Kupirate,,,,,,,,,,,,,,,,,,,,,
-Sonic Fangs,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Cerberus,,,,,,,,,,,,,,,,,,,,,
-Sonic Wings,4,Wind,SINGLE: Inflict magical wind damage / slow.,"Valefor, Nirvalefor",,,,,,,,,,,,,,,,,,,,,
-SOS Conserve AP,,,"PASSIVE: In battle, reduces all AP costs by 1 while HP is low.",Sand Worm,,,,,,,,,,,,,,,,,,,,,
-SOS Haste,,,PASSIVE: Bestow haste while HP is low (Critical HP).,Hyperion,,,,,,,,,,,,,,,,,,,,,
-SOS Magic Boost,,,PASSIVE: Raises magical damage while HP is low.,Buer,,,,,,,,,,,,,,,,,,,,,
-SOS Regen,,,PASSIVE: Bestows regen while HP is low.,"Bombino, Phoenix",,,,,,,,,,,,,,,,,,,,,
-SOS Ribbon,,,"PASSIVE: While HP is low, provides guaranteed resistance to most status ailments.","Glow Moogle, Magic Jar",,,,,,,,,,,,,,,,,,,,,
-Spinning Fin,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,Sea Snake,,,,,,,,,,,,,,,,,,,,,
-Stabilizer,,,PASSIVE: Sometimes halves stability loss.,"Reaver Mu, Mythril Giant, Behemoth, Kuza Beast, Sphinx, Memecoleous, Magitek Armor A, Titan",,,,,,,,,,,,,,,,,,,,,
-Stack Buster,4,Neutral,SINGLE: Inflict neutral physical damage. Highly effective against stacked enemies. TOPPLE STRENGTH: Medium,"Brothertaur, Sistertaur",,,,,,,,,,,,,,,,,,,,,
-Stealth,,,PASSIVE: Decreases enemy encounters.,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Sticky Goo,3,Water,SINGLE: Inflict water damage / slow.,Mini Flan,,,,,,,,,,,,,,,,,,,,,
-Strategic AP Hike,,,PASSIVE: Restores AP upon exploiting an enemy's elemental weakness.,"Valefor, Nirvalefor, Baby Paleberry, Master Moogle",,,,,,,,,,,,,,,,,,,,,
-Strength+,,,PASSIVE: Slightly raises strength.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Strength++,,,PASSIVE: Raises strength.,"Various Mirage, Mirajewel",,,,,,,,,,,,,,,,,,,,,
-Strength+++,,,PASSIVE: Greatly raises strength.,,,,,,,,,,,,,,,,,,,,,,
-Stretch Legs,4,,SELF: Gain haste / evasion up.,Hyperion,,,,,,,,,,,,,,,,,,,,,
-Stroll,,,SUPPORT: Walk alongside Reynn and Lann in the field.,"Tama, Yurugu, Chocochick, Black Chocochick, Mu, Reaver Mu, Mandragora, Korrigan, Fritt, Weeglee, Bablizz, Brrblizz, Zapt, Joult, White Nakk, Black Nakk, Moogle, Glow Moogle, Cactuar, Cactrot, Quacho, Quachacho, Baby Tonberry, Baby Paleberry, Red Bonnetberry, Bombino, Water Toad, Lucky Toad, Wind Toad, Searcher, Security Eye, Death Searcher, Master Moogle, Master Cactuar, Miney, Mo",,,,,,,,,,,,,,,,,,,,,
-Subdue,0,Neutral,"SINGLE: Inflict nonlethal, neutral physical damage.","Black Chocochick, Sylph, Mu, Reaver Mu, Red Cap, Water Golem, Kupicaroon, Right Claw, Quachacho, Lucky Toad, Wind Toad",,,,,,,,,,,,,,,,,,,,,
-Sweet Breath,5,,ALL: Inflict sleep.,"Quacho Queen, Quacho Queen*",,,,,,,,,,,,,,,,,,,,,
-Swordbreaker,3,Fire,SINGLE: Inflict physical fire damage / strength down. TOPPLE STRENGTH: Low,Ghidra,,,,,,,,,,,,,,,,,,,,,
-Sync Left Claw,,,PASSIVE: Raises the damage dealt by it's counterpart's Left Claw ability while fighting together.,Right Claw,,,,,,,,,,,,,,,,,,,,,
-Sync Right Claw,,,PASSIVE: Raises the damage dealt by it's counterpart's Right Claw ability while fighting together.,Left Claw,,,,,,,,,,,,,,,,,,,,,
-Syphon,0,Dark,Use dark power to absorb AP.,"Ramuh, Magic Jar, Demivampire, Undead Princess*",,,,,,,,,,,,,,,,,,,,,
-Temblor,7,Earth,ALL: Inflict magical earth damage.,Adamantoise,,,,,,,,,,,,,,,,,,,,,
-Tentacle,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Malboro, Malboro Menace",,,,,,,,,,,,,,,,,,,,,
-Third Eye,,,"PASSIVE: While blind, raises evasion chance / critical chance.",Ice Bat,,,,,,,,,,,,,,,,,,,,,
-Thousands of Meedles,10,Neutral,RANDOM: Inflict a fixed amount of neutral physical damage. Hits multiple times.,Gigantrot,,,,,,,,,,,,,,,,,,,,,
-Thousands of Needles,10,Neutral,ALL: Inflict a fixed amount of neutral physical damage.,Gigantuar,,,,,,,,,,,,,,,,,,,,,
-Throw Stone,3,Earth,SINGLE: Inflict physical earth damage. TOPPLE STRENGTH: Medium,"Copper Gnome, Lead Gnome, Mini Golem, Mordskull, Titan",,,,,,,,,,,,,,,,,,,,,
-Thundaga,7,Thunder,ALL: Inflict magical thunder damage.,"Ramewl, Ramewl*",,,,,,,,,,,,,,,,,,,,,
-Thundara,5,Thunder,SINGLE: Inflict magical thunder damage.,"Zaphr, Voultr, Kuza Beast, Spark Dragon, Ramuh*",,,,,,,,,,,,,,,,,,,,,
-Thunder,3,Thunder,SINGLE: Inflict magical thunder damage.,"Zapt, Joult, Kuza Kit, Metalliskull, Trihyde, Flan, Death Searcher",,,,,,,,,,,,,,,,,,,,,
-Thunder Beam,7,Thunder,SINGLE: Inflict magical thunder damage.,"Magitek Armor A, Magitek Armor P",,,,,,,,,,,,,,,,,,,,,
-Thunder Converter,,,PASSIVE: Restore AP upon taking thunder damage.,"Zaphr, Voultr, Spark Dragon, Ramuh*, Ramewl*",,,,,,,,,,,,,,,,,,,,,
-Thunder Horn,4,Thunder,SINGLE: Inflict physical thunder damage. TOPPLE STRENGTH: High,Kuza Beast,,,,,,,,,,,,,,,,,,,,,
-Thunder Resistance+,,,PASSIVE: Slightly raises thunder resistance (+25).,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Thunderbolt,5,Thunder,ALL: Inflict magical thunder damage.,"Zapt, Cerberus, Tiamat, Mimic Queen, Gilgamesh, Ultros, Ramuh*, Ramewl*, Ultros*",,,,,,,,,,,,,,,,,,,,,
-Thunderstorm,9,Thunder/Wind,ALL: Inflict magical thunder damage / wind damage.,Elasmos,,,,,,,,,,,,,,,,,,,,,
-Tickle,3,Neutral,SINGLE: Inflict neutral magical damage. TOPPLE STRENGTH: High,"Sylph, Serafie, Manticore, Sandicore, Garchimacera",,,,,,,,,,,,,,,,,,,,,
-Tidal Wave,12,Water,ALL: Inflict magical water damage.,"Leviathan, Leviathan*",,,,,,,,,,,,,,,,,,,,,
-Top Gear,,,PASSIVE: Bestow strength up as a bonus if one reaches the third tier of evasion up.,Magna Roader (Purple),,,,,,,,,,,,,,,,,,,,,
-Touchdown,5,Neutral,ALL: Inflict neutrale physical damage. TOPPLE STRENGTH: High,Bahamut*,,,,,,,,,,,,,,,,,,,,,
-Track,6,,ALL: Inflict accuracy down.,Buer,,,,,,,,,,,,,,,,,,,,,
-Treasure Hunter,,,PASSIVE: Raises the chance that enemies will drop rare items.,"Left Claw, Gigantrot, Mimic Jackpot, Lucky Toad, Death Searcher",,,,,,,,,,,,,,,,,,,,,
-Triple Attack,6,Neutral,SINGLE: Inflict neutral physical damage. Hits 3 times. TOPPLE STRENGTH: High,"Trihyde, Ghidra",,,,,,,,,,,,,,,,,,,,,
-Triumphant Shout,4,,ALL: Bestow strength up.,"Red Captain, Kupirate",,,,,,,,,,,,,,,,,,,,,
-Tsunami,5,Water,ALL: Inflict magical water damage.,"Sea Serpent, Sea Worm, Kraken, Ultros, Cenchos, Leviathan*, Ultros*",,,,,,,,,,,,,,,,,,,,,
-Ullr's Shield,,,PASSIVE: Gives a chance of nullifying damage.,"Odin, Odin*",,,,,,,,,,,,,,,,,,,,,
-Ultima,12,Neutral,ALL: Inflict neutral magical damage.,Ultima Weapon,,,,,,,,,,,,,,,,,,,,,
-Ultima Beam,15,Neutral,ALL: Inflict neutral magical damage.,Ultima Weapon,,,,,,,,,,,,,,,,,,,,,
-Ultimate Focus,2,,SELF: Gain magic up (3 stacks).,"Floating Eye, Maduin",,,,,,,,,,,,,,,,,,,,,
-Ultimate Terror,6,,ALL: Inflict strength down / magic down / defense down / magic defense down.,"Diabolos, Diabolos*",,,,,,,,,,,,,,,,,,,,,
-Ultrasonics,2,,ALL: Inflict evasion down.,"Werebat, Ice Bat",,,,,,,,,,,,,,,,,,,,,
-Unstacked Evasion+,,,PASSIVE: Raises evasion chance while unstacked.,"Cactuar, Cactrot, Werebat, Ice Bat",,,,,,,,,,,,,,,,,,,,,
-Unstacked Guard,,,PASSIVE: Lessens the damage taken while unstacked.,Chrome Giant,,,,,,,,,,,,,,,,,,,,,
-Unstacked Haste,,,PASSIVE: Bestow haste while unstacked.,Black Chocochick,,,,,,,,,,,,,,,,,,,,,
-Upgrade,5,,SELF: Gain defense up / magic defense up / evasion up.,Security Eye,,,,,,,,,,,,,,,,,,,,,
-Upshift,3,,SELF: Gain haste / evasion up but incur defense down.,"Magna Roader (Purple), Magna Roader (Yellow), Magna Roader (Red)",,,,,,,,,,,,,,,,,,,,,
-Venom Needle,4,Neutral,SINGLE: Inflict neutral physical damage / poison. TOPPLE STRENGTH: Low,"Manticore, Sandicore",,,,,,,,,,,,,,,,,,,,,
-Victory Charge,,,"PASSIVE: Upon winning a battle, restore a little HP to all allies.","Red Captain, Mythril Giant, Glow Moogle, Sistertaur",,,,,,,,,,,,,,,,,,,,,
-Vigilance,,,PASSIVE: Prevents enemy ambushes.,"Black Nakk, Magic Pot, Security Eye, Magna Roader (Red)",,,,,,,,,,,,,,,,,,,,,
-Water,3,Water,SINGLE: Inflict magical water damage.,"Water Golem, Kupicaroon, Dualizard, Quacho, Baby Tonberry, Mini Flan, Sharqual, Nightsqual, Sea Snake, Water Toad, Mindflayer, Squidraken, Miney, Mo, Ultros*",,,,,,,,,,,,,,,,,,,,,
-Water Converter,,,PASSIVE: Restores AP upon taking water damage.,"Dualizard, Sea Serpent, Kraken",,,,,,,,,,,,,,,,,,,,,
-Water Harmony,4,Water,RANDOM: Inflict magical water damage. Hits multiple times.,Kupirate,,,,,,,,,,,,,,,,,,,,,
-Water Resistance+,,,PASSIVE: Slightly raises water resistance (+25).,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Watera,5,Water,SINGLE: Inflict magical water damage.,"Water Golem, Quacho, Tonberry King, Red Bonnetberry, Mega Sharqual, Mega Nightsqual, Sea Serpent, Kraken, Cenchos, Leviathan*, Master Tonberry, Quacho Queen*, Miney, Mo, Ultros*",,,,,,,,,,,,,,,,,,,,,
-Waterga,7,Water,ALL: Inflict magical water damage.,"Quacho Queen, Elasmos, Sea Worm, Quacho Queen*",,,,,,,,,,,,,,,,,,,,,
-Waterspout,4,Water,SINGLE: Inflict magical water damage. Bypasses defense.,"Sharqual, Nightsqual",,,,,,,,,,,,,,,,,,,,,
-Wave Cannon,10,Neutral,ALL: Inflict neutral magical damage.,"Omega, Omega Bane",,,,,,,,,,,,,,,,,,,,,
-Wheel,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Magna Roader (Purple), Magna Roader (Yellow), Magna Roader (Red)",,,,,,,,,,,,,,,,,,,,,
-Whirlpool,5,Water,SINGLE: Inflict magical water damage / slow.,"Mega Nightsqual, Sea Worm",,,,,,,,,,,,,,,,,,,,,
-Whirlwind,5,Wind,ALL: Inflict magical wind damage.,"Valefor, Entom Guard",,,,,,,,,,,,,,,,,,,,,
-Whisperwind,4,Wind,SINGLE: Inflict magical wind damage and restore an equal amount of HP.,Sylph,,,,,,,,,,,,,,,,,,,,,
-Wild Horn,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Behemoth,,,,,,,,,,,,,,,,,,,,,
-Wind Converter,,,PASSIVE: Restores AP upon taking wind damage.,Trihyde,,,,,,,,,,,,,,,,,,,,,
-Wind Resistance+,,,PASSIVE: Slightly raises wind resistance (+25).,Mirajewel,,,,,,,,,,,,,,,,,,,,,
-Wind Rhapsody,4,Wind,RANDOM: Inflict magical wind damage. Hits multiple times.,"Moogle, Master Moogle",,,,,,,,,,,,,,,,,,,,,
-Wind Slash,3,Wind,ALL: Inflict wind damage.,Gilgamesh,,,,,,,,,,,,,,,,,,,,,
-Yawn,4,,ALL: Inflict sleep.,Quachacho,,,,,,,,,,,,,,,,,,,,,
-Zantetsuken,4,,ALL: Inflict death. Odds increase as the wielder's HP and AP decrease.,"Odin, Odin*",,,,,,,,,,,,,,,,,,,,,
-Zap,,,SUPPORT: Activate machinery by charging it whit electricity.,"Zapt, Joult, Searcher, Security Eye, Death Searcher, Entom Guard",,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿Skill,Ap,Element,Description,Mirages
+"1,000 Meedles",3,Neutral,RANDOM: Inflict a fixed amount of neutral physical damage. Hits multiple times.,Cactrot
+"1,000 Needles",4,Neutral,SINGLE: Inflict a fixed amount of neutral physical damage.,"Cactuar, Master Cactuar"
+Absorb-MAG,5,,SINGLE: Inflict magic down / magic defense down. SELF: Gain magic up / magic defense up.,Vampire
+Absorb-PHY,5,,SINGLE: Inflict strength down / defense down. SELF: Gain strength up / defense up.,Demivampire
+Abyss,5,Dark,Inflict magical dark damage.,"Kyubi, Gleed, Shivverina, Voultr"
+Accuracy+,,,PASSIVE: Slightly raises accuracy.,"Various Mirage, Mirajewel"
+Accuracy++,,,PASSIVE: Raises accuracy.,"Various Mirage, Mirajewel"
+Accuracy+++,,,PASSIVE: Greatly raises accuracy.,
+Accursed Gaze,4,Neutral,SINGLE: Inflict neutral magical damage / slow.,Buer
+Acid Fang,4,Neutral,SINGLE: Inflict neutral physical damage / defens down. TOPPLE STRENGTH: Medium,Trihyde
+Acid Mist,4,Water,ALL: Inflict magical water damage / defense down.,Tiamat
+Adrenaline,,,PASSIVE: Lessens the damage taken while HP is low.,"Behemoth, Kuza Beast"
+Aero,3,Wind,SINGLE: Inflict magical wind damage.,"Serafie, Golem Head, Kuza Kit, Cocadrille, Flan, Mist Dragon, Wind Toad, Nightmare, Magna Roader (Yellow)"
+Aerora,5,Wind,SINGLE: Inflict magical wind damage.,"Diva Serafie, Golem Head, Ahriman, Wind Toad, Magna Roader (Yellow), Einhänder"
+Aeroga,7,Wind,ALL: Inflict magical wind damage.,Mirajewel
+Agility+,,,PASSIVE: Slightly raises agility.,"Various Mirage, Mirajewel"
+Agility++,,,PASSIVE: Raises agility.,"Various Mirage, Mirajewel"
+Agility+++,,,PASSIVE: Greatly raises agility.,Mirajewel
+Ailment AP Boost,,,"PASSIVE: While afflicted by status ailments, raises the amount of AP restored each turn.",Floating Eye
+Ailment Regen,,,PASSIVE: Bestow regen while afflicted by a status ailment.,"Nut Eater, Holy Dragon"
+All Resistances+,,,PASSIVE: Raises all element resistances (+5). ,Mirajewel
+Ambush,,,PASSIVE: Ensures the initial action of a preemptive strike will result in a critical.,"Mega Nightsqual, Minotaur"
+Anaphylaxis,,,PASSIVE: Raises critical chance when attacking a poisoned target.,Manticore
+Anti-Magic Coating,,,PASSIVE: Lessens magical damage taken.,Magitek Armor A
+Antibodies,,,PASSIVE: Gradually raises resistance to all status ailments each time on is incurred.,Sea Serpent
+Aqua Spikes,,,PASSIVE: Allows one to sometimes counter with water when hit.,"Leviathan, Leviathan*"
+Arcane Counterstance,3,,SELF: Enter counterstance and retaliate against magical attacks.,Mimic
+Arenaceous Body,,,PASSIVE: Gives a chance of nullifying damage.,Sandicore
+Arise,7,,ALL: Revive KO'd allies and restore a moderate amount of HP.,Mirajewel
+Armor Piercer,6,Neutral,SINGLE: Inflict neutral physical damage / defense down. Bypasses defense. TOPPLE STRENGTH: Medium,"Mimic, Mimic Jackpot"
+Assault,,,PASSIVE: Raises all damage dealt during the first two turns of combat.,"Cerberus, Black Nakk, Sharqual, Death Machine"
+Atomic Impact,15,Dark,ALL: Inflict physical dark damage. TOOPLE STRENGTH: High,Omega God
+Auspicious Theme,5,,ALL: Bestow accuracy up / evasion up.,Lucky Toad
+Auto-Hi-Potion,,,PASSIVE: Automatically expands a hi-potion if an attack lowers HP below a certain amount.,Glow Moogle
+Auto-Phoenix,,,PASSIVE: Automatically expends phoenix down when an ally is KO'd.,"Diva Serafie, Princess Goblin, Princess Goblin*"
+Auto-Potion,,,PASSIVE: Automatically expends a potion if an attack lowers HP below a certain amount.,"Goblin, Kupicaroon"
+Auto-Protect,,,PASSIVE: Continually bestows protect.,Adamantoise
+Auto-Shell,,,PASSIVE: Continually bestows shell.,"Chrome Giant, Adamantoise"
+Bad Breath,8,,SINGLE: Inflict poison / blindness / oblivion / slow / confusion.,Malboro
+Balance,4,,SINGLE: Restore stability.,"Sylph, Serafie, Mini Golem, Magic Pot, Magic Jar, Mini Flan, Flammantoise, Lucky Toad, Searcher"
+Balancega,8,,ALL: Restore stability.,"Siren, Diva Serafie, Glow Moogle"
+Banish,3,Light,SINGLE: Inflict magical light damage.,"White Chocobo, Baby Paleberry, Unicorn, Squidraken, Odin*, Master Moogle"
+Banishra,5,Light,SINGLE: Inflict magical light damage.,"Paleberry, Cenchos, Master Moogle"
+Bask,4,,SELF: Recover HP and gain regen.,"Minimantoise, Flammantoise"
+Battery Powered,,,"PASSIVE: Reduces all AP costs by 1. AP fully recharges for each battle, but less recovers each turn.","Death Machine, War Machine"
+Berserk,2,,"SINGLE: Force a target to use the "Attack" command, but for greater damage.""INGLE: Force a target to use the "Attack""NGLE: ","Mecha Chocobo, Vampire Prime, Mecha Chocobo*"
+Bewitching Gaze,6,Neutral,SINGLE: Inflict neutral magical damage / doom.,Ahriman
+Bewitching Whisper,4,,RANDOM: Inflict confusion. Hits multiple times.,"Imp, Garchimacera"
+Bile,3,Water,SINGLE: Inflict magical water damage / defense down.,"Water Golem, Flan"
+Bio,3,Neutral,SINGLE: Inflict neutral magical damage / poison.,"Chrome Giant, Mordskull, Garchimacera, Mindflayer, Magna Roader (Purple)"
+Blades,6,Neutral,SINGLE: Inflict neutral magical damage. TOPPLE STRENGTH: Low,Einhänder
+Blaze,5,Fire,ALL: Inflict magical fire damage.,"Tamamohimé, Kyubi, Fritt, Cerberus, Elefenrir, Nirvalefor, Phoenix, Ifrit*, Ifreeta*"
+Blaze Spikes,,,PASSIVE: Allows one to sometimes counter with fire when hit.,"Blood Eye, Ifrit, Gleefrit, Ghidra, Flammantoise, Red Dragon, Ifrit*"
+Blizzaga,7,Ice,ALL: Inflict magical ice damage.,"Shivalry, Quacho Queen, Shivalry*, Quacho Queen*"
+Blizzara,5,Ice,SINGLE: Inflict magical ice damage.,"Mishiva, Shivverina, Paleberry King, Demivampire, Flan Princess, Shiva*, Shivalry*"
+Blizzard,3,Ice,SINGLE: Inflict magical ice damage.,"Bablizz, Brrblizz, Quachacho, Baby Paleberry, Ice Bat, Mist Dragon, Security Eye"
+Bloodfang,4,Neutral,SINGLE: Absorb HP and inflict poison. TOPPLE STRENGTH: Low,Vampire
+Blossom Storm,10,Neutral,RANDOM: Inflict neutral magical damage. Hits 9 times.,"Tamamohimé, Kyubi"
+Body Slam,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,"Mecha Chocobo, Lead Gnome, Mini Golem, Sand Worm, Death Machine, War Machine, Magitek Armor P, Iron Muscles, Entom Guard, Mecha Chocobo*"
+Bold Maneuver,6,Neutral,ALL: Inflict neutral magical damage.,Omega God
+Bravery,4,,SINGLE: Raise physical damage.,"Skull Eater, Right Claw, Tonberry, Red Bonnetberry, Spark Dragon, Sphinx, Security Eye, Imp, Diabolos*, Master Tonberry"
+Breach Blast,8,Water,ALL: Inflict magical water damage.,Bismarck
+Breather,1,,SELF: Recover HP and remove all status down effects.,Hyperion
+Bulldozer,7,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,"Minotaur, Asterius"
+Bypass Reflect,,,PASSIVE: Allows one to bypass reflect when casting magic.,"Carbuncle, Einhänder"
+Cat Claw,4,Neutral,SINGLE: Inflict neutral physical damage / sleep. TOPPLE STRENGTH: Medium,Right Claw
+Celestriad,,,PASSIVE: Allows abilities to sometimes be used without expending AP.,Flan Princess
+Chaos Beak,4,Neutral,SINGLE: Inflict neutral physical damage / confusion / death. TOPPLE STRENGTH: Medium,Cocadrille
+Chaos Wave,9,Neutral,ALL: Inflict neutral magical damage.,Maduin
+Charge,0,,SELF: Recover AP.,"Mecha Chocobo, Behemoth, Kuza Beast, Magitek Armor, Magitek Armor A, Mecha Chocobo*"
+Chill,,,SUPPORT: Cool hot areas or freeze water.,"Bablizz, Brrblizz, Quachacho, Mindflayer, Squidraken"
+Choco MAX,10,Neutral,ALL: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Mecha Chocobo, Mecha Chocobo*"
+Chocobo Kick,4,Neutral,SINGLE: Inflict neutral physical damage. Hits multiple times. TOPPLE STRENGTH: Medium,"Chocobo, Hyperion, White Chocobo"
+Circumvent,6,,ALL: Remove positive status effects.,Ahriman
+Cluster,3,Neutral,RRANDOM: INflict neutral magical damage. Hits multiple times. Also harms the wielder. Scales to HP,Bombino
+Confuse,3,,SINGLE: Inflict confusion.,Serafie
+Constrict,5,Neutral,SINGLE: Inflict neutral physical damage. Scales to HP. TOPPLE STRENGTH: High,Sand Worm
+Cornered Beast,,,"PASSIVE: While HP is low, raises evasion chance / critical chance / accuracy.",Behemonster
+Counter,,,PASSIVE: Allows non-ranged attacks to sometimes be countered.,"Ifrit, Gleefrit, Babyhemoth, Mimic, Mimic Queen, Mimic Jackpot, Ifrit*"
+Counterstance,3,,SELF: Enter counterstance and retaliate against non-ranged attacks.,"Iron Muscles, Master Tonberry"
+Courage Under Fire,,,PASSIVE: Raises physical damage as HP gets lower.,Magna Roader (Yellow)
+Cover,,,"PASSIVE: If HP is high enough, allows one to sometimes take damage in place of an imperiled ally.","Goblin Guard, Minimantoise, Sphinx, Maduin"
+Crimson Cyclone,11,Fire,ALL: Inflict magical fire damage / strength down.,"Ifreeta, Ifreeta*"
+Critical AP Hike,,,PASSIVE: Restore AP upon landing a critical hit.,"Tama, Yurugu, Chocobo, White Chocobo, Elefenrir, Tonberry King"
+Critical Guard,,,PASSIVE: Lessens the damage taken from critical attacks.,"Malboro, Minimantoise, Magitek Armor"
+Critical+,,,PASSIVE: Slightly raises critical chance.,"Various Mirage, Mirajewel"
+Critical++,,,PASSIVE: Raises critical chance.,"Various Mirage, Mirajewel"
+Critical+++,,,PASSIVE: Greatly raises critical chance.,
+Crusher,4,Water,SINGLE: Inflict physical water damage. TOPPLE STRENGTH: High,Bismarck
+Crystalline Flare,7,Neutral,SINGLE: Inflict neutral magical damage / blindness.,Master Moogle
+Cura,5,,SINGLE: Restore HP.,"Siren, Princess Goblin, Quacho Queen, Flan Princess, Quacho Queen*, Princess Goblin*"
+Curaga,7,,ALL: Restore HP.,Magic Pot
+Cure,3,,SINGLE: Restore HP.,"Tama, Yurugu, Chocochick, White Chocobo, Searcher"
+Dance with Me!,5,,ALL: Inflict berserk.,Flan Princess
+Dark,4,Dark,SINGLE: Inflict magical dark damage / blindness.,"Yurugu, Floating Eye, Elefenrir, Flan Princess, Nightsqual, Garchimacera, Nightmare, Mindflayer, Magna Roader (Purple), Odin*, Ultros*, Undead Princess*"
+Dark Converter,,,PASSIVE: Restores AP upon taking dark damage.,"Undead Princess, Undead Princess*"
+Dark Mysteries,7,Dark,SINGLE: Inflict magical dark damage.,Vampire Prime
+Dark Resistance+,,,PASSIVE: Slightly raises dark resistance (+25).,Mirajewel
+Death,8,,SINGLE: Inflict death.,"Mordskull, Mimic, Mimic Jackpot, Death Searcher"
+Death Beak,3,Neutral,SINGLE: Inflict neutral physical damage / poison / death. TOPPLE STRENGTH: Medium,Cockatrice
+Deep Freeze,11,Ice,SINGLE: Inflict physical ice damage / evasion down. TOPPLE STRENGTH: Medium,"Shivalry, Shivalry*"
+Defense+,,,PASSIVE: Slightly raises defense.,"Various Mirage, Mirajewel"
+Defense++,,,PASSIVE: Raises defense.,"Various Mirage, Mirajewel"
+Defense+++,,,PASSIVE: Greatly raises defense.,
+Dispelga,,,ALL: Remove positive status effects.,Bahamut*
+Destroyer,2,,SELF: Gain berserk / haste.,"Omega, Omega Bane"
+Diamond Dust,11,Ice,ALL: Inflict magical ice damage.,"Shiva, Shivver, Shiva*"
+Dispel,2,,SINGLE: Remove positive status effects.,Holy Dragon
+Dispel Counter,,,PASSIVE: Allows one to sometimes counter with Dispel.,Ultros
+Doom,5,,SINGLE:Automatically KO a target when the countdown runs out.,Memecoleous
+Double Attack,4,Neutral,SINGLE: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Medium,"Dualizard, Bihydra"
+Double Cut,5,Neutral,SINGLE: Inflict neutral physical damage. Hits 4 times. TOPPLE STRENGTH: Medium,"Odin, Odin*"
+Double Smash,4,Neutral,RANDOM: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Medium,"Copper Gnome, Golem Head, Brothertaur, Iron Muscles"
+Drain,4,Dark,SINGLE: Use dark power to absorb HP.,"Kuza Kit, Ice Bat"
+Draining Claw,3,Dark,SINGLE: Inflict physical dark damage and absorb HP. TOPPLE STRENGTH: Medium,Left Claw
+Draintouch,,,"PASSIVE: Allows some of the damage dealt by "Attack" to be absorbed as HP.""ASSIVE: Allows some of the da",Vampire Prime
+Dread Gaze,8,Neutral,SINGLE: Inflict neutral magical damage / confusion / death.,"Undead Princess, Undead Princess*"
+Dread Spikes,,,PASSIVE: Allows one to sometimes counter with Drain.,Demivampire
+Earth Resistance+,,,PASSIVE: Slightly raises earth resistance (+25).,Mirajewel
+Earthquake,6,Earth,ALL: Inflict magical earth damage.,"Sand Worm, Elite Entom"
+Eclipse Bite,8,Dark,SINGLE: Inflict physical dark damage. High critical chance. TOPPLE STRENGTH: Medium,Elefenrir
+Element Absorber,,,PASSIVE: When hit sometimes absorbs elemental damage.,Skull Eater
+Endless Blessings,,,PASSIVE: Slightly increases the duration of abilities that grant positive effects.,"Siren, Water Toad"
+Endless Nightmare,,,PASSIVE: Slightly increases the duration of status ailments one inflicts.,"Malboro Menace, Ahriman, Buer, Mindflayer, Squidraken"
+Energy Ray,10,Neutral,ALL: Inflict neutral magical damage.,"Valefor, Nirvalefor"
+Enhanced Attack,,,"PASSIVE: Raises damage dealt by the "Attack" command.""ASSIVE: Raises d","Titan, Ultima Weapon, Bahamut*"
+Enhanced Criticals,,,PASSIVE: Raises critical damage.,"Skull Eater, Nut Eater, Elefenrir, Baby Tonberry, Tonberry, Tonberry King, Red Bonnetberry, Mega Sharqual, Ultima Weapon, Bahamut*, Master Tonberry"
+Enhanced Cure,,,PASSIVE: Improves the effectiveness of HP recovery abilities.,"Sylph, Moogle, Quacho Queen, Unicorn, Quacho Queen*"
+Enhanced Earth,,,PASSIVE: Raises earth ability damage.,Titan
+Enhanced Fire,,,PASSIVE: Raises fire ability damage.,"Fritt, Ifreeta, Weeglee, Nirvalefor, Bomb, Ifrit*, Ifreeta*"
+Enhanced Ice,,,PASSIVE: Raises ice ability damage.,"Shivalry, Brrblizz, Quachacho, Shiva*, Shivalry*"
+Enhanced Light,,,PASSIVE: Raises light ability damage.,"Paleberry, Cenchos"
+Enhanced Thunder,,,PASSIVE: Raises thunder ability damage.,"Zapt, Ramewl, Joult, Ramuh*, Ramewl*"
+Enhanced Water,,,PASSIVE: Raises water ability damage.,"Elasmos, Sea Snake, Leviathan, Sea Worm, Cenchos, Leviathan*, Ultros*"
+Enhanced Wind,,,PASSIVE: Raises wind ability damage.,"Golem Head, Valefor, Tiamat, Wind Toad"
+Entropy,,,PASSIVE: Randomly raises or lessens the topple strength of attacks.,"Malboro, Garchimacera, Brothertaur, Asterius"
+Equilibrium,,,PASSIVE: Halves stability loss while HP is full.,Mini Golem
+Esuna,3,,SINGLE: Remove status ailments.,"Princess Goblin, Cockatrice, Sistertaur, Princess Goblin*"
+Esunaga,8,,ALL: Remove status ailments.,Cocadrille
+Evade & Counter,,,PASSIVE: Raises evasion chance and allows one to potentially counter if successful.,"Werebat, Mist Dragon"
+Evasion+,,,PASSIVE: Slightly raises evasion chance.,"Various Mirage, Mirajewel"
+Evasion++,,,PASSIVE: Raises evasion chance.,"Various Mirage, Mirajewel"
+Evasion+++,,,PASSIVE: Greatly raises evasion chance.,
+Everyone's Grudge,6,Dark,ALL: Inflict magical dark damage. Power increases relative to accrued damage.,"Tonberry King, Paleberry King"
+Evil Mist,8,Dark,ALL: Inflict magical dark damage / poison.,"Kraken, Cenchos"
+Exp Boost,,,PASSIVE: Raises the EXP intake of battle participants.,Mirajewel
+Expandable Ribbon,,,PASSIVE: Ensure the first status ailment incurred in each battle is nullified. Works on most ailments.,"Princess Goblin, Lead Gnome, Princess Goblin*"
+Explode,2,Neutral,ALL: Inflict neutral magical damage. Also harms allies. Scales to HP.,King Bomb
+Extra Needles,,,PASSIVE: Raises the damage of needle attacks.,"Cactrot, Gigantrot, Master Cactuar"
+Extreme Bomber,,,"PASSIVE: Allows physical attacks to sometimes be countered. The lower one's HP, the stronger the blow.","Quacho Queen, Quacho Queen*"
+Faith,4,,SINGLE: Raise magical damage.,"Memecoleous, Searcher"
+Fira,5,Fire,SINGLE: Inflict magical fire damage.,"Buer, Affrite, Gleed, Red Dragon, King Bomb, Phoenix, Ifrit*"
+Firaga,7,Fire,ALL: Inflict magical fire damage.,"Ifreeta, Einhänder"
+Fire,3,Fire,SINGLE: Inflict magical fire damage.,"Red Captain, Blood Eye, Fritt, Cockatrice, Bihydra, Red Bonnetberry, Flammantoise, Bomb, Manticore, Searcher, Imp, Magna Roader (Red), Weeglee, Diabolos*"
+Fire Beam,7,Fire,SINGLE: Inflict magical fire damage.,"Magitek Armor, Magitek Armor P"
+Fire Breath,7,Fire,ALL: Inflict magical fire damage. Scales to HP.,Red Dragon
+Fire Converter,,,PASSIVE: Restores AP upon taking fire damage.,"Affrite, Gleed, Bihydra, King Bomb, Phoenix, Ifrit*, Ifreeta*"
+Fire Resistance+,,,PASSIVE: Slightly raises fire resistance (+25).,Mirajewel
+First Strike,,,PASSIVE: Raises the odds of a preemptive strike.,"Mu, Red Cap, Fenrir, Mimic, Nightsqual, Searcher, Magitek Armor P, Magna Roader (Purple)"
+Flames of Rebirth,9,Fire,ALL: Inflict magical fire damage and revive all allies.,Phoenix
+Flaming Hell,6,Fire,ALL: Inflict magical fire damage.,XG
+Flare,9,Neutral,SINGLE: Inflict neutral magical damage.,Bahamut*
+Flare Star,10,Fire,ALL: Inflict magical fire damage.,Red Dragon
+Flash,3,,ALL: Inflict blindness.,"Goblin Guard, Holy Dragon, Magna Roader (Red), Princess Goblin*"
+Flee,,,PASSIVE: Guarantees escape as long as an enemy can be fled from.,"Black Chocochick, Cactuar, Cactrot"
+Flutter,,,SUPPORT: Fly Reynn and Lann a short distance.,"Floating Eye, Blood Eye, Moogle, Glow Moogle, Master Moogle"
+Focus,0,,SELF: Raise the damage dealt by one's next attack.,"Bomb, Sea Worm, Minotaur, Asterius, Iron Muscles"
+Forest Nocturne,4,,RANDOM: Restore HP. Takes effect multiple times.,"Moogle, Glow Moogle, Master Moogle"
+Foxfire,4,Fire,SINGLE: Inflict magical fire damage.,"Tama, Yurugu"
+Frenzy Walnut,2,,SELF: Recover HP and gain regen / berserk.,Nut Eater
+Full Output,8,Neutral,ALL: Inflict neutral magical damage.,"Death Machine, War Machine"
+Full Power!,6,Neutral,SINGLE: Inflict neutral physical damage and raise the power of your next attack.,Ultima Weapon
+Gaia's Wrath,11,Earth,ALL: Inflict magical earth damage. TOPPLE STRENGTH: Medium,Titan
+Gaze,4,Neutral,SINGLE: Inflict neutral magical damage / confusion.,"Ahriman, Blood Eye, Mimic Queen, Death Searcher"
+Gelatinous Body,,,"PASSIVE: Lessens physical damage taken, but raises magical damage taken.","Water Golem, Mini Flan"
+Gentle Mist,5,,ALL: Restore HP and bestow regen.,Mist Dragon
+Geocrush,6,Earth,SINGLE: Inflict physical earth damage. TOPPLE STRENGTH: High,Titan
+Gilfinder,,,PASSIVE: Increase the amount of gil obtained in battle.,"Chocochick, Gigantuar, Magic Jar"
+Gimme an elixir!,,,PASSIVE: Causes elixirs received to raise various stats.,"Magic Pot, Magic Jar"
+Gnaw,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,White Nakk
+Goblin Eye Gouge,3,Neutral,SINGLE: Inflict neutral physical damage / blindness. TOPPLE STRENGTH: Medium,Red Cap
+Goblin Punch,4,Neutral,RANDOM: inflict neutral physical damage. Hits multiple times. TOPPLE STRENGTH: Low,Goblin
+Grand Sword,5,Neutral,ALL: Inflict neutral physical damage. TOPPLE STRENGTH: High,Iron Giant
+Gravija,20,,ALL: Eliminate 1/4 of the target's remaining HP.,"Diabolos, Diabolos*"
+Gravity,10,,SINGLE: Eliminate 1/4 of the target's remaining HP.,"Death Searcher, Nightmare"
+Gravity Counter,,,PASSIVE: Allows one to sometimes counter with Gravity.,"Sand Worm, Sea Worm"
+Great Sandstorm,9,Earth/Wind,ALL: Inflict physical earth damage / wind damage / blindness.,"Sphinx, Memecoleous"
+Guardian Glow,2,,ALL: Bestow defense up / magic defense up.,Sphinx
+Gungnir,4,Neutral,ALL: Inflict neutral physical damage. TOPPLE STRENGTH: High,"Odin, Odin*"
+Haste,4,,SINGLE: Speed up how often the target takes a turn.,"Black Chocochick, Diva Serafie, Red Cap, Ramewl, Wind Toad, Gilgamesh, Magna Roader (Yellow), Master Cactuar, Ramewl*"
+Healing Horn,6,,ALL: Remove status ailments and restore HP.,Unicorn
+Heave,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Very High,Behemonster
+Heavenly Wrath,7,Light,SINGLE: Inflict physical light damage. Hits 4 times. TOPPLE STRENGTH: High,Holy Dragon
+Heaven's Wrath,11,Thunder,RANDOM: Inflict magical thunder damage. Hits 8 times.,"Ramewl, Ramewl*"
+Heavy Counter,,,PASSIVE: Allows non-ranged attacks to sometimes be countered with a powerful blow.,Behemoth
+Heavy Magic Counter,,,PASSIVE: Allows magical attacks to sometimes be countered with a powerful blow.,Kuza Beast
+Hellfire,11,Fire,ALL: Inflict magical fire damage.,"Ifrit, Gleefrit, Ifrit*"
+Hi-Speed OP,,,PASSIVE: Automatically restores HP if an attack lowers HP below a certain amount.,Security Eye
+Holy,9,Light,SINGLE: Inflict magical light damage.,"Paleberry King, Holy Dragon"
+Horn,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Babyhemoth, Kuza Kit, Brothertaur, Sistertaur, Nightmare"
+Howl,4,,ALL: Bestowe evasion up / accuracy up.,White Nakk
+Howling Moon,4,,SELF: Gain berserk / haste / evasion up.,Fenrir
+HP+,,,PASSIVE: Slightly raises HP (+5%).,"Various Mirage, Mirajewel"
+HP++,,,PASSIVE: Raises HP.,"Various Mirage, Mirajewel"
+HP+++,,,PASSIVE: Greatly raises HP.,
+Hydrotwister,6,Water,SINGLE: Inflict magical water damage. Bypasses defense.,"Mega Sharqual, Mega Nightsqual"
+Hyper Mode,,,"PASSIVE: If HP is full, gives attacks a chance of bestowing bravery / faith.",XG
+Hypnosis,4,,SINGLE: Inflict sleep.,"Floating Eye, Nightmare, Undead Princess*"
+Ice Beam,7,Ice,SINGLE: Inflict magical ice damage.,"Magitek Armor, Magitek Armor A"
+Ice Converter,,,PASSIVE: Restore AP upon taking ice damage.,"Mishiva, Shivverina, Shiva*, Shivalry*"
+Ice Resistance+,,,PASSIVE: Slightly raises ice resistance (+25).,Mirajewel
+Ice Spikes,,,PASSIVE: Allows one to sometimes counter with ice when hit.,"Shiva, Shivver, Shiva*"
+Ice Storm,5,Ice,ALL: Inflict magical ice damage.,"Bablizz, Fenrir, Cerberus, Quachacho, Shiva*, Shivalry*"
+Impact Claw,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Left Claw
+Incisors,5,Neutral,Inflict neutral physical damage / poison / magic defense down. TOPPLE STRENGTH: Medium,"Skull Eater, Nut Eater"
+Induration,,,PASSIVE: Sometimes bestows defense up upon taking a hit.,"Copper Gnome, Quachacho"
+Initial AP Hike,,,PASSIVE: Restores AP at the start of battle.,Malboro Menace
+Initiative,,,PASSIVE: Sometimes bestows haste at start of battle.,Hyperion
+Invincible,,,PASSIVE: Gives a chance of nullifying damage.,Iron Giant
+Jet Fire,10,Wind,ALL: Inflict magical wind damage.,Tiamat
+Joyride,,,SUPPORT: Serve as a mode of transportation for Reynn and Lann.,"Tamamohimé, Kyubi, Chocobo, Mecha Chocobo, Hyperion, White Chocobo, Malboro, Malboro Menace, Fenrir, Elefenrir, Behemoth, Kuza Beast, Right Claw, Flan, Sharqual, Nightsqual, Magitek Armor, Magitek Armor A, Magitek Armor P, Magna Roader (Purple), Magna Roader (Yellow), Magna Roader (Red), Omega, Omega Bane, Mecha Chocobo*"
+Judgment Bolt,11,Thunder,ALL: inflict magical thunder damage.,"Ramuh, Rairamuh, Ramuh*"
+KERS,0,,SELF: Recover AP and remove all status effects.,Magna Roader (Red)
+Kishin,15,Dark,SINGLE: Inflict physical dark damage. TOPPLE STRENGTH: High,XG
+Knife,4,Neutral,SINGLE: Inflict neutral physical damage. Bypasses defense. TOPPLE STRENGTH: Medium,"Tonberry, Paleberry"
+Kuparrr!,4,Neutral,RANDOM: Inflict neutral physical damage / berserk. Hits multiple times. TOPPLE STRENGTH: Medium,Kupicaroon
+Lambaste,3,Neutral,SINGLE: Inflict neutral physical damage. Hits multiple times. TOPPLE STRENGTH: Medium,Gilgamesh
+Last Stand,,,"PASSIVE: Once per battle, prevents HP from dropping to 0.","Behemonster, Magic Pot, Bomb, Magna Roader (Yellow)"
+Leaf Dagger,3,Wind,SINGLE: Inflict physical wind damage / poison. TOPPLE STRENGTH: Low,"Mandragora, Korrigan"
+Leech,3,Dark,SINGLE: Use dark power to absorb HP.,Werebat
+Left Claw,3,Neutral,SINGLE: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Low,Left Claw
+Leg Sweep,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Gilgamesh
+Lethean Gaze,4,Neutral,SINGLE: Inflict neutral magical damage / oblivion.,Blood Eye
+Lethean Punch,4,Neutral,SINGLE: Inflict neutral physical damage / oblivion. TOPPLE STRENGTH: Medium,Reaver Mu
+Libra,1,,SINGLE: View useful information about the target.,"Tama, Yurugu, Mu, Moogle, Magic Pot, Searcher, Security Eye"
+Light Converter,,,PASSIVE: Restores AP upon taking light damage.,Paleberry King
+Light Resistance+,,,PASSIVE: Slightly raises light resistance (+25).,Mirajewel
+Love Serenade,7,,RANDOM: Bestow defense up / magic defense up. Takes effect multiple times.,Glow Moogle
+Lullaby,7,,ALL: Inflict sleep.,"Siren, Wind Toad"
+Lure,,,PASSIVE: Increase enemy encounters.,Mirajewel
+Mage Masher,3,Fire,SINGLE: Inflict physical fire damage / magic down. TOPPLE STRENGTH: Low,Ghidra
+Magic Counter,,,PASSIVE: Allows magical attacks to sometimes be countered.,"Kuza Kit, Iron Muscles"
+Magic Defense+,,,PASSIVE: Slightly raises magic defense.,"Various Mirage, Mirajewel"
+Magic Defense++,,,PASSIVE: Raises magic defense.,"Various Mirage, Mirajewel"
+Magic Defense+++,,,PASSIVE: Greatly raises magic defense.,
+Magic+,,,PASSIVE: Slightly raises magic.,"Various Mirage, Mirajewel"
+Magic++,,,PASSIVE: Raises magic.,"Various Mirage, Mirajewel"
+Magic+++,,,PASSIVE: Greatly raises magic.,
+Magitek Cicuitry,,,PASSIVE: Raises magical damage.,"Magitek Armor, Magitek Armor P"
+Mana's Paean,4,,ALL: Bestow magic up.,Wind Toad
+Megaflare,4,Neutral,ALL: Inflict neutral magical damage. Power increases as the wielder's HP/AP decrease.,Bahamut*
+Meltdown,,,"PASSIVE: When hit while HP is 10% or less, causes one to self-destruct and harm allies.","Omega, Omega Bane"
+Metal Cutter,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Magitek Armor A
+Metal Salvo,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,"Mecha Chocobo, Mecha Chocobo*"
+Metallic Body,,,PASSIVE: Lessens all damage taken.,"Metalliskull, Iron Muscles, Entom Guard, Entom Soldier, Elite Entom"
+Meteor,11,Neutral,RANDOM: Inflict neutral physical damage. Hits 4 times.,Mirajewel
+Meteor Counterstance,6,,SELF: Enter counterstance and use Meteor at AP cost to retaliate against attacks.,Behemonster
+Mightiest of Sword,4,,SINGLE: ATtack with the mightiest of swords.,Gilgamesh
+Mighty Guard,2,,SELF: Gain protect / shell.,Iron Giant
+Mind Blast,4,Neutral,SINGLE: Inflict neutral magical damage / confusion / oblivion.,"Mindflayer, Squidraken"
+Mind Madrigal,5,,ALL: Bestow magic defense up.,Water Toad
+Miraculous Drill,6,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Mimic Queen
+Missile,4,Neutral,SINGLE: Inflict neutral magical damage.,"Omega, Omega Bane"
+Moon Flute,4,,ALL: Inflict berserk.,Garchimacera
+Needle Thrift,,,PASSIVE: Reduce AP cost of all needle attacks by 1.,"Cactuar, Gigantuar"
+Nightmare,4,,ALL: Inflict sleep.,"Diabolos, Diabolos*"
+Nightmaretouch,,,"PASSIVE: Causes the "Attack" command to inflict sleep.""ASSIVE: Causes the "Attack" comma""SSIVE: Causes","Diabolos, Diabolos*"
+Nightmarish Lore,,,PASSIVE: Raises damage when attacking a sleeping target.,"Diabolos, Nightmare, Diabolos*"
+No Escape,,,PASSIVE: Completly prevents enemies from escaping.,"Right Claw, Mimic, Mimic Jackpot, Vampire Prime, Magitek Armor P"
+Octentacle,8,Neutral,RANDOM: Inflict neutral physical damage. Hits 8 times. TOPPLE STRENGTH: Medium,"Ultros, Ultros*"
+Ode of Oblivion,4,,ALL: Inflict oblivion.,Water Toad
+Overclock,,,"PASSIVE: While berserk, bestows agility up but causes HP to drain.","Mecha Chocobo, Omega Bane, Mecha Chocobo*"
+Overheat,,,"PASSIVE: Upon taking fire damage, somtimes bestows berserk.","Entom Guard, Entom Soldier, Elite Entom"
+Pattern Analysis,,,"PASSIVE: When hit, sometimes bestows evasion up on all allies.","Searcher, Einhänder"
+Perfect Dodge,3,,SELF: Enter counterstance and evade physical attacks.,Master Cactuar
+Petty Grudge,3,Dark,SINGLE: Inflict magical dark damage. Power increases relative to accrued damage.,"Baby Tonberry, Baby Paleberry, Red Bonnetberry"
+Pharmacology,,,PASSIVE: Improves the effectiveness of HP recovery items.,"Serafie, Red Captain, Kupirate, Tonberry, Red Bonnetberry, Memecoleous, Imp, Master Tonberry"
+Phaeosynthesis,,,PASSIVE: Raises the amount of AP restored each turn.,Korrigan
+Photosynthesis,,,PASSIVE: Somtimes bestows regen at start of battle.,"Mandragora, Gigantuar, Gigantrot"
+Point Deflector,,,PASSIVE: Completly nullifies damage up to three times.,Omega God
+Poison Bite,4,Neutral,SINGLE: Inflict neutral physical damage / poison. TOPPLE STRENGTH: Medium,"Kyubi, Dualizard, Bihydra"
+Poison Counter,,,"PASSIVE: When hit, sometimes inflicts poison on the assailant.",Adamantoise
+Poison Nails,3,Neutral,SINGLE: Inflict neutral physical damage / poison. TOPPLE STRENGTH: Medium,"Right Claw, Imp, Diabolos*"
+Poisontouch,,,"PASSIVE: Gives the "Attack" command a chance of inflicting poison.""ASSIVE: Gives the "Attack" command a chance of""SSIVE: Gives the "Attack" c""SIVE: Giv","Mandragora, Lead Gnome, White Nakk"
+Possesion Rush,8,Neutral,SINGLE: Inflict neutral physical damage / confusion. TOPPLE STRENGTH: High,"Undead Princess, Undead Princess*"
+Pressure,4,Earth,ALL: Inflict physical earth damage. TOPPLE STRENGTH: Medium,Adamantoise
+Princess's Charm,7,Neutral,SINGLE: Inflict neutral physical damage / blindness. TOPPLE STRENGTH: Medium,"Princess Goblin, Princess Goblin*"
+Protect,2,,SINGLE: Lessen physical damage taken.,"Goblin Guard, Copper Gnome, Chrome Giant, Mimic, Mimic Jackpot, Minimantoise, Minotaur, Gilgamesh, Princess Goblin*"
+Pulverizing Blow,6,Neutral,SINGLE: Inflict neutral physical damage / doom. TOPPLE STRENGTH: Medium,"Entom Soldier, Elite Entom"
+Punch,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Mu, Fritt, Weeglee, Vampire, Demivampire, Ifrit*, Ifreeta*"
+Putrid Breath,11,,SINGLE: Inflict various status ailments / negative status effects.,Malboro Menace
+Quake,10,Earth,ALL: Inflict magical earth damage. TOPPLE STRENGTH: Medium,Mordskull
+Quicksand,4,Earth,SINGLE: Inflict magical earth damage / slow.,"Mordskull, Sand Worm"
+Rage Bomber,,,"PASSIVE: Allows physical attacks to sometimes be countered. The lower one's HP, the stronger the blow.","Quacho, Miney, Mo"
+Raigeki,4,Thunder,SINGLE: Inflict physical damage. TOPPLE STRENGTH: Medium,XG
+Raise,4,,ALL: Revive KO'd allies and restore a little HP.,"Tamamohimé, Chocobo, White Chocobo, Princess Goblin, Phoenix, Princess Goblin*"
+Rake,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,Ahriman
+Ram,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Chocochick, Black Chocochick, Korrigan"
+Random Shock,4,Thunder,RANDOM: Inflict magical thunder damage. Hits multiple times.,"Metalliskull, Entom Soldier, Elite Entom, Einhänder"
+Reaper,4,Water,ALL: Inflict physical water damage. TOPPLE STRENGTH: Medium,"Leviathan, Leviathan*"
+Reaper Lore,,,PASSIVE: Restores a little HP whenever someone is KO'd.,"Undead Princess, Death Searcher, Undead Princess*"
+Rebound,,,"PASSIVE: Once per battle, prevents a stack from toppling.",Magitek Armor P
+Recycle,,,PASSIVE: Sometimes prevents items from being consumed on use.,Magna Roader (Red)
+Red Fang,4,Fire,SINGLE: Inflict physical fire damage. TOPPLE STRENGTH: Medium,"Black Nakk, Red Dragon"
+Reflect,4,,SINGLE: Cause a target to reflect magic back at casters.,"Diva Serafie, Buer, Left Claw, Magic Jar, Kraken, Cenchos, Entom Guard, Ultros*"
+Refueling,3,,SELF: Gain haste.,Bombino
+Regen,4,,SINGLE: Gradually restore HP.,"Tamamohimé, Mu, Zaphr, Voultr, Unicorn, Ramuh*, Odin*, Ramewl*"
+Renew,3,,SINGLE: Remove status ailments.,Sylph
+Resist Accuracy Down,,,PASSIVE: protect against accuracy down.,Mirajewel
+Resist Berserk,,,PASSIVE: Protect against berserk.,Mirajewel
+Resist Blindness,,,PASSIVE: Protect against blindness.,Mirajewel
+Resist Confusion,,,PASSIVE: Protect against confusion.,Mirajewel
+Resist Defense Down,,,PASSIVE: protect against defense down.,Mirajewel
+Resist Evasion Down,,,PASSIVE: protect against evasion down.,Mirajewel
+Resist Magic Defense Down,,,PASSIVE: protect against magic defense down.,Mirajewel
+Resist Magic Down,,,PASSIVE: protect against magic down.,Mirajewel
+Resist Oblivion,,,PASSIVE: Protect against oblivion.,Mirajewel
+Resist Poison,,,PASSIVE: Protect against poison.,Mirajewel
+Resist Sleep,,,PASSIVE: Protect against sleep.,Mirajewel
+Resist Slow,,,PASSIVE: Protect against slow.,Mirajewel
+Resist Strength Down,,,PASSIVE: protect against strength down.,Mirajewel
+Resist Stun,,,PASSIVE: Protects against stun.,"Mirajewel, Water Golem, Flan"
+Restore,3,,SINGLE: Restore HP.,"Red Captain, Water Golem"
+Retaliatory Missile,,,PASSIVE: Allows one to counter uo to two attacks with missiles.,"Death Machine, War Machine"
+Reteethe,,,PASSIVE: Bestows strength up upon landing a critical hit.,"Mega Sharqual, Mega Nightsqual"
+Revenge Blast,4,Neutral,SINGLE: Inflict neutral physical damage. Power increases as the wielder's HP decreases. TOPPLE STRENGTH: Low,Babyhemoth
+Revivify,,,PASSIVE: Gradually restores HP.,"Mordskull, Vampire Prime, Undead Princess*"
+Riddle,7,,SINGLE: Inflict confusion / doom.,Sphinx
+Right Claw,3,Neutral,SINGLE: Inflict neutral physical damage. Hits twice. TOPPLE STRENGTH: Low,Right Claw
+Riot Blow,6,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,Maduin
+Ruby Light,8,,ALL: Bestow reflect.,Carbuncle
+Safety Bit,,,PASSIVE: Raises resistance to death while HP is low.,"Cockatrice, Cocadrille, Phoenix"
+Sandstorm,6,Earth/Wind,ALL: Inflict physical earth damage / wind damage / blindness.,"Sandicore, Sand Worm"
+Scream,3,,ALL: Inflict magic defense down.,Korrigan
+Self-Destruct,1,Neutral,SINGLE: Inflict neutral magical damage. Also harms the wielder. Scales to HP.,Bomb
+Shake,3,Earth,SINGLE: Inflict magical earth damage. TOPPLE STRENGTH: HIgh,Mini Golem
+Sharksin,,,PASSIVE: Redirects a portion of close-quarters damage back at the assailant.,Bismarck
+Sharpened Knife,7,Neutral,SINGLE: Inflict neutral physical damage / defense down. Bypasses defense. TOPPLE STRENGTH: Medium,Master Tonberry
+Shell,2,,SINGLE: Lessen magical damage taken.,"Chocochick, Carbuncle, Goblin, Mythril Giant, Water Golem, Zapt, Joult, Kupicaroon, Minimantoise, Asterius, Gilgamesh, Ramuh*"
+Shining Ruby,4,,ALL: Bestow defense up / magic defense up.,Carbuncle
+Shock Spikes,,,PASSIVE: Allows one to sometimes counter with thunder when hit.,"Ramuh, Rairamuh, Metalliskull, Spark Dragon, Ramuh*"
+Shocking Breath,7,Thunder,ALL: Inflict magical thunder damage. Scales to HP.,Spark Dragon
+Silent Voice,9,Wind,ALL: Inflict magical wind damage / oblivion.,"Siren, Diva Serafie"
+Sizzle,,,SUPPORT: Burn obstacles or light fuses.,"Red Captain, Fritt, Weeglee, Black Nakk, Cockatrice, Bomb"
+Slash,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Goblin Guard, Red Captain, Metalliskull"
+Sled Fang,6,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,Fenrir
+Sleep,4,,SINGLE: Inflict sleep.,"Golem Head, Shiva, Shivver, Vampire Prime, Squidraken, Shiva*"
+Sleep Chance+,,,PASSIVE: Paises the chance of inflicting sleep.,Nightmare
+Sleep Leaves,4,Wind,SINGLE: Inflict physical wind damage / sleep. TOPPLE STRENGTH: Low,Mandragora
+Sling,8,Neutral,ALL: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Mythril Giant, Chrome Giant"
+Slow,3,,SINGLE: Slow down how often the target takes a turn.,"Mishiva, Undead Princess, Shiva*, Shivalry*, Undead Princess*"
+Smash,,,SUPPORT: Remove obstacles through brute strength.,"Mythril Giant, Chrome Giant, Red Dragon, Holy Dragon, Minotaur, Asterius"
+Snowman Rondo,4,Ice,RANDOM: Inflicts magical ice damage. Hits multiple times.,Kupirate
+Sonic Fangs,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Cerberus
+Sonic Wings,4,Wind,SINGLE: Inflict magical wind damage / slow.,"Valefor, Nirvalefor"
+SOS Conserve AP,,,"PASSIVE: In battle, reduces all AP costs by 1 while HP is low.",Sand Worm
+SOS Haste,,,PASSIVE: Bestow haste while HP is low (Critical HP).,Hyperion
+SOS Magic Boost,,,PASSIVE: Raises magical damage while HP is low.,Buer
+SOS Regen,,,PASSIVE: Bestows regen while HP is low.,"Bombino, Phoenix"
+SOS Ribbon,,,"PASSIVE: While HP is low, provides guaranteed resistance to most status ailments.","Glow Moogle, Magic Jar"
+Spinning Fin,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,Sea Snake
+Stabilizer,,,PASSIVE: Sometimes halves stability loss.,"Reaver Mu, Mythril Giant, Behemoth, Kuza Beast, Sphinx, Memecoleous, Magitek Armor A, Titan"
+Stack Buster,4,Neutral,SINGLE: Inflict neutral physical damage. Highly effective against stacked enemies. TOPPLE STRENGTH: Medium,"Brothertaur, Sistertaur"
+Stealth,,,PASSIVE: Decreases enemy encounters.,Mirajewel
+Sticky Goo,3,Water,SINGLE: Inflict water damage / slow.,Mini Flan
+Strategic AP Hike,,,PASSIVE: Restores AP upon exploiting an enemy's elemental weakness.,"Valefor, Nirvalefor, Baby Paleberry, Master Moogle"
+Strength+,,,PASSIVE: Slightly raises strength.,"Various Mirage, Mirajewel"
+Strength++,,,PASSIVE: Raises strength.,"Various Mirage, Mirajewel"
+Strength+++,,,PASSIVE: Greatly raises strength.,
+Stretch Legs,4,,SELF: Gain haste / evasion up.,Hyperion
+Stroll,,,SUPPORT: Walk alongside Reynn and Lann in the field.,"Tama, Yurugu, Chocochick, Black Chocochick, Mu, Reaver Mu, Mandragora, Korrigan, Fritt, Weeglee, Bablizz, Brrblizz, Zapt, Joult, White Nakk, Black Nakk, Moogle, Glow Moogle, Cactuar, Cactrot, Quacho, Quachacho, Baby Tonberry, Baby Paleberry, Red Bonnetberry, Bombino, Water Toad, Lucky Toad, Wind Toad, Searcher, Security Eye, Death Searcher, Master Moogle, Master Cactuar, Miney, Mo"
+Subdue,0,Neutral,"SINGLE: Inflict nonlethal, neutral physical damage.","Black Chocochick, Sylph, Mu, Reaver Mu, Red Cap, Water Golem, Kupicaroon, Right Claw, Quachacho, Lucky Toad, Wind Toad"
+Sweet Breath,5,,ALL: Inflict sleep.,"Quacho Queen, Quacho Queen*"
+Swordbreaker,3,Fire,SINGLE: Inflict physical fire damage / strength down. TOPPLE STRENGTH: Low,Ghidra
+Sync Left Claw,,,PASSIVE: Raises the damage dealt by it's counterpart's Left Claw ability while fighting together.,Right Claw
+Sync Right Claw,,,PASSIVE: Raises the damage dealt by it's counterpart's Right Claw ability while fighting together.,Left Claw
+Syphon,0,Dark,Use dark power to absorb AP.,"Ramuh, Magic Jar, Demivampire, Undead Princess*"
+Temblor,7,Earth,ALL: Inflict magical earth damage.,Adamantoise
+Tentacle,3,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Malboro, Malboro Menace"
+Third Eye,,,"PASSIVE: While blind, raises evasion chance / critical chance.",Ice Bat
+Thousands of Meedles,10,Neutral,RANDOM: Inflict a fixed amount of neutral physical damage. Hits multiple times.,Gigantrot
+Thousands of Needles,10,Neutral,ALL: Inflict a fixed amount of neutral physical damage.,Gigantuar
+Throw Stone,3,Earth,SINGLE: Inflict physical earth damage. TOPPLE STRENGTH: Medium,"Copper Gnome, Lead Gnome, Mini Golem, Mordskull, Titan"
+Thundaga,7,Thunder,ALL: Inflict magical thunder damage.,"Ramewl, Ramewl*"
+Thundara,5,Thunder,SINGLE: Inflict magical thunder damage.,"Zaphr, Voultr, Kuza Beast, Spark Dragon, Ramuh*"
+Thunder,3,Thunder,SINGLE: Inflict magical thunder damage.,"Zapt, Joult, Kuza Kit, Metalliskull, Trihyde, Flan, Death Searcher"
+Thunder Beam,7,Thunder,SINGLE: Inflict magical thunder damage.,"Magitek Armor A, Magitek Armor P"
+Thunder Converter,,,PASSIVE: Restore AP upon taking thunder damage.,"Zaphr, Voultr, Spark Dragon, Ramuh*, Ramewl*"
+Thunder Horn,4,Thunder,SINGLE: Inflict physical thunder damage. TOPPLE STRENGTH: High,Kuza Beast
+Thunder Resistance+,,,PASSIVE: Slightly raises thunder resistance (+25).,Mirajewel
+Thunderbolt,5,Thunder,ALL: Inflict magical thunder damage.,"Zapt, Cerberus, Tiamat, Mimic Queen, Gilgamesh, Ultros, Ramuh*, Ramewl*, Ultros*"
+Thunderstorm,9,Thunder/Wind,ALL: Inflict magical thunder damage / wind damage.,Elasmos
+Tickle,3,Neutral,SINGLE: Inflict neutral magical damage. TOPPLE STRENGTH: High,"Sylph, Serafie, Manticore, Sandicore, Garchimacera"
+Tidal Wave,12,Water,ALL: Inflict magical water damage.,"Leviathan, Leviathan*"
+Top Gear,,,PASSIVE: Bestow strength up as a bonus if one reaches the third tier of evasion up.,Magna Roader (Purple)
+Touchdown,5,Neutral,ALL: Inflict neutrale physical damage. TOPPLE STRENGTH: High,Bahamut*
+Track,6,,ALL: Inflict accuracy down.,Buer
+Treasure Hunter,,,PASSIVE: Raises the chance that enemies will drop rare items.,"Left Claw, Gigantrot, Mimic Jackpot, Lucky Toad, Death Searcher"
+Triple Attack,6,Neutral,SINGLE: Inflict neutral physical damage. Hits 3 times. TOPPLE STRENGTH: High,"Trihyde, Ghidra"
+Triumphant Shout,4,,ALL: Bestow strength up.,"Red Captain, Kupirate"
+Tsunami,5,Water,ALL: Inflict magical water damage.,"Sea Serpent, Sea Worm, Kraken, Ultros, Cenchos, Leviathan*, Ultros*"
+Ullr's Shield,,,PASSIVE: Gives a chance of nullifying damage.,"Odin, Odin*"
+Ultima,12,Neutral,ALL: Inflict neutral magical damage.,Ultima Weapon
+Ultima Beam,15,Neutral,ALL: Inflict neutral magical damage.,Ultima Weapon
+Ultimate Focus,2,,SELF: Gain magic up (3 stacks).,"Floating Eye, Maduin"
+Ultimate Terror,6,,ALL: Inflict strength down / magic down / defense down / magic defense down.,"Diabolos, Diabolos*"
+Ultrasonics,2,,ALL: Inflict evasion down.,"Werebat, Ice Bat"
+Unstacked Evasion+,,,PASSIVE: Raises evasion chance while unstacked.,"Cactuar, Cactrot, Werebat, Ice Bat"
+Unstacked Guard,,,PASSIVE: Lessens the damage taken while unstacked.,Chrome Giant
+Unstacked Haste,,,PASSIVE: Bestow haste while unstacked.,Black Chocochick
+Upgrade,5,,SELF: Gain defense up / magic defense up / evasion up.,Security Eye
+Upshift,3,,SELF: Gain haste / evasion up but incur defense down.,"Magna Roader (Purple), Magna Roader (Yellow), Magna Roader (Red)"
+Venom Needle,4,Neutral,SINGLE: Inflict neutral physical damage / poison. TOPPLE STRENGTH: Low,"Manticore, Sandicore"
+Victory Charge,,,"PASSIVE: Upon winning a battle, restore a little HP to all allies.","Red Captain, Mythril Giant, Glow Moogle, Sistertaur"
+Vigilance,,,PASSIVE: Prevents enemy ambushes.,"Black Nakk, Magic Pot, Security Eye, Magna Roader (Red)"
+Water,3,Water,SINGLE: Inflict magical water damage.,"Water Golem, Kupicaroon, Dualizard, Quacho, Baby Tonberry, Mini Flan, Sharqual, Nightsqual, Sea Snake, Water Toad, Mindflayer, Squidraken, Miney, Mo, Ultros*"
+Water Converter,,,PASSIVE: Restores AP upon taking water damage.,"Dualizard, Sea Serpent, Kraken"
+Water Harmony,4,Water,RANDOM: Inflict magical water damage. Hits multiple times.,Kupirate
+Water Resistance+,,,PASSIVE: Slightly raises water resistance (+25).,Mirajewel
+Watera,5,Water,SINGLE: Inflict magical water damage.,"Water Golem, Quacho, Tonberry King, Red Bonnetberry, Mega Sharqual, Mega Nightsqual, Sea Serpent, Kraken, Cenchos, Leviathan*, Master Tonberry, Quacho Queen*, Miney, Mo, Ultros*"
+Waterga,7,Water,ALL: Inflict magical water damage.,"Quacho Queen, Elasmos, Sea Worm, Quacho Queen*"
+Waterspout,4,Water,SINGLE: Inflict magical water damage. Bypasses defense.,"Sharqual, Nightsqual"
+Wave Cannon,10,Neutral,ALL: Inflict neutral magical damage.,"Omega, Omega Bane"
+Wheel,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: Medium,"Magna Roader (Purple), Magna Roader (Yellow), Magna Roader (Red)"
+Whirlpool,5,Water,SINGLE: Inflict magical water damage / slow.,"Mega Nightsqual, Sea Worm"
+Whirlwind,5,Wind,ALL: Inflict magical wind damage.,"Valefor, Entom Guard"
+Whisperwind,4,Wind,SINGLE: Inflict magical wind damage and restore an equal amount of HP.,Sylph
+Wild Horn,4,Neutral,SINGLE: Inflict neutral physical damage. TOPPLE STRENGTH: High,Behemoth
+Wind Converter,,,PASSIVE: Restores AP upon taking wind damage.,Trihyde
+Wind Resistance+,,,PASSIVE: Slightly raises wind resistance (+25).,Mirajewel
+Wind Rhapsody,4,Wind,RANDOM: Inflict magical wind damage. Hits multiple times.,"Moogle, Master Moogle"
+Wind Slash,3,Wind,ALL: Inflict wind damage.,Gilgamesh
+Yawn,4,,ALL: Inflict sleep.,Quachacho
+Zantetsuken,4,,ALL: Inflict death. Odds increase as the wielder's HP and AP decrease.,"Odin, Odin*"
+Zap,,,SUPPORT: Activate machinery by charging it whit electricity.,"Zapt, Joult, Searcher, Security Eye, Death Searcher, Entom Guard"
