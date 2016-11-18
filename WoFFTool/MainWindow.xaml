@@ -13,6 +13,7 @@
         <Button x:Name="PrismtunityMementoTableConvertBtn" Content="PrismtunityMementoTableConvert" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Width="75" Click="PrismtunityMementoTableConvertBtn_Click"/>
         <Button x:Name="ResistanceTableConvertBtn" Content="ResistanceTableConvert" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Width="75" Click="ResistanceTableConvertBtn_Click"/>
         <Button x:Name="CreateMiragesBtn" Content="CreateMirages" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="CreateMiragesBtn_Click"/>
+        <Button x:Name="LoadMiragesBtn" Content="LoadMirages" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="75" Click="LoadMiragesBtn_Click"/>
 
     </Grid>
 </Window>

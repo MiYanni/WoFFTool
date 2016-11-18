@@ -71,7 +71,6 @@
     <Compile Include="DomainObjects\ElementalResistances.cs" />
     <Compile Include="DomainObjects\Mirage.cs" />
     <Compile Include="DomainObjects\Size.cs" />
-    <Compile Include="ExportObjects\Mirages.cs" />
     <Compile Include="ImportObjects\BossItem.cs" />
     <Compile Include="ImportObjects\ExpItem.cs" />
     <Compile Include="Importer.cs" />
