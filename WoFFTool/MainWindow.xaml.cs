@@ -13,5 +13,10 @@ namespace WoFFTool
         {
             var expItems = Importer.ConvertExpTable();
         }
+
+        private void BossTableConvertBtn_Click(System.Object sender, RoutedEventArgs e)
+        {
+            var bossItems = Importer.ConvertBossTable();
+        }
     }
 }

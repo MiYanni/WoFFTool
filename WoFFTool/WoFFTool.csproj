@@ -67,6 +67,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DataObjects\BossItem.cs" />
     <Compile Include="DataObjects\ExpItem.cs" />
     <Compile Include="Importer.cs" />
     <Compile Include="MainWindow.xaml.cs">

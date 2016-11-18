@@ -6,7 +6,6 @@ namespace WoFFTool.DataObjects
     [DelimitedRecord(",")]
     [IgnoreEmptyLines]
     [IgnoreFirst]
-    [Serializable]
     internal class ExpItem
     {
         public int Level { get; set; }  
