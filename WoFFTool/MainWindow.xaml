@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WoFFTool"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="WoFF Tool" Height="350" Width="525" Icon="Resources/AppIcon.png">
     <Grid>
         <Menu Margin="0,0,-0.333,0" Height="18" VerticalAlignment="Top">
             <MenuItem Header="File">
                 <MenuItem Header="Settings"/>
-                <MenuItem Header="Exit"/>
+                <MenuItem Header="Exit" Click="MenuItem_Click"/>
             </MenuItem>
         </Menu>
         <TabControl x:Name="tabControl" Margin="0,18,-0.333,-0.333">

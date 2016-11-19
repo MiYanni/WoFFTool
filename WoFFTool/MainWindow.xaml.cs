@@ -79,5 +79,10 @@ namespace WoFFTool
                 MirageDataGrid.ItemsSource = Mirages;
             }
         }
+
+        private void MenuItem_Click(Object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
