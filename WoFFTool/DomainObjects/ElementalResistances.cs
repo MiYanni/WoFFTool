@@ -5,13 +5,13 @@ namespace WoFFTool.DomainObjects
     [Serializable]
     public class ElementalResistances
     {
-        public int? Fire;
-        public int? Ice;
-        public int? Thunder;
-        public int? Aero;
-        public int? Water;
-        public int? Earth;
-        public int? Light;
-        public int? Dark;
+        public int? Fire { get; set; }
+        public int? Ice { get; set; }
+        public int? Thunder { get; set; }
+        public int? Aero { get; set; }
+        public int? Water { get; set; }
+        public int? Earth { get; set; }
+        public int? Light { get; set; }
+        public int? Dark { get; set; }
     }
 }
