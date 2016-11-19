@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows;
+using System.Windows.Controls;
 using System.Xml;
 using System.Xml.Serialization;
 using WoFFTool.DomainObjects;
@@ -17,12 +18,18 @@ namespace WoFFTool
         {
             
             InitializeComponent();
-            //var serializer = new XmlSerializer(typeof(List<Mirage>));
-            //using (var reader = new StringReader(File.ReadAllText("Mirages.xml")))
-            //{
-            //    Mirages = (List<Mirage>)serializer.Deserialize(reader);
-            //}
-            //MirageDataGrid.ItemsSource = Mirages;
+            var serializer = new XmlSerializer(typeof(List<Mirage>));
+            using (var reader = new StringReader(File.ReadAllText("Mirages.xml")))
+            {
+                Mirages = (List<Mirage>)serializer.Deserialize(reader);
+            }
+            UpdateMirageDataGrid(Mirages);
+        }
+
+        private void UpdateMirageDataGrid(List<Mirage> mirages)
+        {
+            MirageDataGrid.ItemsSource = null;
+            MirageDataGrid.ItemsSource = mirages;
         }
 
         private void ExpTableConvertBtn_Click(Object sender, RoutedEventArgs e)
@@ -69,20 +76,28 @@ namespace WoFFTool
 
         public List<Mirage> Mirages { get; set; }
 
+        public List<Mirage> FilteredMirages { get; set; }
+
         private void LoadMiragesBtn_Click(Object sender, RoutedEventArgs e)
         {
             var serializer = new XmlSerializer(typeof(List<Mirage>));
             using(var reader = new StringReader(File.ReadAllText("Mirages.xml")))
             {
                 Mirages = (List<Mirage>)serializer.Deserialize(reader);
-                MirageDataGrid.ItemsSource = null;
-                MirageDataGrid.ItemsSource = Mirages;
+                UpdateMirageDataGrid(Mirages);
             }
         }
 
         private void MenuItem_Click(Object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        private void MirageNameFilterTxtBox_TextChanged(Object sender, TextChangedEventArgs e)
+        {
+            var searchText = MirageNameFilterTxtBox.Text;
+            FilteredMirages = String.IsNullOrEmpty(searchText) ? Mirages : Mirages.Where(m => m.Name.ToLower().StartsWith(searchText.ToLower())).ToList();
+            UpdateMirageDataGrid(FilteredMirages);
         }
     }
 }

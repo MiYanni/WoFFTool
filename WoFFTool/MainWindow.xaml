@@ -16,7 +16,7 @@
         <TabControl x:Name="tabControl" Margin="0,18,-0.333,-0.333">
             <TabItem Header="Mirages">
                 <Grid Background="#FFE5E5E5">
-                    <DataGrid x:Name="MirageDataGrid" ItemsSource="{Binding Mirages}" AutoGenerateColumns="False" Margin="10,10,9.667,9.667">
+                    <DataGrid x:Name="MirageDataGrid" ItemsSource="{Binding Mirages}" AutoGenerateColumns="False" Margin="10,38,9.667,9.667">
                         <DataGrid.Columns>
                             <DataGridTemplateColumn Header="Name" Width="Auto" IsReadOnly="True">
                                 <DataGridTemplateColumn.CellTemplate>
@@ -83,6 +83,7 @@
                             </DataGridTemplateColumn>
                         </DataGrid.Columns>
                     </DataGrid>
+                    <TextBox x:Name="MirageNameFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="MirageNameFilterTxtBox_TextChanged"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Dev">
