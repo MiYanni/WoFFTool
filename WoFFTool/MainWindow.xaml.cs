@@ -17,12 +17,12 @@ namespace WoFFTool
         {
             
             InitializeComponent();
-            var serializer = new XmlSerializer(typeof(List<Mirage>));
-            using (var reader = new StringReader(File.ReadAllText("Mirages.xml")))
-            {
-                Mirages = (List<Mirage>)serializer.Deserialize(reader);
-            }
-            MirageDataGrid.ItemsSource = Mirages;
+            //var serializer = new XmlSerializer(typeof(List<Mirage>));
+            //using (var reader = new StringReader(File.ReadAllText("Mirages.xml")))
+            //{
+            //    Mirages = (List<Mirage>)serializer.Deserialize(reader);
+            //}
+            //MirageDataGrid.ItemsSource = Mirages;
         }
 
         private void ExpTableConvertBtn_Click(Object sender, RoutedEventArgs e)
