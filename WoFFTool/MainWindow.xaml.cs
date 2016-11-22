@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Xml;
@@ -93,11 +94,20 @@ namespace WoFFTool
             Application.Current.Shutdown();
         }
 
-        private void MirageNameFilterTxtBox_TextChanged(Object sender, TextChangedEventArgs e)
+        private void UpdateFilteredMirages_TextChanged(Object sender, TextChangedEventArgs e)
         {
-            var searchText = MirageNameFilterTxtBox.Text;
-            FilteredMirages = String.IsNullOrEmpty(searchText) ? Mirages : Mirages.Where(m => m.Name.ToLower().StartsWith(searchText.ToLower())).ToList();
+            FilteredMirages = Mirages.Where(m =>
+                (String.IsNullOrEmpty(MirageNameFilterTxtBox.Text) || m.Name.ToLower().StartsWith(MirageNameFilterTxtBox.Text.ToLower())) &&
+                (String.IsNullOrEmpty(MirageSizeFilterTxtBox.Text) || m.Size.GetName().ToLower().StartsWith(MirageSizeFilterTxtBox.Text.ToLower())) &&
+                ((String.IsNullOrEmpty(MirageWeightFilterTxtBox.Text) || MirageWeightFilterTxtBox.Text.Equals("-")) || m.Weight == Convert.ToInt32(MirageWeightFilterTxtBox.Text))
+            ).ToList();
             UpdateMirageDataGrid(FilteredMirages);
+        }
+
+        private void DigitsOnly_PreviewTextInput(Object sender, System.Windows.Input.TextCompositionEventArgs e)
+        {
+            var regex = new Regex("^-?[0-9]*$");
+            e.Handled = !regex.IsMatch(e.Text);
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WoFFTool"
         mc:Ignorable="d"
-        Title="WoFF Tool" Height="350" Width="525" Icon="Resources/AppIcon.png">
+        Title="WoFF Tool" Height="600" Width="800" Icon="Resources/AppIcon.png" MinWidth="400" MinHeight="400">
     <Grid>
         <Menu Margin="0,0,-0.333,0" Height="18" VerticalAlignment="Top">
             <MenuItem Header="File">
@@ -16,7 +16,7 @@
         <TabControl x:Name="tabControl" Margin="0,18,-0.333,-0.333">
             <TabItem Header="Mirages">
                 <Grid Background="#FFE5E5E5">
-                    <DataGrid x:Name="MirageDataGrid" ItemsSource="{Binding Mirages}" CanUserAddRows="False" AutoGenerateColumns="False" Margin="10,38,9.667,9.667">
+                    <DataGrid x:Name="MirageDataGrid" ItemsSource="{Binding Mirages}" CanUserAddRows="False" AutoGenerateColumns="False" Margin="10,150,10,10">
                         <DataGrid.Columns>
                             <DataGridTemplateColumn Header="Name" Width="Auto" IsReadOnly="True">
                                 <DataGridTemplateColumn.CellTemplate>
@@ -25,129 +25,129 @@
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Fire" Width="Auto" IsReadOnly="True">
+                            <DataGridTemplateColumn Header="Size" Width="Auto" IsReadOnly="True">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Fire}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Ice" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Ice}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Thunder" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Thunder}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Aero" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Aero}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Water" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Water}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Earth" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Earth}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Light" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Light}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Dark" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Dark}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Poison" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Ailment.Poison}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Confuse" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Ailment.Confuse}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Sleep" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Ailment.Sleep}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Blind" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Ailment.Blind}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Oblivion" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Ailment.Oblivion}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Berserk" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Ailment.Berserk}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Slow" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Ailment.Slow}"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Doom" Width="Auto" IsReadOnly="True">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Ailment.Doom}"/>
+                                        <TextBlock Text="{Binding Size}" HorizontalAlignment="Center"/>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
                             <DataGridTemplateColumn Header="Weight" Width="Auto" IsReadOnly="True">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding Weight}"/>
+                                        <TextBlock Text="{Binding Weight}" HorizontalAlignment="Center"/>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Size" Width="Auto" IsReadOnly="True">
+                            <DataGridTemplateColumn Header="Fire" Width="Auto" IsReadOnly="True">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding Size}"/>
+                                        <TextBlock Text="{Binding Elemental.Fire}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Ice" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Ice}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Thunder" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Thunder}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Aero" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Aero}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Water" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Water}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Earth" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Earth}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Light" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Light}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Dark" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Dark}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Poison" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Poison}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Confuse" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Confuse}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Sleep" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Sleep}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Blind" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Blind}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Oblivion" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Oblivion}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Berserk" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Berserk}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Slow" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Slow}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Doom" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Doom}" HorizontalAlignment="Center"/>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
@@ -167,7 +167,60 @@
                             </DataGridTemplateColumn>
                         </DataGrid.Columns>
                     </DataGrid>
-                    <TextBox x:Name="MirageNameFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="MirageNameFilterTxtBox_TextChanged"/>
+                    <GroupBox x:Name="MirageFilterGroupBox" Header="Filter" Margin="10,0" Height="145" VerticalAlignment="Top">
+                        <Grid>
+                            <Label x:Name="MirageNameFilterLbl" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Padding="2" FontSize="10" Margin="1,0,0,0"/>
+                            <TextBox x:Name="MirageNameFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged"/>
+                            <Label x:Name="MirageSizeFilterLbl" Content="Size" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="0,41,0,0" FontSize="10" Padding="2"/>
+                            <TextBox x:Name="MirageSizeFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged"/>
+                            <Label x:Name="MirageWeightFilterLbl" Content="Weight" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="0,81,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="MirageWeightFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput"/>
+                            <GroupBox x:Name="MirageFilterElementalGroupBox" Header="Elemental" Margin="85,0,0,0" Height="105" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="195">
+                                <Grid>
+                                    <Label x:Name="MirageFireFilterLbl" Content="Fire" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2"/>
+                                    <TextBox x:Name="MirageFireFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageIceFilterLbl" Content="Ice" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
+                                    <TextBox x:Name="MirageIceFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageLightningFilterLbl" Content="Lightning" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
+                                    <TextBox x:Name="MirageLightningFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageAeroFilterLbl" Content="Aero" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
+                                    <TextBox x:Name="MirageAeroFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageWaterFilterLbl" Content="Water" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="96,0,0,0"/>
+                                    <TextBox x:Name="MirageWaterFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="96,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageEarthFilterLbl" Content="Earth" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="96,40,0,0"/>
+                                    <TextBox x:Name="MirageEarthFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="96,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageLightFilterLbl" Content="Light" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="141,0,0,0"/>
+                                    <TextBox x:Name="MirageLightFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="141,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageDarkFilterLbl" Content="Dark" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="141,40,0,0"/>
+                                    <TextBox x:Name="MirageDarkFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="141,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                </Grid>
+                            </GroupBox>
+                            <GroupBox x:Name="MirageFilterAilmentGroupBox" Header="Ailment" Margin="285,0,0,0" Height="105" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="195">
+                                <Grid>
+                                    <Label x:Name="MiragePoisonFilterLbl" Content="Poison" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2"/>
+                                    <TextBox x:Name="MiragePoisonFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageConfuseFilterLbl" Content="Confuse" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
+                                    <TextBox x:Name="MirageConfuseFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageSleepFilterLbl" Content="Sleep" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
+                                    <TextBox x:Name="MirageSleepFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageBlindFilterLbl" Content="Blind" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
+                                    <TextBox x:Name="MirageBlindFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageOblivionFilterLbl" Content="Oblivion" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="96,0,0,0"/>
+                                    <TextBox x:Name="MirageOblivionFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="96,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageBerserkFilterLbl" Content="Berserk" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="96,40,0,0"/>
+                                    <TextBox x:Name="MirageBerserkFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="96,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageSlowFilterLbl" Content="Slow" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="141,0,0,0"/>
+                                    <TextBox x:Name="MirageSlowFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="141,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                    <Label x:Name="MirageDoomFilterLbl" Content="Doom" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="141,40,0,0"/>
+                                    <TextBox x:Name="MirageDoomFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="141,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+                                </Grid>
+                            </GroupBox>
+                            <Label x:Name="MiragePrismtunityFilterLbl" Content="Prismtunity" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="485,0,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="MiragePrismtunityFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="485,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+                            <Label x:Name="MirageMementoLocationFilterLbl" Content="Memento Location" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="485,41,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="MirageMementoLocationFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="485,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+                        </Grid>
+                    </GroupBox>
                 </Grid>
             </TabItem>
             <TabItem Header="Dev">
