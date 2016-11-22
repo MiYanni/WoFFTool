@@ -122,22 +122,22 @@ namespace WoFFTool
                 ((String.IsNullOrEmpty(MirageWeightFilterTxtBox.Text) || MirageWeightFilterTxtBox.Text.Equals("-")) || m.Weight == Convert.ToInt32(MirageWeightFilterTxtBox.Text)) &&
 
                 ResistanceFilter(MirageFireFilterTxtBox.Text, m.Elemental.Fire, MirageFireFilterCompareBtn.Content.ToString()) &&
-                ResistanceFilter(MirageIceFilterTxtBox.Text, m.Elemental.Ice, "=") &&
-                ResistanceFilter(MirageThunderFilterTxtBox.Text, m.Elemental.Thunder, "=") &&
-                ResistanceFilter(MirageAeroFilterTxtBox.Text, m.Elemental.Aero, "=") &&
-                ResistanceFilter(MirageWaterFilterTxtBox.Text, m.Elemental.Water, "=") &&
-                ResistanceFilter(MirageEarthFilterTxtBox.Text, m.Elemental.Earth, "=") &&
-                ResistanceFilter(MirageLightFilterTxtBox.Text, m.Elemental.Light, "=") &&
-                ResistanceFilter(MirageDarkFilterTxtBox.Text, m.Elemental.Dark, "=") &&
+                ResistanceFilter(MirageIceFilterTxtBox.Text, m.Elemental.Ice, MirageIceFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageThunderFilterTxtBox.Text, m.Elemental.Thunder, MirageThunderFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageAeroFilterTxtBox.Text, m.Elemental.Aero, MirageAeroFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageWaterFilterTxtBox.Text, m.Elemental.Water, MirageWaterFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageEarthFilterTxtBox.Text, m.Elemental.Earth, MirageEarthFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageLightFilterTxtBox.Text, m.Elemental.Light, MirageLightFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageDarkFilterTxtBox.Text, m.Elemental.Dark, MirageDarkFilterCompareBtn.Content.ToString()) &&
 
-                ResistanceFilter(MiragePoisonFilterTxtBox.Text, m.Ailment.Poison, "=") &&
-                ResistanceFilter(MirageConfuseFilterTxtBox.Text, m.Ailment.Confuse, "=") &&
-                ResistanceFilter(MirageSleepFilterTxtBox.Text, m.Ailment.Sleep, "=") &&
-                ResistanceFilter(MirageBlindFilterTxtBox.Text, m.Ailment.Blind, "=") &&
-                ResistanceFilter(MirageOblivionFilterTxtBox.Text, m.Ailment.Oblivion, "=") &&
-                ResistanceFilter(MirageBerserkFilterTxtBox.Text, m.Ailment.Berserk, "=") &&
-                ResistanceFilter(MirageSlowFilterTxtBox.Text, m.Ailment.Slow, "=") &&
-                ResistanceFilter(MirageDoomFilterTxtBox.Text, m.Ailment.Doom, "=") &&
+                ResistanceFilter(MiragePoisonFilterTxtBox.Text, m.Ailment.Poison, MiragePoisonFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageConfuseFilterTxtBox.Text, m.Ailment.Confuse, MirageConfuseFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageSleepFilterTxtBox.Text, m.Ailment.Sleep, MirageSleepFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageBlindFilterTxtBox.Text, m.Ailment.Blind, MirageBlindFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageOblivionFilterTxtBox.Text, m.Ailment.Oblivion, MirageOblivionFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageBerserkFilterTxtBox.Text, m.Ailment.Berserk, MirageBerserkFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageSlowFilterTxtBox.Text, m.Ailment.Slow, MirageSlowFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(MirageDoomFilterTxtBox.Text, m.Ailment.Doom, MirageDoomFilterCompareBtn.Content.ToString()) &&
 
                 (String.IsNullOrEmpty(MiragePrismtunityFilterTxtBox.Text) || m.Prismtunity.ToLower().Contains(MiragePrismtunityFilterTxtBox.Text.ToLower())) &&
                 (String.IsNullOrEmpty(MirageMementoLocationFilterTxtBox.Text) || m.MementoLocation.ToLower().Contains(MirageMementoLocationFilterTxtBox.Text.ToLower()))
