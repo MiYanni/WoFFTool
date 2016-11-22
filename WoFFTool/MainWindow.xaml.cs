@@ -104,9 +104,9 @@ namespace WoFFTool
                 {
                     case "=":
                         return resistance == value;
-                    case ">=":
+                    case ">":
                         return resistance >= value;
-                    case "<=":
+                    case "<":
                         return resistance <= value;
                 }
                 return true;
@@ -121,7 +121,7 @@ namespace WoFFTool
                 (String.IsNullOrEmpty(MirageSizeFilterTxtBox.Text) || m.Size.GetName().ToLower().StartsWith(MirageSizeFilterTxtBox.Text.ToLower())) &&
                 ((String.IsNullOrEmpty(MirageWeightFilterTxtBox.Text) || MirageWeightFilterTxtBox.Text.Equals("-")) || m.Weight == Convert.ToInt32(MirageWeightFilterTxtBox.Text)) &&
 
-                ResistanceFilter(MirageFireFilterTxtBox.Text, m.Elemental.Fire, "=") &&
+                ResistanceFilter(MirageFireFilterTxtBox.Text, m.Elemental.Fire, MirageFireFilterCompareBtn.Content.ToString()) &&
                 ResistanceFilter(MirageIceFilterTxtBox.Text, m.Elemental.Ice, "=") &&
                 ResistanceFilter(MirageThunderFilterTxtBox.Text, m.Elemental.Thunder, "=") &&
                 ResistanceFilter(MirageAeroFilterTxtBox.Text, m.Elemental.Aero, "=") &&
@@ -150,6 +150,14 @@ namespace WoFFTool
             // TODO: Change to only 1 '-' at the start.
             var regex = new Regex("^-?[0-9]*$");
             e.Handled = !regex.IsMatch(e.Text);
+        }
+
+        private void Compare_Click(Object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var buttonText = button.Content.ToString();
+            button.Content = buttonText == "=" ? ">" : (buttonText == ">" ? "<" : "=");
+            UpdateFilteredMirages_TextChanged(sender, null);
         }
     }
 }
