@@ -28,71 +28,26 @@ namespace WoFFTool
             UpdateMirageDataGrid(Mirages);
         }
 
-        private void UpdateMirageDataGrid(List<Mirage> mirages)
-        {
-            MirageDataGrid.ItemsSource = null;
-            MirageDataGrid.ItemsSource = mirages;
-        }
-
-        private void ExpTableConvertBtn_Click(Object sender, RoutedEventArgs e)
-        {
-            var expItems = Importer.ConvertExpTable();
-        }
-
-        private void BossTableConvertBtn_Click(Object sender, RoutedEventArgs e)
-        {
-            var bossItems = Importer.ConvertBossTable();
-        }
-
-        private void SkillTableConvertBtn_Click(Object sender, RoutedEventArgs e)
-        {
-            var skillItems = Importer.ConvertSkillTable();
-        }
-
-        private void PrismtunityMementoTableConvertBtn_Click(Object sender, RoutedEventArgs e)
-        {
-            var prismtunityMementoItems = Importer.ConvertPrismtunityMementoTable();
-        }
-
-        private void ResistanceTableConvertBtn_Click(Object sender, RoutedEventArgs e)
-        {
-            var resistanceItems = Importer.ConvertResistanceTable();
-        }
-
-        private void CreateMiragesBtn_Click(Object sender, RoutedEventArgs e)
-        {
-            var resistanceItems = Importer.ConvertResistanceTable();
-            var prismtunityMementoItems = Importer.ConvertPrismtunityMementoTable();
-
-            var names = resistanceItems.Select(r => r.Mirage).Union(prismtunityMementoItems.Select(pm => pm.Mirage));
-            var mirages = names.Select(n => new Mirage(resistanceItems.SingleOrDefault(r => n == r.Mirage), prismtunityMementoItems.SingleOrDefault(pm => n == pm.Mirage))).ToList();
-
-            var serializer = new XmlSerializer(typeof(List<Mirage>));
-            using (var stringWriter = new StringWriter())
-            using (var xmlWriter = XmlWriter.Create(stringWriter))
-            {
-                serializer.Serialize(xmlWriter, mirages);
-                File.WriteAllText("Mirages.xml", stringWriter.ToString());
-            }
-        }
-
-        public List<Mirage> Mirages { get; set; }
-
-        public List<Mirage> FilteredMirages { get; set; }
-
-        private void LoadMiragesBtn_Click(Object sender, RoutedEventArgs e)
-        {
-            var serializer = new XmlSerializer(typeof(List<Mirage>));
-            using(var reader = new StringReader(File.ReadAllText("Mirages.xml")))
-            {
-                Mirages = (List<Mirage>)serializer.Deserialize(reader);
-                UpdateMirageDataGrid(Mirages);
-            }
-        }
-
-        private void MenuItem_Click(Object sender, RoutedEventArgs e)
+        #region Menu
+        private void ExitMenuItem_Click(Object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+        #endregion
+
+        private void DigitsOnly_PreviewTextInput(Object sender, TextCompositionEventArgs e)
+        {
+            // TODO: Change to only 1 '-' at the start.
+            var regex = new Regex("^-?[0-9]*$");
+            e.Handled = !regex.IsMatch(e.Text);
+        }
+
+        private void Compare_Click(Object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var buttonText = button.Content.ToString();
+            button.Content = buttonText == "=" ? ">" : (buttonText == ">" ? "<" : "=");
+            UpdateFilteredMirages_TextChanged(sender, null);
         }
 
         private bool ResistanceFilter(string text, int? resistance, string comparer)
@@ -112,6 +67,16 @@ namespace WoFFTool
                 return true;
             }
             return ((String.IsNullOrEmpty(text) || text.Equals("-")) || compare());
+        }
+
+        public List<Mirage> Mirages { get; set; }
+
+        public List<Mirage> FilteredMirages { get; set; }
+
+        private void UpdateMirageDataGrid(List<Mirage> mirages)
+        {
+            MirageDataGrid.ItemsSource = null;
+            MirageDataGrid.ItemsSource = mirages;
         }
 
         private void UpdateFilteredMirages_TextChanged(Object sender, TextChangedEventArgs e)
@@ -145,19 +110,91 @@ namespace WoFFTool
             UpdateMirageDataGrid(FilteredMirages);
         }
 
-        private void DigitsOnly_PreviewTextInput(Object sender, TextCompositionEventArgs e)
+        public List<Boss> Bosses { get; set; }
+
+        public List<Boss> FilteredBosses { get; set; }
+
+        #region Dev
+        private void ExpTableConvertBtn_Click(Object sender, RoutedEventArgs e)
         {
-            // TODO: Change to only 1 '-' at the start.
-            var regex = new Regex("^-?[0-9]*$");
-            e.Handled = !regex.IsMatch(e.Text);
+            var expItems = Importer.ConvertExpTable();
         }
 
-        private void Compare_Click(Object sender, RoutedEventArgs e)
+        private void BossTableConvertBtn_Click(Object sender, RoutedEventArgs e)
         {
-            var button = sender as Button;
-            var buttonText = button.Content.ToString();
-            button.Content = buttonText == "=" ? ">" : (buttonText == ">" ? "<" : "=");
-            UpdateFilteredMirages_TextChanged(sender, null);
+            var bossItems = Importer.ConvertBossTable();
         }
+
+        private void SkillTableConvertBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var skillItems = Importer.ConvertSkillTable();
+        }
+
+        private void PrismtunityMementoTableConvertBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var prismtunityMementoItems = Importer.ConvertPrismtunityMementoTable();
+        }
+
+        private void ResistanceTableConvertBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var resistanceItems = Importer.ConvertResistanceTable();
+        }
+
+        #region Mirage
+        private void CreateMiragesBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var resistanceItems = Importer.ConvertResistanceTable();
+            var prismtunityMementoItems = Importer.ConvertPrismtunityMementoTable();
+
+            var names = resistanceItems.Select(r => r.Mirage).Union(prismtunityMementoItems.Select(pm => pm.Mirage));
+            var mirages = names.Select(n => new Mirage(resistanceItems.SingleOrDefault(r => n == r.Mirage), prismtunityMementoItems.SingleOrDefault(pm => n == pm.Mirage))).ToList();
+
+            var serializer = new XmlSerializer(typeof(List<Mirage>));
+            using (var stringWriter = new StringWriter())
+            using (var xmlWriter = XmlWriter.Create(stringWriter))
+            {
+                serializer.Serialize(xmlWriter, mirages);
+                File.WriteAllText("Mirages.xml", stringWriter.ToString());
+            }
+        }
+
+        private void LoadMiragesBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var serializer = new XmlSerializer(typeof(List<Mirage>));
+            using(var reader = new StringReader(File.ReadAllText("Mirages.xml")))
+            {
+                Mirages = (List<Mirage>)serializer.Deserialize(reader);
+                UpdateMirageDataGrid(Mirages);
+            }
+        }
+        #endregion
+
+        #region Boss
+        private void CreateBossesBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var bossItems = Importer.ConvertBossTable();
+            var bosses = bossItems.Select((b, i) => new Boss(b, i + 1)).ToList();
+
+            var serializer = new XmlSerializer(typeof(List<Boss>));
+            using (var stringWriter = new StringWriter())
+            using (var xmlWriter = XmlWriter.Create(stringWriter))
+            {
+                serializer.Serialize(xmlWriter, bosses);
+                File.WriteAllText("Bosses.xml", stringWriter.ToString());
+            }
+        }
+
+        private void LoadBossesBtn_Click(Object sender, RoutedEventArgs e)
+        {
+            var serializer = new XmlSerializer(typeof(List<Boss>));
+            using (var reader = new StringReader(File.ReadAllText("Bosses.xml")))
+            {
+                Bosses = (List<Boss>)serializer.Deserialize(reader);
+                //UpdateMirageDataGrid(Mirages);
+            }
+        }
+        #endregion
+
+        #endregion
     }
 }
