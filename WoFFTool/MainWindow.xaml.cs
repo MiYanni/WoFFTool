@@ -120,8 +120,8 @@ namespace WoFFTool
                 ((String.IsNullOrEmpty(MirageSlowFilterTxtBox.Text) || MirageSlowFilterTxtBox.Text.Equals("-")) || m.Ailment.Slow == Convert.ToInt32(MirageSlowFilterTxtBox.Text)) &&
                 ((String.IsNullOrEmpty(MirageDoomFilterTxtBox.Text) || MirageDoomFilterTxtBox.Text.Equals("-")) || m.Ailment.Doom == Convert.ToInt32(MirageDoomFilterTxtBox.Text)) &&
 
-                (String.IsNullOrEmpty(MiragePrismtunityFilterTxtBox.Text) || m.Prismtunity.ToLower().StartsWith(MiragePrismtunityFilterTxtBox.Text.ToLower())) &&
-                (String.IsNullOrEmpty(MirageMementoLocationFilterTxtBox.Text) || m.MementoLocation.ToLower().StartsWith(MirageMementoLocationFilterTxtBox.Text.ToLower()))
+                (String.IsNullOrEmpty(MiragePrismtunityFilterTxtBox.Text) || m.Prismtunity.ToLower().Contains(MiragePrismtunityFilterTxtBox.Text.ToLower())) &&
+                (String.IsNullOrEmpty(MirageMementoLocationFilterTxtBox.Text) || m.MementoLocation.ToLower().Contains(MirageMementoLocationFilterTxtBox.Text.ToLower()))
             ).ToList();
             UpdateMirageDataGrid(FilteredMirages);
         }
