@@ -37,7 +37,7 @@ namespace WoFFTool.DomainObjects
             };
             Exp = boss.Exp;
             Gil = boss.Gil;
-            Drop = boss.Drop;
+            Drops = boss.Drop;
             Notes = boss.Notes;
         }
 
@@ -48,7 +48,7 @@ namespace WoFFTool.DomainObjects
         public AilmentResistances Ailment { get; set; }
         public int? Exp { get; set; }
         public int? Gil { get; set; }
-        public string Drop { get; set; }
+        public string Drops { get; set; }
         public string Notes { get; set; }
     }
 }

@@ -16,6 +16,90 @@
         <TabControl x:Name="tabControl" Margin="0,18,-0.333,-0.333">
             <TabItem Header="Mirages">
                 <Grid Background="#FFE5E5E5">
+                    <GroupBox x:Name="MirageFilterGroupBox" Header="Filter" Margin="10,0,10.333,0" Height="145" VerticalAlignment="Top">
+                        <Grid>
+                            <Label x:Name="MirageNameFilterLbl" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Padding="2" FontSize="10" Margin="1,0,0,0"/>
+                            <TextBox x:Name="MirageNameFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
+                            <Label x:Name="MirageSizeFilterLbl" Content="Size" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="0,40,0,0" FontSize="10" Padding="2"/>
+                            <TextBox x:Name="MirageSizeFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
+                            <Label x:Name="MirageWeightFilterLbl" Content="Weight" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="0,81,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="MirageWeightFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                            <GroupBox x:Name="MirageFilterElementalGroupBox" Header="Elemental" Margin="85,0,0,0" Height="105" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="187">
+                                <Grid>
+                                    <Label x:Name="MirageFireFilterLbl" Content="Fire" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2"/>
+                                    <TextBox x:Name="MirageFireFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageFireFilterCompareBtn" Content="=" Margin="29,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageIceFilterLbl" Content="Ice" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
+                                    <TextBox x:Name="MirageIceFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageIceFilterCompareBtn" Content="=" Margin="29,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageThunderFilterLbl" Content="Thunder" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
+                                    <TextBox x:Name="MirageThunderFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageThunderFilterCompareBtn" Content="=" Margin="75,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageAeroFilterLbl" Content="Aero" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
+                                    <TextBox x:Name="MirageAeroFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageAeroFilterCompareBtn" Content="=" Margin="75,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageWaterFilterLbl" Content="Water" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,0,0,0"/>
+                                    <TextBox x:Name="MirageWaterFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageWaterFilterCompareBtn" Content="=" Margin="120,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageEarthFilterLbl" Content="Earth" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,40,0,0"/>
+                                    <TextBox x:Name="MirageEarthFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageEarthFilterCompareBtn" Content="=" Margin="120,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageLightFilterLbl" Content="Light" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,0,0,0"/>
+                                    <TextBox x:Name="MirageLightFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageLightFilterCompareBtn" Content="=" Margin="164,17,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageDarkFilterLbl" Content="Dark" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,40,0,0"/>
+                                    <TextBox x:Name="MirageDarkFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageDarkFilterCompareBtn" Content="=" Margin="164,57,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                </Grid>
+                            </GroupBox>
+                            <GroupBox x:Name="MirageFilterAilmentGroupBox" Header="Ailment" Margin="285,0,0,0" Height="105" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="187">
+                                <Grid>
+                                    <Label x:Name="MiragePoisonFilterLbl" Content="Poison" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2"/>
+                                    <TextBox x:Name="MiragePoisonFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MiragePoisonFilterCompareBtn" Content="=" Margin="29,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageConfuseFilterLbl" Content="Confuse" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
+                                    <TextBox x:Name="MirageConfuseFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageConfuseFilterCompareBtn" Content="=" Margin="29,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageSleepFilterLbl" Content="Sleep" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
+                                    <TextBox x:Name="MirageSleepFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageSleepFilterCompareBtn" Content="=" Margin="75,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageBlindFilterLbl" Content="Blind" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
+                                    <TextBox x:Name="MirageBlindFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageBlindFilterCompareBtn" Content="=" Margin="75,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageOblivionFilterLbl" Content="Oblivion" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,0,0,0"/>
+                                    <TextBox x:Name="MirageOblivionFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageOblivionFilterCompareBtn" Content="=" Margin="120,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageBerserkFilterLbl" Content="Berserk" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,40,0,0"/>
+                                    <TextBox x:Name="MirageBerserkFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageBerserkFilterCompareBtn" Content="=" Margin="120,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageSlowFilterLbl" Content="Slow" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="136,0,0,0"/>
+                                    <TextBox x:Name="MirageSlowFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,17,-0.333,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageSlowFilterCompareBtn" Content="=" Margin="164,17,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+
+                                    <Label x:Name="MirageDoomFilterLbl" Content="Doom" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,40,0,0"/>
+                                    <TextBox x:Name="MirageDoomFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,57,-0.333,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="MirageDoomFilterCompareBtn" Content="=" Margin="164,57,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                </Grid>
+                            </GroupBox>
+                            <Label x:Name="MiragePrismtunityFilterLbl" Content="Prismtunity" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="477,0,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="MiragePrismtunityFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="477,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
+                            <Label x:Name="MirageMementoLocationFilterLbl" Content="Memento Location" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="477,40,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="MirageMementoLocationFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="477,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
+                        </Grid>
+                    </GroupBox>
                     <DataGrid x:Name="MirageDataGrid" ItemsSource="{Binding Mirages}" CanUserAddRows="False" AutoGenerateColumns="False" Margin="10,150,10.333,9.667">
                         <DataGrid.Columns>
                             <DataGridTemplateColumn Header="Name" Width="Auto" IsReadOnly="True">
@@ -167,90 +251,264 @@
                             </DataGridTemplateColumn>
                         </DataGrid.Columns>
                     </DataGrid>
-                    <GroupBox x:Name="MirageFilterGroupBox" Header="Filter" Margin="10,0,10.333,0" Height="145" VerticalAlignment="Top">
+                </Grid>
+            </TabItem>
+            <TabItem Header="Bosses">
+                <Grid Background="#FFE5E5E5">
+                    <GroupBox x:Name="BossFilterGroupBox" Header="Filter" Margin="10,0,10.333,0" Height="145" VerticalAlignment="Top">
                         <Grid>
-                            <Label x:Name="MirageNameFilterLbl" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Padding="2" FontSize="10" Margin="1,0,0,0"/>
-                            <TextBox x:Name="MirageNameFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
-                            <Label x:Name="MirageSizeFilterLbl" Content="Size" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="0,40,0,0" FontSize="10" Padding="2"/>
-                            <TextBox x:Name="MirageSizeFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
-                            <Label x:Name="MirageWeightFilterLbl" Content="Weight" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="0,81,0,0" Padding="2" FontSize="10"/>
-                            <TextBox x:Name="MirageWeightFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                            <GroupBox x:Name="MirageFilterElementalGroupBox" Header="Elemental" Margin="85,0,0,0" Height="105" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="187">
+                            <Label x:Name="BossNameFilterLbl" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Padding="2" FontSize="10" Margin="1,0,0,0"/>
+                            <TextBox x:Name="BossNameFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
+                            <Label x:Name="BossHpFilterLbl" Content="HP" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="0,40,0,0" FontSize="10" Padding="2"/>
+                            <TextBox x:Name="BossHpFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                            <Label x:Name="BossOrderFilterLbl" Content="Order" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="0,81,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="BossOrderFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                            <GroupBox x:Name="BossFilterElementalGroupBox" Header="Elemental" Margin="85,0,0,0" Height="105" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="187">
                                 <Grid>
-                                    <Label x:Name="MirageFireFilterLbl" Content="Fire" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2"/>
-                                    <TextBox x:Name="MirageFireFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageFireFilterCompareBtn" Content="=" Margin="29,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossFireFilterLbl" Content="Fire" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2"/>
+                                    <TextBox x:Name="BossFireFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossFireFilterCompareBtn" Content="=" Margin="29,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageIceFilterLbl" Content="Ice" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
-                                    <TextBox x:Name="MirageIceFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageIceFilterCompareBtn" Content="=" Margin="29,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossIceFilterLbl" Content="Ice" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
+                                    <TextBox x:Name="BossIceFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossIceFilterCompareBtn" Content="=" Margin="29,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageThunderFilterLbl" Content="Thunder" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
-                                    <TextBox x:Name="MirageThunderFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageThunderFilterCompareBtn" Content="=" Margin="75,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossThunderFilterLbl" Content="Thunder" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
+                                    <TextBox x:Name="BossThunderFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossThunderFilterCompareBtn" Content="=" Margin="75,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageAeroFilterLbl" Content="Aero" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
-                                    <TextBox x:Name="MirageAeroFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageAeroFilterCompareBtn" Content="=" Margin="75,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossAeroFilterLbl" Content="Aero" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
+                                    <TextBox x:Name="BossAeroFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossAeroFilterCompareBtn" Content="=" Margin="75,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageWaterFilterLbl" Content="Water" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,0,0,0"/>
-                                    <TextBox x:Name="MirageWaterFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageWaterFilterCompareBtn" Content="=" Margin="120,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossWaterFilterLbl" Content="Water" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,0,0,0"/>
+                                    <TextBox x:Name="BossWaterFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossWaterFilterCompareBtn" Content="=" Margin="120,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageEarthFilterLbl" Content="Earth" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,40,0,0"/>
-                                    <TextBox x:Name="MirageEarthFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageEarthFilterCompareBtn" Content="=" Margin="120,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossEarthFilterLbl" Content="Earth" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,40,0,0"/>
+                                    <TextBox x:Name="BossEarthFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossEarthFilterCompareBtn" Content="=" Margin="120,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageLightFilterLbl" Content="Light" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,0,0,0"/>
-                                    <TextBox x:Name="MirageLightFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageLightFilterCompareBtn" Content="=" Margin="164,17,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossLightFilterLbl" Content="Light" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,0,0,0"/>
+                                    <TextBox x:Name="BossLightFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossLightFilterCompareBtn" Content="=" Margin="164,17,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageDarkFilterLbl" Content="Dark" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,40,0,0"/>
-                                    <TextBox x:Name="MirageDarkFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageDarkFilterCompareBtn" Content="=" Margin="164,57,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossDarkFilterLbl" Content="Dark" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,40,0,0"/>
+                                    <TextBox x:Name="BossDarkFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossDarkFilterCompareBtn" Content="=" Margin="164,57,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
                                 </Grid>
                             </GroupBox>
-                            <GroupBox x:Name="MirageFilterAilmentGroupBox" Header="Ailment" Margin="285,0,0,0" Height="105" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="187">
+                            <GroupBox x:Name="BossFilterAilmentGroupBox" Header="Ailment" Margin="285,0,0,0" Height="105" VerticalAlignment="Top" FontSize="11" HorizontalAlignment="Left" Width="187">
                                 <Grid>
-                                    <Label x:Name="MiragePoisonFilterLbl" Content="Poison" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2"/>
-                                    <TextBox x:Name="MiragePoisonFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MiragePoisonFilterCompareBtn" Content="=" Margin="29,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossPoisonFilterLbl" Content="Poison" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2"/>
+                                    <TextBox x:Name="BossPoisonFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossPoisonFilterCompareBtn" Content="=" Margin="29,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageConfuseFilterLbl" Content="Confuse" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
-                                    <TextBox x:Name="MirageConfuseFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageConfuseFilterCompareBtn" Content="=" Margin="29,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossConfuseFilterLbl" Content="Confuse" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
+                                    <TextBox x:Name="BossConfuseFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossConfuseFilterCompareBtn" Content="=" Margin="29,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageSleepFilterLbl" Content="Sleep" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
-                                    <TextBox x:Name="MirageSleepFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageSleepFilterCompareBtn" Content="=" Margin="75,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossSleepFilterLbl" Content="Sleep" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
+                                    <TextBox x:Name="BossSleepFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossSleepFilterCompareBtn" Content="=" Margin="75,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageBlindFilterLbl" Content="Blind" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
-                                    <TextBox x:Name="MirageBlindFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageBlindFilterCompareBtn" Content="=" Margin="75,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossBlindFilterLbl" Content="Blind" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
+                                    <TextBox x:Name="BossBlindFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossBlindFilterCompareBtn" Content="=" Margin="75,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageOblivionFilterLbl" Content="Oblivion" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,0,0,0"/>
-                                    <TextBox x:Name="MirageOblivionFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageOblivionFilterCompareBtn" Content="=" Margin="120,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossOblivionFilterLbl" Content="Oblivion" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,0,0,0"/>
+                                    <TextBox x:Name="BossOblivionFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossOblivionFilterCompareBtn" Content="=" Margin="120,17,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageBerserkFilterLbl" Content="Berserk" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,40,0,0"/>
-                                    <TextBox x:Name="MirageBerserkFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageBerserkFilterCompareBtn" Content="=" Margin="120,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossBerserkFilterLbl" Content="Berserk" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="90,40,0,0"/>
+                                    <TextBox x:Name="BossBerserkFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="90,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossBerserkFilterCompareBtn" Content="=" Margin="120,57,0,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageSlowFilterLbl" Content="Slow" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="136,0,0,0"/>
-                                    <TextBox x:Name="MirageSlowFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,17,-0.333,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageSlowFilterCompareBtn" Content="=" Margin="164,17,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossSlowFilterLbl" Content="Slow" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="136,0,0,0"/>
+                                    <TextBox x:Name="BossSlowFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,17,-0.333,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossSlowFilterCompareBtn" Content="=" Margin="164,17,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
 
-                                    <Label x:Name="MirageDoomFilterLbl" Content="Doom" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,40,0,0"/>
-                                    <TextBox x:Name="MirageDoomFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,57,-0.333,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
-                                    <Button x:Name="MirageDoomFilterCompareBtn" Content="=" Margin="164,57,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
+                                    <Label x:Name="BossDoomFilterLbl" Content="Doom" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="135,40,0,0"/>
+                                    <TextBox x:Name="BossDoomFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="135,57,-0.333,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                                    <Button x:Name="BossDoomFilterCompareBtn" Content="=" Margin="164,57,-0.333,0" Width="11" FontSize="10" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Padding="0,0,0,2" Click="Compare_Click"/>
                                 </Grid>
                             </GroupBox>
-                            <Label x:Name="MiragePrismtunityFilterLbl" Content="Prismtunity" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="485,0,0,0" Padding="2" FontSize="10"/>
-                            <TextBox x:Name="MiragePrismtunityFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="485,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
-                            <Label x:Name="MirageMementoLocationFilterLbl" Content="Memento Location" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="485,40,0,0" Padding="2" FontSize="10"/>
-                            <TextBox x:Name="MirageMementoLocationFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="485,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
+                            <Label x:Name="BossExpFilterLbl" Content="Exp" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="477,0,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="BossExpFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="477,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                            <Label x:Name="BossGilFilterLbl" Content="Gil" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="522,0,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="BossGilFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="522,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput" VerticalContentAlignment="Center"/>
+                            <Label x:Name="BossDropsFilterLbl" Content="Drops" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="477,40,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="BossDropsFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="477,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
+                            <Label x:Name="BossNotesFilterLbl" Content="Notes" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" Margin="477,81,0,0" Padding="2" FontSize="10"/>
+                            <TextBox x:Name="BossNotesFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="477,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="UpdateFilteredMirages_TextChanged" VerticalContentAlignment="Center"/>
                         </Grid>
                     </GroupBox>
+                    <DataGrid x:Name="BossDataGrid" ItemsSource="{Binding Bosses}" CanUserAddRows="False" AutoGenerateColumns="False" Margin="10,150,10.333,9.667">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn Header="Order" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Order}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Name" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Name}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="HP" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Hp}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            <DataGridTemplateColumn Header="Fire" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Fire}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Ice" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Ice}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Thunder" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Thunder}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Aero" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Aero}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Water" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Water}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Earth" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Earth}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Light" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Light}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Dark" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Elemental.Dark}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Poison" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Poison}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Confuse" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Confuse}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Sleep" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Sleep}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Blind" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Blind}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Oblivion" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Oblivion}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Berserk" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Berserk}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Slow" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Slow}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Doom" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Ailment.Doom}" HorizontalAlignment="Center"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Exp" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Exp}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Gil" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Gil}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Drops" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Drops}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Notes" Width="Auto" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Notes}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
                 </Grid>
             </TabItem>
             <TabItem Header="Dev">
