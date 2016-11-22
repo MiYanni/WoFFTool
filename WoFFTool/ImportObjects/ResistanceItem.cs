@@ -11,7 +11,7 @@ namespace WoFFTool.ImportObjects
         public string Mirage;
         public int? Fire;
         public int? Ice;
-        public int? Thunder;
+        public int? Lightning;
         public int? Aero;
         public int? Water;
         public int? Earth;
