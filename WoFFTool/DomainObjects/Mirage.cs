@@ -27,7 +27,7 @@ namespace WoFFTool.DomainObjects
                 {
                     Fire = resistance.Fire,
                     Ice = resistance.Ice,
-                    Lightning = resistance.Lightning,
+                    Thunder = resistance.Lightning,
                     Aero = resistance.Aero,
                     Water = resistance.Water,
                     Earth = resistance.Earth,

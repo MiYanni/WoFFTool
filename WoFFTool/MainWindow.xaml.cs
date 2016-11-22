@@ -104,7 +104,7 @@ namespace WoFFTool
 
                 ((String.IsNullOrEmpty(MirageFireFilterTxtBox.Text) || MirageFireFilterTxtBox.Text.Equals("-")) || m.Elemental.Fire == Convert.ToInt32(MirageFireFilterTxtBox.Text)) &&
                 ((String.IsNullOrEmpty(MirageIceFilterTxtBox.Text) || MirageIceFilterTxtBox.Text.Equals("-")) || m.Elemental.Ice == Convert.ToInt32(MirageIceFilterTxtBox.Text)) &&
-                ((String.IsNullOrEmpty(MirageLightningFilterTxtBox.Text) || MirageLightningFilterTxtBox.Text.Equals("-")) || m.Elemental.Lightning == Convert.ToInt32(MirageLightningFilterTxtBox.Text)) &&
+                ((String.IsNullOrEmpty(MirageThunderFilterTxtBox.Text) || MirageThunderFilterTxtBox.Text.Equals("-")) || m.Elemental.Thunder == Convert.ToInt32(MirageThunderFilterTxtBox.Text)) &&
                 ((String.IsNullOrEmpty(MirageAeroFilterTxtBox.Text) || MirageAeroFilterTxtBox.Text.Equals("-")) || m.Elemental.Aero == Convert.ToInt32(MirageAeroFilterTxtBox.Text)) &&
                 ((String.IsNullOrEmpty(MirageWaterFilterTxtBox.Text) || MirageWaterFilterTxtBox.Text.Equals("-")) || m.Elemental.Water == Convert.ToInt32(MirageWaterFilterTxtBox.Text)) &&
                 ((String.IsNullOrEmpty(MirageEarthFilterTxtBox.Text) || MirageEarthFilterTxtBox.Text.Equals("-")) || m.Elemental.Earth == Convert.ToInt32(MirageEarthFilterTxtBox.Text)) &&

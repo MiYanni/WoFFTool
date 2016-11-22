@@ -53,10 +53,10 @@
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Lightning" Width="Auto" IsReadOnly="True">
+                            <DataGridTemplateColumn Header="Thunder" Width="Auto" IsReadOnly="True">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding Elemental.Lightning}" HorizontalAlignment="Center"/>
+                                        <TextBlock Text="{Binding Elemental.Thunder}" HorizontalAlignment="Center"/>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
@@ -181,8 +181,8 @@
                                     <TextBox x:Name="MirageFireFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput"/>
                                     <Label x:Name="MirageIceFilterLbl" Content="Ice" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="0,40,0,0"/>
                                     <TextBox x:Name="MirageIceFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput"/>
-                                    <Label x:Name="MirageLightningFilterLbl" Content="Lightning" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
-                                    <TextBox x:Name="MirageLightningFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput"/>
+                                    <Label x:Name="MirageThunderFilterLbl" Content="Thunder" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,0,0,0"/>
+                                    <TextBox x:Name="MirageThunderFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput"/>
                                     <Label x:Name="MirageAeroFilterLbl" Content="Aero" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="45,40,0,0"/>
                                     <TextBox x:Name="MirageAeroFilterTxtBox" HorizontalAlignment="Left" Height="23" Margin="45,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="UpdateFilteredMirages_TextChanged" PreviewTextInput="DigitsOnly_PreviewTextInput"/>
                                     <Label x:Name="MirageWaterFilterLbl" Content="Water" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.098,-0.195" FontSize="10" Padding="2" Margin="96,0,0,0"/>
