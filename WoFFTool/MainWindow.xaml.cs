@@ -18,7 +18,6 @@ namespace WoFFTool
     {
         public MainWindow()
         {
-            
             InitializeComponent();
             ReadMirages();
             ReadBosses();
@@ -78,6 +77,10 @@ namespace WoFFTool
 
         private void ReadMirages()
         {
+            if(!File.Exists("Mirages.xml"))
+            {
+                //TODO: Create MessageBox
+            }
             var serializer = new XmlSerializer(typeof(List<Mirage>));
             using (var reader = new StringReader(File.ReadAllText("Mirages.xml")))
             {
@@ -129,6 +132,10 @@ namespace WoFFTool
 
         private void ReadBosses()
         {
+            if (!File.Exists("Bosses.xml"))
+            {
+                //TODO: Create MessageBox
+            }
             var serializer = new XmlSerializer(typeof(List<Boss>));
             using (var reader = new StringReader(File.ReadAllText("Bosses.xml")))
             {
