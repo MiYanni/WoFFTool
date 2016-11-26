@@ -20,12 +20,8 @@ namespace WoFFTool
         {
             
             InitializeComponent();
-            var serializer = new XmlSerializer(typeof(List<Mirage>));
-            using (var reader = new StringReader(File.ReadAllText("Mirages.xml")))
-            {
-                Mirages = (List<Mirage>)serializer.Deserialize(reader);
-            }
-            UpdateMirageDataGrid(Mirages);
+            ReadMirages();
+            ReadBosses();
         }
 
         #region Menu
@@ -47,7 +43,14 @@ namespace WoFFTool
             var button = sender as Button;
             var buttonText = button.Content.ToString();
             button.Content = buttonText == "=" ? ">" : (buttonText == ">" ? "<" : "=");
-            UpdateFilteredMirages_TextChanged(sender, null);
+            if(button.Name.StartsWith("Mirage"))
+            {
+                UpdateFilteredMirages_TextChanged(sender, null);
+            }
+            if(button.Name.StartsWith("Boss"))
+            {
+                UpdateFilteredBosses_TextChanged(sender, null);
+            }
         }
 
         private bool ResistanceFilter(string text, int? resistance, string comparer)
@@ -72,6 +75,16 @@ namespace WoFFTool
         public List<Mirage> Mirages { get; set; }
 
         public List<Mirage> FilteredMirages { get; set; }
+
+        private void ReadMirages()
+        {
+            var serializer = new XmlSerializer(typeof(List<Mirage>));
+            using (var reader = new StringReader(File.ReadAllText("Mirages.xml")))
+            {
+                Mirages = (List<Mirage>)serializer.Deserialize(reader);
+                UpdateMirageDataGrid(Mirages);
+            }
+        }
 
         private void UpdateMirageDataGrid(List<Mirage> mirages)
         {
@@ -114,7 +127,58 @@ namespace WoFFTool
 
         public List<Boss> FilteredBosses { get; set; }
 
+        private void ReadBosses()
+        {
+            var serializer = new XmlSerializer(typeof(List<Boss>));
+            using (var reader = new StringReader(File.ReadAllText("Bosses.xml")))
+            {
+                Bosses = (List<Boss>)serializer.Deserialize(reader);
+                UpdateBossDataGrid(Bosses);
+            }
+        }
+
+        private void UpdateBossDataGrid(List<Boss> bosses)
+        {
+            BossDataGrid.ItemsSource = null;
+            BossDataGrid.ItemsSource = bosses;
+        }
+
+        private void UpdateFilteredBosses_TextChanged(Object sender, TextChangedEventArgs e)
+        {
+            FilteredBosses = Bosses.Where(b =>
+                (String.IsNullOrEmpty(BossNameFilterTxtBox.Text) || b.Name.ToLower().StartsWith(BossNameFilterTxtBox.Text.ToLower())) &&
+                ((String.IsNullOrEmpty(BossHpFilterTxtBox.Text) || BossHpFilterTxtBox.Text.Equals("-")) || b.Hp == Convert.ToInt32(BossHpFilterTxtBox.Text)) &&
+                ((String.IsNullOrEmpty(BossOrderFilterTxtBox.Text) || BossOrderFilterTxtBox.Text.Equals("-")) || b.Order == Convert.ToInt32(BossOrderFilterTxtBox.Text)) &&
+
+                ResistanceFilter(BossFireFilterTxtBox.Text, b.Elemental.Fire, BossFireFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossIceFilterTxtBox.Text, b.Elemental.Ice, BossIceFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossThunderFilterTxtBox.Text, b.Elemental.Thunder, BossThunderFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossAeroFilterTxtBox.Text, b.Elemental.Aero, BossAeroFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossWaterFilterTxtBox.Text, b.Elemental.Water, BossWaterFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossEarthFilterTxtBox.Text, b.Elemental.Earth, BossEarthFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossLightFilterTxtBox.Text, b.Elemental.Light, BossLightFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossDarkFilterTxtBox.Text, b.Elemental.Dark, BossDarkFilterCompareBtn.Content.ToString()) &&
+
+                ResistanceFilter(BossPoisonFilterTxtBox.Text, b.Ailment.Poison, BossPoisonFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossConfuseFilterTxtBox.Text, b.Ailment.Confuse, BossConfuseFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossSleepFilterTxtBox.Text, b.Ailment.Sleep, BossSleepFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossBlindFilterTxtBox.Text, b.Ailment.Blind, BossBlindFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossOblivionFilterTxtBox.Text, b.Ailment.Oblivion, BossOblivionFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossBerserkFilterTxtBox.Text, b.Ailment.Berserk, BossBerserkFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossSlowFilterTxtBox.Text, b.Ailment.Slow, BossSlowFilterCompareBtn.Content.ToString()) &&
+                ResistanceFilter(BossDoomFilterTxtBox.Text, b.Ailment.Doom, BossDoomFilterCompareBtn.Content.ToString()) &&
+
+                ((String.IsNullOrEmpty(BossExpFilterTxtBox.Text) || BossExpFilterTxtBox.Text.Equals("-")) || b.Exp == Convert.ToInt32(BossExpFilterTxtBox.Text)) &&
+                ((String.IsNullOrEmpty(BossGilFilterTxtBox.Text) || BossGilFilterTxtBox.Text.Equals("-")) || b.Gil == Convert.ToInt32(BossGilFilterTxtBox.Text)) &&
+                (String.IsNullOrEmpty(BossDropsFilterTxtBox.Text) || b.Drops.ToLower().Contains(BossDropsFilterTxtBox.Text.ToLower())) &&
+                (String.IsNullOrEmpty(BossNotesFilterTxtBox.Text) || b.Notes.ToLower().Contains(BossNotesFilterTxtBox.Text.ToLower()))
+            ).ToList();
+            UpdateBossDataGrid(FilteredBosses);
+        }
+
         #region Dev
+
+        #region Import
         private void ExpTableConvertBtn_Click(Object sender, RoutedEventArgs e)
         {
             var expItems = Importer.ConvertExpTable();
@@ -139,6 +203,7 @@ namespace WoFFTool
         {
             var resistanceItems = Importer.ConvertResistanceTable();
         }
+        #endregion
 
         #region Mirage
         private void CreateMiragesBtn_Click(Object sender, RoutedEventArgs e)
@@ -160,12 +225,7 @@ namespace WoFFTool
 
         private void LoadMiragesBtn_Click(Object sender, RoutedEventArgs e)
         {
-            var serializer = new XmlSerializer(typeof(List<Mirage>));
-            using(var reader = new StringReader(File.ReadAllText("Mirages.xml")))
-            {
-                Mirages = (List<Mirage>)serializer.Deserialize(reader);
-                UpdateMirageDataGrid(Mirages);
-            }
+            ReadMirages();
         }
         #endregion
 
@@ -186,12 +246,7 @@ namespace WoFFTool
 
         private void LoadBossesBtn_Click(Object sender, RoutedEventArgs e)
         {
-            var serializer = new XmlSerializer(typeof(List<Boss>));
-            using (var reader = new StringReader(File.ReadAllText("Bosses.xml")))
-            {
-                Bosses = (List<Boss>)serializer.Deserialize(reader);
-                //UpdateMirageDataGrid(Mirages);
-            }
+            ReadBosses();
         }
         #endregion
 
