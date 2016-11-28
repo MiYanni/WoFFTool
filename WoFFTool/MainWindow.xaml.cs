@@ -32,9 +32,9 @@ namespace WoFFTool
 
         private void DigitsOnly_PreviewTextInput(Object sender, TextCompositionEventArgs e)
         {
-            // TODO: Change to only 1 '-' at the start.
+            var text = (sender as TextBox).Text + e.Text;
             var regex = new Regex("^-?[0-9]*$");
-            e.Handled = !regex.IsMatch(e.Text);
+            e.Handled = !regex.IsMatch(text);
         }
 
         private void Compare_Click(Object sender, RoutedEventArgs e)
